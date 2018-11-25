@@ -1,0 +1,8 @@
+--write-thumbnail
+--no-call-home
+--write-sub
+--write-description
+-f bestvideo+bestaudio
+-R infinite
+--fragment-retries infinite
+--exec 'rclone copy * gdcrypt:Hoard/Youtube/*fillin** ; rm * #'
