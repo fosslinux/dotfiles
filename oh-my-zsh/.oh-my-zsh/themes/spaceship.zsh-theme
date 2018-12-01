@@ -1,0 +1,1 @@
+spaceship-prompt-3.8.0/spaceship.zsh-theme
