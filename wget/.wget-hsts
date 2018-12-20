@@ -1,11 +1,13 @@
 # HSTS 1.0 Known Hosts database for GNU Wget.
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
-speed.hetzner.de	0	1	1540190122	15768000
-raw.githubusercontent.com	0	0	1540096282	31536000
-pypi.org	0	1	1542503180	31536000
 pypi.python.org	0	1	1542503180	31536000
-files.pushshift.io	0	1	1540712484	31536000
-github.com	0	1	1543303255	31536000
-files.pythonhosted.org	0	1	1542503180	31536000
+raw.githubusercontent.com	0	0	1540096282	31536000
 codeload.github.com	0	0	1543303256	31536000
+pypi.org	0	1	1542503180	31536000
+files.pushshift.io	0	1	1540712484	31536000
+busybox.net	0	0	1544852481	63072000
+chromium.googlesource.com	0	1	1544687086	31536000
+speed.hetzner.de	0	1	1540190122	15768000
+files.pythonhosted.org	0	1	1542503180	31536000
+github.com	0	1	1545114578	31536000
