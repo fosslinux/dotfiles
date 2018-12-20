@@ -1,0 +1,75 @@
+2018-12-15 22:29:16	-->	fosslinux (fosslinux@fosslinux.tk) has joined #bsd
+2018-12-15 22:29:16	--	Channel #bsd: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2018-12-15 22:29:18	--	Channel created on Sat, 15 Dec 2018 21:49:15
+2018-12-15 22:36:27	~cmccabe_bsd	hey fosslinux 
+2018-12-15 22:40:50	--	cmccabe_bsd has changed topic for #bsd to "bsd.tilde.team"
+2018-12-15 22:41:13	--	cmccabe_bsd has changed topic for #bsd from "bsd.tilde.team" to "bsd.tilde.team - what are you doing with it?"
+2018-12-15 22:43:38	ben	i'm running a node in the tilde.chat network on it :)
+2018-12-15 23:10:46	~cmccabe_bsd	you're using pkg for software installs?
+2018-12-15 23:11:07	ben	yeah
+2018-12-15 23:11:09	ben	a couple ports
+2018-12-15 23:11:15	~cmccabe_bsd	how do you like it?
+2018-12-15 23:52:16	--	Mode #bsd [+o fosslinux] by ChanServ
+2018-12-16 00:08:07	~cmccabe_bsd	happy sunday
+2018-12-16 00:10:47	ben	it's not sunday yet :P
+2018-12-16 00:10:56	~cmccabe_bsd	the server says it is
+2018-12-16 00:11:48	ben	oh must be on utcx
+2018-12-16 00:11:50	ben	nice
+2018-12-16 00:11:58	--	Mode #bsd [+o ben] by OperServ
+2018-12-16 00:12:05	--	Notice(team.tilde.chat): *** ben invited sedbot into the channel
+2018-12-16 00:12:06	-->	sedbot (sedbot@tilde.team) has joined #bsd
+2018-12-16 01:32:15	@fosslinux	lol why am i @
+2018-12-16 01:32:28	@fosslinux	s/@/+o
+2018-12-16 01:32:29	sedbot	<fosslinux> lol why am i +o
+2018-12-16 02:02:52	@ben	why not
+2018-12-16 02:03:17	@fosslinux	lol just wondering why wat happened for me to get that
+2018-12-16 02:05:55	@ben	chanserv did it 
+2018-12-16 02:08:43	@fosslinux	ummmmm wth ok?
+2018-12-16 02:08:56	@fosslinux	why would chanserv do that tho?
+2018-12-16 02:09:32	@ben	cmccabe_bsd probably set it?
+2018-12-16 02:10:05	@fosslinux	oh ok
+2018-12-16 12:12:23	~cmccabe_bsd	it was a reward for your good behavior, fosslinux
+2018-12-16 19:48:22	@fosslinux	oh why thank you cmccabe_bsd :)
+2018-12-16 19:49:09	@fosslinux	"bsd.tilde.team - what are you doing with it?" - im running weechat on it because it has the lowest ping
+2018-12-16 20:32:24	@ben	brilliant
+2018-12-17 01:50:16	~cmccabe_bsd	skylab is running freebsd too
+2018-12-17 05:59:38	@ben	nice
+2018-12-17 05:59:46	@ben	that's one of the places i don't have an account
+2018-12-17 12:15:45	~cmccabe_bsd	there are some nice folks there, but it's really low volume. i think it used to be much more active.
+2018-12-17 12:22:36	-->	cmccabe (cmccabe@tilde.team) has joined #bsd
+2018-12-17 12:23:03	<--	cmccabe (cmccabe@tilde.team) has left #bsd ("WeeChat 2.1")
+2018-12-17 13:37:33	-->	cmccabe (cmccabe@tilde.team) has joined #bsd
+2018-12-17 14:46:07	@ben	nice
+2018-12-17 15:21:24	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-12-17 15:27:53	-->	ben (ben@oper.tilde.chat) has joined #bsd
+2018-12-17 20:03:55	-->	ben|bsd (ben@bsd.tilde.team) has joined #bsd
+2018-12-18 00:54:38	~cmccabe_bsd	i believe sebboh is a skylabber
+2018-12-18 02:14:32	ben	oh i can see that
+2018-12-18 02:14:35	ben	he's all over the place too
+2018-12-18 05:37:44	@fosslinux	lmao
+2018-12-18 05:37:55	--	Mode #bsd [+o ben] by fosslinux
+2018-12-18 05:38:04	--	Mode #bsd [+o ben|bsd] by fosslinux
+2018-12-18 05:38:13	--	Mode #bsd [+o cmccabe] by fosslinux
+2018-12-18 05:44:37	@ben	oh wow
+2018-12-18 05:55:21	@fosslinux	wat
+2018-12-18 06:13:55	@ben	why did u set modes
+2018-12-18 06:25:33	@fosslinux	becaue u are admins
+2018-12-18 06:27:09	@ben	lol ok
+2018-12-18 11:41:19	@cmccabe	this bsd channel is really taking off
+2018-12-18 14:15:16	@ben	 sure is
+2018-12-18 16:45:09	@cmccabe	zoom
+2018-12-18 19:33:10	@fosslinux	lol
+2018-12-19 15:28:59	--	ben is now known as 550AAAAAE
+2018-12-19 15:29:44	--	550AAAAAE is now known as ben
+2018-12-19 15:43:55	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-12-19 15:45:11	-->	550AAAAAE (ben@oper.tilde.chat) has joined #bsd
+2018-12-19 15:45:11	--	Mode #bsd [+o 550AAAAAE] by center.tilde.chat
+2018-12-19 15:45:31	--	550AAAAAE is now known as ben
+2018-12-19 15:50:42	<--	ben|bsd (ben@bsd.tilde.team) has quit (Changing host)
+2018-12-19 15:50:42	-->	ben|bsd (ben@oper.tilde.chat) has joined #bsd
+2018-12-19 15:50:42	--	Mode #bsd [+o ben|bsd] by team.tilde.chat
+2018-12-19 15:51:00	<--	ben|bsd (ben@oper.tilde.chat) has quit (team.tilde.chat bsd.tilde.chat)
+2018-12-19 15:52:49	-->	ben|bsd (ben@oper.tilde.chat) has joined #bsd
+2018-12-19 15:52:49	--	Mode #bsd [+o ben|bsd] by bsd.tilde.chat
+2018-12-19 22:04:44	-->	jeschust (jeschust@tilde.team) has joined #bsd
+2018-12-19 23:30:56	--	irc: disconnected from server

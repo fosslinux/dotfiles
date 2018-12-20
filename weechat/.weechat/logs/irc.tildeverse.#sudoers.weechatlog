@@ -1,0 +1,620 @@
+2018-11-13 07:05:12	-->	fosslinux1 (fosslinux@tilde-fhah4o.tilde.team) has joined #sudoers
+2018-11-13 07:05:12	--	Topic for #sudoers is "package requests or whatever go here; ask and maybe we'll do something idk"
+2018-11-13 07:05:12	--	Topic set by khuxkm (khuxkm@oper.tilde.chat) on Wed, 12 Sep 2018 18:46:17
+2018-11-13 07:05:12	--	Channel #sudoers: 24 nicks (4 ops, 0 halfops, 0 voices, 20 normals)
+2018-11-13 07:05:14	--	Channel created on Wed, 11 Jul 2018 00:21:57
+2018-11-13 07:06:34	<--	fosslinux (pi@tilde-7hvk8p.exetel.com.au) has quit (quit: changing host)
+2018-11-13 07:06:46	--	You are now known as fosslinux
+2018-11-13 08:15:58	--	jan6| is now known as l0gin
+2018-11-13 08:16:32	--	l0gin is now known as jan6|
+2018-11-13 08:17:30	<--	jan6| (jan6|lounge@tilde.team) has quit (Changing host)
+2018-11-13 08:17:30	-->	jan6| (jan6|lounge@is.quite.awesome) has joined #sudoers
+2018-11-13 12:05:06	-->	singlet (singlet@tilde-260.tbo.170.37.IP) has joined #sudoers
+2018-11-13 12:07:02	<--	singlet (singlet@tilde-260.tbo.170.37.IP) has quit (quit: Leaving)
+2018-11-13 12:52:38	--	irc: disconnected from server
+2018-11-13 23:02:26	-->	fosslinux (fosslinux@tilde-fhah4o.tilde.team) has joined #sudoers
+2018-11-13 23:02:26	--	Topic for #sudoers is "package requests or whatever go here; ask and maybe we'll do something idk"
+2018-11-13 23:02:26	--	Topic set by khuxkm (khuxkm@oper.tilde.chat) on Wed, 12 Sep 2018 18:46:17
+2018-11-13 23:02:26	--	Channel #sudoers: 22 nicks (4 ops, 0 halfops, 0 voices, 18 normals)
+2018-11-13 23:02:52	--	Channel created on Wed, 11 Jul 2018 00:21:57
+2018-11-13 23:03:12	--	You are now known as 674AAA06V
+2018-11-13 23:05:22	-->	slipyx (slip@tilde-l4taic.bc.googleusercontent.com) has joined #sudoers
+2018-11-14 04:28:08	--	You are now known as fosslinux
+2018-11-14 15:13:26	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-14 15:14:12	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-11-14 15:14:12	--	Mode #sudoers [+qo ben ben] by ChanServ
+2018-11-14 15:30:00	--	You are now known as 674AAA06V
+2018-11-14 16:05:36	--	jan6 is now known as someone
+2018-11-14 17:31:52	--	someone is now known as jan6
+2018-11-14 18:13:09	<--	tunas (tunas@doesnt.have.enough.spoons) has quit (quit: Be right back, compressing logs. Don't talk!)
+2018-11-14 18:31:38	-->	tunas (tunas@doesnt.have.enough.spoons) has joined #sudoers
+2018-11-14 19:45:38	--	You are now known as fosslinux_
+2018-11-14 19:56:04	--	You are now known as fosslinux
+2018-11-15 20:29:30	-->	ben|bsd (ben@oper.tilde.chat) has joined #sudoers
+2018-11-16 12:36:14	<--	khuxkm|lounge (khuxkm@sudoers.tilde.team) has quit (Changing host)
+2018-11-16 12:36:14	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #sudoers
+2018-11-16 12:36:14	--	Mode #sudoers [+o khuxkm|lounge] by team.tilde.chat
+2018-11-16 19:59:12	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-16 19:59:28	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-11-16 19:59:28	--	Mode #sudoers [+qo ben ben] by ChanServ
+2018-11-17 01:12:42	-->	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has joined #sudoers
+2018-11-17 01:12:42	--	Mode #sudoers [+o virtual] by ChanServ
+2018-11-17 01:28:31	<--	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has quit (quit: Leaving)
+2018-11-17 01:29:12	-->	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has joined #sudoers
+2018-11-17 01:29:12	--	Mode #sudoers [+o virtual] by ChanServ
+2018-11-17 01:48:45	-->	notvirtual (virtual@super.kawaii.girlfriend.of.your.dreams) has joined #sudoers
+2018-11-17 01:48:45	--	Mode #sudoers [+o notvirtual] by ChanServ
+2018-11-17 01:50:38	<--	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has quit (Ping timeout: 121 seconds)
+2018-11-17 01:50:44	<--	notvirtual (virtual@super.kawaii.girlfriend.of.your.dreams) has quit (quit: Leaving)
+2018-11-18 03:17:53	<--	ben|bsd (ben@oper.tilde.chat) has quit (quit: WeeChat 2.2)
+2018-11-18 22:22:55	-->	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has joined #sudoers
+2018-11-18 22:22:56	--	Mode #sudoers [+o virtual] by ChanServ
+2018-11-18 23:13:16	<--	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has quit (quit: Leaving)
+2018-11-19 15:04:57	-->	webchatter (lounge-user@h8knaf.adsl-surfen.hetnet.nl) has joined #sudoers
+2018-11-19 15:05:33	<--	webchatter (lounge-user@h8knaf.adsl-surfen.hetnet.nl) has quit (quit: https://web.tilde.chat - thelounge)
+2018-11-20 17:10:59	--	jan6 is now known as nyan6
+2018-11-20 19:40:10	--	nyan6 is now known as jan6
+2018-11-20 21:21:54	<--	freeappsw (freeappsw@tilde.team) has quit (Connection closed)
+2018-11-20 21:21:54	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (Connection closed)
+2018-11-20 21:21:54	<--	aewens|otg (aewensotg@tilde.team) has quit (Connection closed)
+2018-11-20 21:21:54	<--	kilic (kilic@tilde.team) has quit (Connection closed)
+2018-11-20 21:21:54	<--	arne (arne@arnes.cozy.tilde) has quit (Connection closed)
+2018-11-20 21:21:54	<--	jan6| (jan6|lounge@is.quite.awesome) has quit (Connection closed)
+2018-11-20 21:22:07	-->	kilic (kilic@tilde.team) has joined #sudoers
+2018-11-20 21:22:11	-->	freeappsw (freeappsw@tilde.team) has joined #sudoers
+2018-11-20 21:22:12	-->	arne (arne@arnes.cozy.tilde) has joined #sudoers
+2018-11-20 21:22:19	-->	jan6| (jan6|lounge@tilde.team) has joined #sudoers
+2018-11-20 21:22:19	-->	aewens|otg (aewensotg@tilde.team) has joined #sudoers
+2018-11-20 21:22:41	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #sudoers
+2018-11-20 22:29:09	<--	jan6| (jan6|lounge@tilde.team) has quit (Changing host)
+2018-11-20 22:29:09	-->	jan6| (jan6|lounge@is.quite.awesome) has joined #sudoers
+2018-11-21 02:26:32	--	irc: disconnected from server
+2018-11-21 02:27:00	-->	fosslinux (fosslinux@fhah4o.tilde.team) has joined #sudoers
+2018-11-21 02:27:00	--	Topic for #sudoers is "package requests or whatever go here; ask and maybe we'll do something idk"
+2018-11-21 02:27:00	--	Topic set by khuxkm (khuxkm@oper.tilde.chat) on Wed, 12 Sep 2018 18:46:17
+2018-11-21 02:27:00	--	Channel #sudoers: 23 nicks (3 ops, 0 halfops, 0 voices, 20 normals)
+2018-11-21 02:27:30	--	Channel created on Wed, 11 Jul 2018 00:21:57
+2018-11-21 03:39:40	--	irc: disconnected from server
+2018-11-21 03:40:08	-->	fosslinux1 (fosslinux@fhah4o.tilde.team) has joined #sudoers
+2018-11-21 03:40:08	--	Topic for #sudoers is "package requests or whatever go here; ask and maybe we'll do something idk"
+2018-11-21 03:40:08	--	Topic set by khuxkm (khuxkm@oper.tilde.chat) on Wed, 12 Sep 2018 18:46:17
+2018-11-21 03:40:08	--	Channel #sudoers: 24 nicks (3 ops, 0 halfops, 0 voices, 21 normals)
+2018-11-21 03:40:38	--	Channel created on Wed, 11 Jul 2018 00:21:57
+2018-11-21 03:40:52	<--	fosslinux (fosslinux@fhah4o.tilde.team) has quit (Connection closed)
+2018-11-21 04:19:27	--	You are now known as fosslinux
+2018-11-21 15:18:34	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Changing host)
+2018-11-21 15:18:34	-->	khuxkm|lounge (khuxkm@sudoers.tilde.team) has joined #sudoers
+2018-11-21 15:18:34	--	Mode #sudoers [+o khuxkm|lounge] by ChanServ
+2018-11-21 16:58:06	<--	minerbot2 (minerbot2@tilde.team) has quit (Connection closed)
+2018-11-21 16:58:15	-->	minerbot2 (minerbot2@tilde.team) has joined #sudoers
+2018-11-21 17:03:16	minerbot2	[GLOBAL] going down
+2018-11-21 17:03:23	<--	minerbot2 (minerbot2@tilde.team) has quit (Connection closed)
+2018-11-21 17:03:31	-->	minerbot2 (minerbot2@tilde.team) has joined #sudoers
+2018-11-21 17:03:50	<--	minerbot2 (minerbot2@tilde.team) has quit (Connection closed)
+2018-11-21 17:22:53	-->	minerbot2 (minerbot2@tilde.team) has joined #sudoers
+2018-11-22 10:39:32	-->	gillvsgreg (sueprnettle@23.237.120.26) has joined #sudoers
+2018-11-22 10:39:34	gillvsgreg	﻿█▀▀▀▀▀█ █ ▄█▄ █▀▀▀▀▀█  i r c . s u p e r n e t s . o r g # s u p e r b o w l
+2018-11-22 10:39:36	gillvsgreg	█ ███ █ █▄▀ █ █ ███ █  YO NET AINT GOT NO COOCHIE
+2018-11-22 10:39:38	gillvsgreg	█ ▀▀▀ █ ▄█▄▄▄ █ ▀▀▀ █  HAPPY FL-O-O-D-SGIVING
+2018-11-22 10:39:40	gillvsgreg	▀▀▀▀▀▀▀ ▀▄█▄█ ▀▀▀▀▀▀▀   i r c . s u p e r n e t s . o r g # s u p e r b o w l
+2018-11-22 10:39:42	gillvsgreg	██▄ ▀█▀ ▄ ▄▀  ▄▀▄▀█▀▀
+2018-11-22 10:39:44	gillvsgreg	 ▀▀▀ █▀ ▄▀ ▀▄█ ▄█▀▀█  ██ █ █ ██  ██ ██  ███ █ ██ ███ ███
+2018-11-22 10:39:53	gillvsgreg	▀    ▀▀▀█▄█▄▀▄▄▄▄ ▄█  █  █ █ █ █ █  █ █ █ █ █ █   █  █│
+2018-11-22 10:39:54	gillvsgreg	█▀▀▀▀▀█ ▄▄▀▄ ▄▀ █▄▀█  ██ █ █ ██  ██ ██  █ █ █ ██  █  ███
+2018-11-22 10:39:55	gillvsgreg	█ ███ █ ▀ ▀█▀▀ █▄▄ ▀█  █ █ █ █   █  █ █ █ █ █ █   █    █
+2018-11-22 10:39:56	gillvsgreg	█ ▀▀▀ █ ▄█▄  ▄▀ ▀▀▀   ██ ███ █   ██ █ █ █ ███ ██  █  ███
+2018-11-22 10:39:57	gillvsgreg	▀▀▀▀▀▀▀ ▀ ▀▀▀▀   ▀  ▀ └───────────────────────────────────┘
+2018-11-22 10:39:58	gillvsgreg	empamo desvox_ ubergeek kilic khuxkm sedbot dpc tunas slipyx khuxkm|lounge aewens|otg Clefable calypso jan6 arne ben aewens freeappsw auditor cmccabe fosslinux jan6| minerbot2
+2018-11-22 10:39:59	<--	gillvsgreg (sueprnettle@23.237.120.26) has left #sudoers ("HAPPY fludsgiving YA FILTY ANIMALS")
+2018-11-22 10:40:13	tunas	Of course.
+2018-11-22 10:41:27	tunas	It was only a matter of time.
+2018-11-22 11:48:34	jan6|	I suspect it might be related to people mentioning this place in #minecraft, and probably some other things too
+2018-11-22 11:48:59	tunas	What's #minecraft linked to?
+2018-11-22 11:49:24	jan6|	the game, and town
+2018-11-22 11:49:40	slipyx	i blame th*nix
+2018-11-22 11:49:41	jan6|	and discord
+2018-11-22 11:50:14	jan6|	some people there are "friend of a friend of a tilderer" or stuff like that
+2018-11-22 11:50:35	jan6|	tux nix
+2018-11-22 13:42:51	tunas	Oh, yeah.
+2018-11-22 13:43:42	tunas	That tends to happen when you invite people from outside a community into it, with no screening.
+2018-11-22 13:43:44	tunas	Ah well.
+2018-11-22 13:50:49	arne	nkx
+2018-11-22 15:24:47	~ben	discord?
+2018-11-22 15:24:56	~ben	that's been shut down for a while now
+2018-11-22 15:31:22	arne	yea
+2018-11-22 19:28:35	fosslinux	no, #minecraft still has discord
+2018-11-22 19:33:36	~ben	oh i didn't know that
+2018-11-22 19:33:39	~ben	:/
+2018-11-22 21:02:42	-->	gillvsgregppv (kushmangreg@ip-3-2-55-196.in.asianpacifictelephone.com) has joined #sudoers
+2018-11-22 21:03:18	<--	gillvsgregppv (kushmangreg@ip-3-2-55-196.in.asianpacifictelephone.com) has quit (RecvQ exceeded)
+2018-11-23 01:04:49	-->	gillvsgregppv (kushmangreg@ip-3-2-55-196.in.asianpacifictelephone.com) has joined #sudoers
+2018-11-23 01:04:52	gillvsgregppv	﻿█▀▀▀▀▀█ █ ▄█▄ █▀▀▀▀▀█  i r c . s u p e r n e t s . o r g # s u p e r b o w l
+2018-11-23 01:04:54	gillvsgregppv	█ ███ █ █▄▀ █ █ ███ █  YO NET AINT GOT NO COOCHIE
+2018-11-23 01:04:56	gillvsgregppv	█ ▀▀▀ █ ▄█▄▄▄ █ ▀▀▀ █  HAPPY FL-O-O-D-SGIVING
+2018-11-23 01:04:58	gillvsgregppv	▀▀▀▀▀▀▀ ▀▄█▄█ ▀▀▀▀▀▀▀   i r c . s u p e r n e t s . o r g # s u p e r b o w l
+2018-11-23 01:05:00	gillvsgregppv	██▄ ▀█▀ ▄ ▄▀  ▄▀▄▀█▀▀
+2018-11-23 01:05:09	gillvsgregppv	 ▀▀▀ █▀ ▄▀ ▀▄█ ▄█▀▀█  ██ █ █ ██  ██ ██  ███ █ ██ ███ ███
+2018-11-23 01:05:10	gillvsgregppv	▀    ▀▀▀█▄█▄▀▄▄▄▄ ▄█  █  █ █ █ █ █  █ █ █ █ █ █   █  █│
+2018-11-23 01:05:11	gillvsgregppv	█▀▀▀▀▀█ ▄▄▀▄ ▄▀ █▄▀█  ██ █ █ ██  ██ ██  █ █ █ ██  █  ███
+2018-11-23 01:05:12	gillvsgregppv	█ ███ █ ▀ ▀█▀▀ █▄▄ ▀█  █ █ █ █   █  █ █ █ █ █ █   █    █
+2018-11-23 01:05:13	gillvsgregppv	█ ▀▀▀ █ ▄█▄  ▄▀ ▀▀▀   ██ ███ █   ██ █ █ █ ███ ██  █  ███
+2018-11-23 01:05:14	gillvsgregppv	▀▀▀▀▀▀▀ ▀ ▀▀▀▀   ▀  ▀ └───────────────────────────────────┘
+2018-11-23 01:05:17	gillvsgregppv	empamo desvox_ ubergeek kilic khuxkm sedbot dpc tunas slipyx khuxkm|lounge aewens|otg Clefable calypso jan6 arne ben aewens freeappsw auditor cmccabe fosslinux jan6| minerbot2
+2018-11-23 01:05:18	<--	gillvsgregppv (kushmangreg@ip-3-2-55-196.in.asianpacifictelephone.com) has left #sudoers ("HAPPY FL O O D S GIVING")
+2018-11-23 03:26:08	-->	romanianheck (realbigheck@ec2-34-221-165-206.us-west-2.compute.amazonaws.com) has joined #sudoers
+2018-11-23 03:26:56	romanianheck	﻿█▀▀▀▀▀█ █ ▄█▄ █▀▀▀▀▀█  i r c . s u p e r n e t s . o r g # s u p e r b o w l
+2018-11-23 03:27:03	romanianheck	█ ███ █ █▄▀ █ █ ███ █  YO NET AINT GOT NO COOCHIE
+2018-11-23 03:27:03	romanianheck	█ ▀▀▀ █ ▄█▄▄▄ █ ▀▀▀ █  HAPPY FL-O-O-D-SGIVING
+2018-11-23 03:27:05	romanianheck	▀▀▀▀▀▀▀ ▀▄█▄█ ▀▀▀▀▀▀▀   i r c . s u p e r n e t s . o r g # s u p e r b o w l
+2018-11-23 03:27:07	romanianheck	██▄ ▀█▀ ▄ ▄▀  ▄▀▄▀█▀▀
+2018-11-23 03:27:09	romanianheck	 ▀▀▀ █▀ ▄▀ ▀▄█ ▄█▀▀█  ██ █ █ ██  ██ ██  ███ █ ██ ███ ███
+2018-11-23 03:27:15	romanianheck	▀    ▀▀▀█▄█▄▀▄▄▄▄ ▄█  █  █ █ █ █ █  █ █ █ █ █ █   █  █│
+2018-11-23 03:27:16	<--	romanianheck (realbigheck@ec2-34-221-165-206.us-west-2.compute.amazonaws.com) has quit (RecvQ exceeded)
+2018-11-23 03:53:54	-->	coochiemanflex (coochiemooc@89.238.186.230) has joined #sudoers
+2018-11-23 03:54:01	<--	coochiemanflex (coochiemooc@89.238.186.230) has quit (RecvQ exceeded)
+2018-11-23 10:04:48	jan6	just set mode +R already
+2018-11-23 10:43:16	tunas	I would if I could :P
+2018-11-23 10:56:34	slipyx	its already too late for that
+2018-11-23 11:00:03	jan6	not really
+2018-11-23 11:00:26	jan6	you can prevent future spams
+2018-11-23 11:10:15	tunas	slipyx means it's not thanksgiving anymore.
+2018-11-23 11:46:41	jan6	it's NEVER too late to give thanks
+2018-11-23 17:37:55	-->	singlet (singlet@blh2fq.abo.wanadoo.fr) has joined #sudoers
+2018-11-23 17:38:28	<--	singlet (singlet@blh2fq.abo.wanadoo.fr) has quit (quit: Leaving)
+2018-11-24 01:08:39	ubergeek	I think the tilde.new integration is broken.  Not seeing new links/comment
+2018-11-24 01:08:59	ubergeek	*tilde.news
+2018-11-24 04:38:34	@khuxkm	aewens|otg: 
+2018-11-24 04:38:39	@khuxkm	aewens:
+2018-11-24 04:38:52	@khuxkm	(he's the integrator FFR (for future reference))
+2018-11-24 07:21:38	~ben	and bbj?
+2018-11-24 07:49:37	@khuxkm|lounge	let's see
+2018-11-24 07:50:02	@khuxkm|lounge	auditor: testing BBJ -> IRC integration
+2018-11-24 07:50:02	auditor	khuxkm: audited!
+2018-11-24 07:50:16	@khuxkm|lounge	now we wait a couple secs
+2018-11-24 07:50:21	@khuxkm|lounge	and check #team
+2018-11-24 07:54:43	@khuxkm	ben: it seems like aewens hasn't logged in in a few days
+2018-11-24 07:56:03	~ben	ok?
+2018-11-24 07:56:18	@khuxkm	just a thought
+2018-11-24 07:56:20	~ben	i haven't ever really seen him on on the weekends
+2018-11-24 07:56:24	~ben	and it's a long weekend
+2018-11-24 07:56:26	@khuxkm	true
+2018-11-24 07:56:49	~ben	heh it's generally just during work hours
+2018-11-24 07:56:51	~ben	lol
+2018-11-24 08:16:57	@khuxkm	ben: on another topic, can we use a different dark theme? highlighted lines are bright white :(
+2018-11-24 08:17:42	~ben	?
+2018-11-24 08:18:20	~ben	on thelounge? weechat?
+2018-11-24 08:18:22	~ben	where
+2018-11-24 08:22:39	@khuxkm	gitea
+2018-11-24 08:24:45	@khuxkm	also the tdp seems to be getting stuck on trying to access thunix?
+2018-11-24 08:25:14	~ben	yeah i saw that, wasn't sure how to fix it
+2018-11-24 08:25:28	~ben	that's the official dark theme for gitea now
+2018-11-24 08:25:33	@khuxkm	wow
+2018-11-24 08:25:34	~ben	time to submit an issue?
+2018-11-24 08:25:39	@khuxkm	yep
+2018-11-24 08:25:51	~ben	https://github.com/go-gitea/gitea
+2018-11-24 08:32:51	@khuxkm	ben: it's some kind of config issue with asm
+2018-11-24 08:33:35	@khuxkm	(the account, not the language)
+2018-11-24 08:33:44	@khuxkm	attempting to reach it via program makes it hang
+2018-11-24 08:33:53	@khuxkm	and via browser is also not loading
+2018-11-24 08:35:45	~ben	asm.tilde.team?
+2018-11-24 08:35:57	~ben	that's amcclure
+2018-11-24 08:36:49	~ben	looks like it's trying to redirect to thunix.org
+2018-11-24 08:42:16	@khuxkm|lounge	desired username: xeffyr
+2018-11-24 08:42:16	@khuxkm|lounge	contact email: leonid.plyushch@gmail.com
+2018-11-24 08:42:16	@khuxkm|lounge	reason: 
+2018-11-24 08:42:16	@khuxkm|lounge	ssh key:
+2018-11-24 08:42:16	@khuxkm|lounge	ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDBtq4wb7VlQt1stDIJKYEbQ7bxid/6ir024FUA6BKlh
+2018-11-24 08:42:24	@khuxkm|lounge	was this user ever accepted
+2018-11-24 08:42:48	~ben	no i didn't accpet them
+2018-11-24 08:42:51	~ben	what do you think
+2018-11-24 08:43:20	~ben	even if the reason were something as lame as "looks cool" i'd probably accept it
+2018-11-24 08:43:24	~ben	but no reason at all?
+2018-11-24 08:44:11	@khuxkm	I mean, I'm fairly certain we've accepted users who gave no reason
+2018-11-24 08:44:18	@khuxkm	maybe email them back and ask for a reason?
+2018-11-24 08:46:12	~ben	cc'd you'
+2018-11-25 04:40:29	<--	khuxkm|lounge (khuxkm@sudoers.tilde.team) has quit (Changing host)
+2018-11-25 04:40:29	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #sudoers
+2018-11-25 04:40:29	--	Mode #sudoers [+o khuxkm|lounge] by team.tilde.chat
+2018-11-25 06:03:09	<--	slipyx (slip@tilde-l4taic.bc.googleusercontent.com) has quit (Changing host)
+2018-11-25 06:03:09	-->	slipyx (slip@46.68.203.35.bc.googleusercontent.com) has joined #sudoers
+2018-11-25 06:03:09	<--	Clefable (Clefable@tilde-38dg53.club) has quit (Changing host)
+2018-11-25 06:03:09	-->	Clefable (Clefable@botb.club) has joined #sudoers
+2018-11-25 07:17:03	~ben	auditor: installed znc-dev package
+2018-11-25 07:17:03	auditor	ben: audited!
+2018-11-25 19:50:36	fosslinux	what does auditor do
+2018-11-25 19:50:45	fosslinux	auditor: installed znc package
+2018-11-25 19:50:45	auditor	fosslinux: you aren't a sudoer!
+2018-11-25 19:50:48	fosslinux	ik
+2018-11-25 20:07:04	jan6	auditor: state your purpose
+2018-11-25 20:07:04	auditor	jan6: you aren't a sudoer!
+2018-11-25 20:07:15	jan6	^that'd be a nice addon
+2018-11-25 20:18:20	fosslinux	lol
+2018-11-25 21:46:13	ubergeek	it just generates a log of work done, once someone with sudo privs on team does something.  Like a commit messsage
+2018-11-25 22:25:36	@khuxkm	it just logs things we do when we tell it to a BBJ thread
+2018-11-25 22:25:44	@khuxkm	we can also just post it manually
+2018-11-25 22:25:47	@khuxkm	for example:
+2018-11-25 22:26:00	@khuxkm	auditor: explained auditor bot to jan6 and fosslinux 
+2018-11-25 22:26:00	auditor	khuxkm: audited!
+2018-11-25 22:29:47	jan6	lol
+2018-11-25 22:29:54	jan6	I know it
+2018-11-25 22:48:15	<--	khuxkm (khuxkm@oper.tilde.chat) has quit (Changing host)
+2018-11-25 22:48:15	-->	khuxkm (khuxkm@sudoers.tilde.team) has joined #sudoers
+2018-11-25 22:48:15	--	Mode #sudoers [+o khuxkm] by team.tilde.chat
+2018-11-26 02:10:52	<--	ben (ben@oper.tilde.chat) has quit (Server shutdown)
+2018-11-26 02:10:52	<--	tunas (tunas@doesnt.have.enough.spoons) has quit (Server shutdown)
+2018-11-26 02:11:09	-->	tunas (tunas@tilde.team) has joined #sudoers
+2018-11-26 02:22:48	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-11-26 02:23:05	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-26 02:23:20	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-11-26 02:23:20	--	Mode #sudoers [+qo ben ben] by ChanServ
+2018-11-26 03:14:49	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-26 03:18:04	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-11-26 03:18:04	--	Mode #sudoers [+qo ben ben] by ChanServ
+2018-11-26 05:21:34	fosslinux	nice
+2018-11-26 15:06:36	-->	midlow (midlow@tilde.team) has joined #sudoers
+2018-11-26 15:06:42	midlow	sl
+2018-11-26 15:09:29	~ben	auditor: installed sl
+2018-11-26 15:09:29	auditor	ben: audited!
+2018-11-26 15:39:58	<--	midlow (midlow@tilde.team) has quit (Connection closed)
+2018-11-26 15:39:58	<--	kilic (kilic@tilde.team) has quit (Connection closed)
+2018-11-26 15:39:58	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (Connection closed)
+2018-11-26 15:39:58	<--	jan6| (jan6|lounge@is.quite.awesome) has quit (Connection closed)
+2018-11-26 15:39:58	<--	freeappsw (freeappsw@tilde.team) has quit (Connection closed)
+2018-11-26 15:39:58	<--	arne (arne@arnes.cozy.tilde) has quit (Connection closed)
+2018-11-26 15:39:58	<--	aewens|otg (aewensotg@tilde.team) has quit (Connection closed)
+2018-11-26 16:26:02	aewens	khuxkm: Looks like I broke IRC integration when attempting to fix a bug last week. It's fixed now, closing ticket.
+2018-11-26 16:30:33	aewens	khuxkm: Also, just saw your PR, merging it now. Thanks!
+2018-11-26 19:03:48	@khuxkm	np
+2018-11-26 19:04:04	@khuxkm	I actually noticed the integration bug lol
+2018-11-26 19:04:17	@khuxkm	I was gonna fix it too but I figured one PR at a time would suffice :P
+2018-11-26 19:14:30	aewens	I'd just like to take this moment to apologize for the weirdness of how BabiliBot works right now and what you had to read through in it's source code xD
+2018-11-26 19:15:10	@khuxkm	it's ok
+2018-11-26 19:15:19	@khuxkm	the original minerbot has conditioned me to bad code
+2018-11-26 19:15:31	@khuxkm	s/bad/bad or weird/
+2018-11-26 19:15:31	sedbot	<khuxkm> the original minerbot has conditioned me to bad or weird code
+2018-11-26 19:15:42	@khuxkm	https://tildegit.org/khuxkm/minerbot
+2018-11-26 19:16:22	aewens	You include the .pyc files in the repo?
+2018-11-26 19:17:08	@khuxkm	that was a sloppily-thrown together repo
+2018-11-26 19:17:18	@khuxkm	so I could refer to minerbot code in chat
+2018-11-26 19:19:12	aewens	Hmm, okay then. I like how it goes through the process of including Lua into it, then proceeds to have the Lua handler commented out.
+2018-11-26 19:19:30	aewens	Same with the xkcd handler.
+2018-11-26 19:19:37	@khuxkm	that's because the lua handler is borked
+2018-11-26 19:19:48	@khuxkm	and I never finished the xkcd handler and it was making it crash
+2018-11-26 21:08:28	--	jan6 is now known as ok
+2018-11-26 21:13:42	--	ok is now known as jan6
+2018-11-26 21:44:57	-->	freeappsw (freeappsw@tilde.team) has joined #sudoers
+2018-11-26 21:50:39	-->	kilic (kilic@tilde.team) has joined #sudoers
+2018-11-26 21:50:48	-->	arne (arne@arnes.cozy.tilde) has joined #sudoers
+2018-11-26 21:50:50	-->	aewens|otg (aewensotg@tilde.team) has joined #sudoers
+2018-11-26 21:50:53	-->	jan6| (jan6|lounge@is.quite.awesome) has joined #sudoers
+2018-11-26 21:51:20	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #sudoers
+2018-11-27 16:17:31	<--	minerbot2 (minerbot2@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:17:57	<--	auditor (auditor@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:29	<--	jan6 (jan6@is.quite.awesome) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:29	<--	ubergeek (ubergeek@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:29	<--	sedbot (sedbot@localhost) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:36	<--	lempamo (lempamo@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:47	<--	desvox_ (desvox@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:58	-->	auditor (auditor@tilde.team) has joined #sudoers
+2018-11-27 16:19:00	<--	kilic (kilic@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:00	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:00	<--	jan6| (jan6|lounge@is.quite.awesome) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:00	<--	arne (arne@arnes.cozy.tilde) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:00	<--	aewens|otg (aewensotg@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:00	<--	freeappsw (freeappsw@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:25	-->	lempamo (lempamo@tilde.team) has joined #sudoers
+2018-11-27 16:19:27	-->	freeappsw (freeappsw@tilde.team) has joined #sudoers
+2018-11-27 16:19:34	-->	aewens|otg (aewensotg@tilde.team) has joined #sudoers
+2018-11-27 16:19:35	-->	ubergeek (ubergeek@tilde.team) has joined #sudoers
+2018-11-27 16:19:42	-->	sedbot (sedbot@tilde.team) has joined #sudoers
+2018-11-27 16:19:43	-->	desvox_ (desvox@tilde.team) has joined #sudoers
+2018-11-27 16:20:04	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #sudoers
+2018-11-27 16:20:05	-->	jan6 (jan6@tilde.team) has joined #sudoers
+2018-11-27 16:32:13	-->	kilic (kilic@tilde.team) has joined #sudoers
+2018-11-27 16:32:18	-->	arne (arne@arnes.cozy.tilde) has joined #sudoers
+2018-11-27 16:32:24	<--	jan6 (jan6@tilde.team) has quit (Changing host)
+2018-11-27 16:32:24	-->	jan6 (jan6@is.quite.awesome) has joined #sudoers
+2018-11-27 16:32:38	-->	jan6| (jan6|lounge@is.quite.awesome) has joined #sudoers
+2018-11-27 16:45:40	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-11-27 16:45:56	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-11-27 16:45:56	--	Mode #sudoers [+qo ben ben] by gingko.tilde.chat
+2018-11-27 17:51:23	-->	sebboh (sebboh@tilde.team) has joined #sudoers
+2018-11-27 17:52:12	sebboh	how y'all opers doing?  How's life?  What has the weather been like?  Is it fun working for users for free?
+2018-11-27 17:53:54	@cmccabe	the weather is getting cold here earlier in the year than usual.
+2018-11-27 17:54:05	 *	sebboh pulls a small step ladder out of nowhere and starts pinning streamers to the wall and hiding confetti cannons behind things
+2018-11-27 17:54:49	sebboh	It was warm/mild here for a long time and we just now got into the 12deg F territory
+2018-11-27 17:56:42	@cmccabe	yikes. time to get out your ice skates
+2018-11-27 17:57:51	sebboh	or cleats.  I prefer to slip and slide *less*.
+2018-11-27 18:00:04	@cmccabe	what part of the world are you in, sebboh?
+2018-11-27 18:00:18	sebboh	USA midwest
+2018-11-27 18:00:43	aewens	The midwest became the a winter wonderland this weekend
+2018-11-27 18:00:55	 *	sebboh looks left and right
+2018-11-27 18:01:30	@cmccabe	ah. my sister lives in kansas, and i believe she got whalloped by that storm.
+2018-11-27 18:01:46	aewens	https://tilde.team/~aewens/snow.png
+2018-11-27 18:02:01	sebboh	huh?  My part got coated with ice of doom and stinging wind.  "wonderland" is more like, fluffy snow flakes moving less than 50mph.
+2018-11-27 18:02:45	aewens	Well, the blizzard is over now. Now there's just stupid snow leftover.
+2018-11-27 18:02:56	 *	aewens is not a fan of winter
+2018-11-27 18:04:14	 *	jan6 is
+2018-11-27 18:04:21	jan6	winter fun
+2018-11-27 18:04:28	jan6	ice = chaos
+2018-11-27 18:06:17	~ben	delet snow
+2018-11-27 18:06:39	jan6	delet sun
+2018-11-27 18:06:49	~ben	nah
+2018-11-27 18:06:53	jan6	yah
+2018-11-27 18:06:54	~ben	sebboh: it's been going
+2018-11-27 18:07:06	~ben	been very frustrated with midlow lately
+2018-11-27 18:07:13	~ben	if you've seen anything in #meta lately
+2018-11-27 18:07:26	jan6	yeah
+2018-11-27 18:07:43	 *	jan6 offers ben a can of midlow-be-gone
+2018-11-27 18:08:15	sebboh	What is a midlow?
+2018-11-27 18:08:29	jan6	you better not ask
+2018-11-27 18:08:53	~ben	some kid that was bitching about the free stuff we're offering
+2018-11-27 18:09:48	jan6	not even that
+2018-11-27 18:10:19	jan6	wants a free gmod server but udp port forwarding doesn't seem to be working
+2018-11-27 18:10:59	~ben	that too
+2018-11-27 18:11:18	sebboh	what's a gmod server?
+2018-11-27 18:11:32	~ben	a server for gmod
+2018-11-27 18:11:35	~ben	garry's mod
+2018-11-27 18:11:41	~ben	a game
+2018-11-27 18:11:54	sebboh	oh Halflife 2 mod.
+2018-11-27 18:12:07	~ben	yeap
+2018-11-27 18:12:10	sebboh	I really liked HL2 but I never played online.
+2018-11-27 18:12:28	~ben	i tinkered with gmod a handful of times
+2018-11-27 18:14:47	sebboh	I used to modify savegame files for Descent 1 and also create levels for both D1 and D2.
+2018-11-27 18:15:35	~ben	noice :D
+2018-11-27 18:21:45	jan6	13:11:53         sebboh | oh Halflife 2 mod.
+2018-11-27 18:21:54	jan6	it's kinda a separate game at this point
+2018-11-27 18:21:54	~ben	and garry did it
+2018-11-27 18:22:37	jan6	about how minecraft modpacks transform the game quite a ton, to where it doesn't resemble original much
+2018-11-27 19:41:06	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Changing host)
+2018-11-27 19:41:06	-->	khuxkm|lounge (khuxkm@sudoers.tilde.team) has joined #sudoers
+2018-11-27 19:41:07	--	Mode #sudoers [+o khuxkm|lounge] by ChanServ
+2018-11-27 19:44:02	sebboh	ok, noted.
+2018-11-27 21:07:03	-->	minerbot2 (minerbot2@tilde.team) has joined #sudoers
+2018-11-28 09:12:00	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-11-28 09:16:26	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-11-28 09:16:26	--	Mode #sudoers [+qo ben ben] by gingko.tilde.chat
+2018-11-28 18:00:41	~ben	auditor: installed vf-1 gopher browser
+2018-11-28 18:00:41	auditor	ben: audited!
+2018-11-28 18:23:54	~ben	auditor: installed gopher package (another gopher browser)
+2018-11-28 18:23:54	auditor	ben: audited!
+2018-11-28 19:49:49	fosslinux	2/go 14
+2018-11-28 19:49:53	fosslinux	awhooops
+2018-11-28 20:14:00	aewens	Formal complaint that 1000.directory is not listed on https://tilde.team/wiki/?page=other-tildes
+2018-11-28 20:40:21	jan6	is it a tilde tho?
+2018-11-28 20:40:31	jan6	also iirc it's being phased out?
+2018-11-28 20:40:42	jan6	in favour of somehting else
+2018-11-28 20:42:48	aewens	He advertised it to others as a tilde, but if he's phasing it out then I'll postpone my complaint for later xD
+2018-11-28 20:44:09	jan6	idk, nothing I ever say is a fact
+2018-11-28 20:51:06	sebboh	facts are those things which may be true or false.  So you put yourself in a weird position with that last message jan6. :)
+2018-11-28 20:51:43	jan6	fact is, there are no facts
+2018-11-28 20:55:23	~ben	send a PR 
+2018-11-28 20:55:37	~ben	arne: is 1000.directory a thign?
+2018-11-28 20:55:46	~ben	should probably add tilde.institute
+2018-11-28 21:04:21	sebboh	most people who say there are no facts mean there are no truths.  If you're making a subtle, aware distinction there, do tell!
+2018-11-28 21:17:27	jan6	wrong channel for this kind of discussion anyway, but everything's relative, and everything's possible
+2018-11-29 13:02:04	arne	ben 1000.directory is still a thing
+2018-11-29 13:02:13	arne	only needs a bit of maintainance
+2018-11-29 13:58:20	~ben	ok :)
+2018-11-30 05:11:59	--	irc: disconnected from server
+2018-11-30 05:12:22	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #sudoers
+2018-11-30 05:12:22	--	Topic for #sudoers is "package requests or whatever go here; ask and maybe we'll do something idk"
+2018-11-30 05:12:22	--	Topic set by khuxkm (khuxkm@oper.tilde.chat) on Wed, 12 Sep 2018 18:46:17
+2018-11-30 05:12:22	--	Channel #sudoers: 24 nicks (4 ops, 0 halfops, 0 voices, 20 normals)
+2018-11-30 05:13:06	--	Channel created on Wed, 11 Jul 2018 00:21:57
+2018-12-01 03:33:34	<--	khuxkm|lounge (khuxkm@sudoers.tilde.team) has quit (Changing host)
+2018-12-01 03:33:34	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #sudoers
+2018-12-01 03:33:34	--	Mode #sudoers [+o khuxkm|lounge] by team.tilde.chat
+2018-12-01 21:01:38	--	jan6 is now known as ben_shapiro
+2018-12-01 21:02:31	--	ben_shapiro is now known as jan6
+2018-12-02 01:36:00	<--	ubergeek (ubergeek@tilde.team) has quit (services.tilde.chat (Too many invalid passwords))
+2018-12-02 01:36:33	-->	ubergeek (ubergeek@tilde.team) has joined #sudoers
+2018-12-02 01:37:13	ubergeek	who can reset a nickserv password?
+2018-12-02 01:41:22	fosslinux	ben:
+2018-12-02 01:41:31	fosslinux	(maybe)
+2018-12-02 01:41:55	fosslinux	actualy nvm sorry b3n
+2018-12-02 01:42:16	fosslinux	ubergeek: run /msg NickServ RESETPASS ubergeek
+2018-12-02 01:42:30	~ben	I can if you need
+2018-12-02 01:42:38	fosslinux	it will send a reset code to your email address you signed up to nickserv with
+2018-12-02 01:42:49	fosslinux	then you can identify with that reset code
+2018-12-02 01:43:05	fosslinux	and then change your password with /msg NickServ SET PASSWORD blahpasswordblah
+2018-12-02 01:43:16	fosslinux	https://wiki.rizon.net/index.php?title=Reset_Nick_Password
+2018-12-02 01:48:01	ubergeek	thanks fosslinux :)
+2018-12-02 01:48:19	fosslinux	that link explains in more detail
+2018-12-02 01:48:20	fosslinux	np
+2018-12-02 01:53:46	~ben	does rizon run anope too?
+2018-12-02 01:54:45	fosslinux	whats rizon?
+2018-12-02 03:17:37	~ben	the wiki you linked to
+2018-12-02 22:08:49	--	jan6 is now known as irc_irc_jan6
+2018-12-02 22:10:13	--	irc_irc_jan6 is now known as |
+2018-12-02 22:13:04	--	| is now known as jan6
+2018-12-03 02:52:33	-->	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has joined #sudoers
+2018-12-03 02:52:33	--	Mode #sudoers [+o virtual] by ChanServ
+2018-12-03 03:10:57	<--	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has quit (Connection closed)
+2018-12-03 03:11:46	-->	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has joined #sudoers
+2018-12-03 03:11:46	--	Mode #sudoers [+o virtual] by ChanServ
+2018-12-03 03:12:23	<--	virtual (virtual@super.kawaii.girlfriend.of.your.dreams) has quit (quit: Leaving)
+2018-12-03 04:56:11	-->	rgdrake (rgdrake@12.199.55.130) has joined #sudoers
+2018-12-03 04:57:12	rgdrake	How do I copy over my puglic key to tilde.team w/o password login access? scp?
+2018-12-03 04:57:50	~ben	o/ rgdrake 
+2018-12-03 04:58:02	~ben	the one you mailed is already in ~/.ssh/authorized_keys
+2018-12-03 04:58:06	~ben	do you need me to add another?
+2018-12-03 04:58:33	rgdrake	couldn't log in, but how do I specify that key for tilde.team?
+2018-12-03 04:58:38	~ben	well, not mailed; the one you sent with the signup form
+2018-12-03 04:58:45	rgdrake	yeah
+2018-12-03 04:59:02	~ben	if you named it something other than the default, you'll have to use the -i parameter of ssh
+2018-12-03 04:59:16	~ben	eg: ssh -i ~/.ssh/<name of key> rgdrake@tilde.team
+2018-12-03 04:59:32	rgdrake	ok, let me try again, but I used the default
+2018-12-03 04:59:39	~ben	ah then it should work
+2018-12-03 04:59:49	~ben	it might be something else then
+2018-12-03 05:00:39	rgdrake	I just did ssh-agent -o, let me follow your wiki
+2018-12-03 05:00:46	~ben	ssh-agent?
+2018-12-03 05:02:17	rgdrake	just followed the instructions on tilde.team's wiki
+2018-12-03 05:03:23	rgdrake	 my new key
+2018-12-03 05:03:38	rgdrake	messaged you my new key
+2018-12-03 05:03:46	rgdrake	should I email it?
+2018-12-03 05:04:44	rgdrake	If I'm losing too badly, pardon me
+2018-12-03 05:07:12	rgdrake	and I had done ssh-keygen -o the first time
+2018-12-03 05:08:39	~ben	lol no worries
+2018-12-03 05:08:42	~ben	sorry, i was on the phone
+2018-12-03 05:08:47	~ben	i'll replace your key now
+2018-12-03 05:09:02	rgdrake	np real life is more important
+2018-12-03 05:56:51	<--	rgdrake (rgdrake@12.199.55.130) has quit (quit: https://web.tilde.chat - thelounge)
+2018-12-03 06:10:31	<--	ubergeek (ubergeek@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	minerbot2 (minerbot2@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	jan6| (jan6|lounge@is.quite.awesome) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	arne (arne@arnes.cozy.tilde) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	kilic (kilic@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	sedbot (sedbot@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	desvox_ (desvox@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	jan6 (jan6@is.quite.awesome) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	aewens|otg (aewensotg@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	freeappsw (freeappsw@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	lempamo (lempamo@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	auditor (auditor@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	sebboh (sebboh@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:11:20	-->	kilic (kilic@tilde.team) has joined #sudoers
+2018-12-03 06:11:21	-->	freeappsw (freeappsw@tilde.team) has joined #sudoers
+2018-12-03 06:11:29	-->	sedbot (sedbot@tilde.team) has joined #sudoers
+2018-12-03 06:11:29	-->	aewens|otg (aewensotg@tilde.team) has joined #sudoers
+2018-12-03 06:11:30	-->	arne (arne@arnes.cozy.tilde) has joined #sudoers
+2018-12-03 06:11:31	-->	minerbot2 (minerbot2@tilde.team) has joined #sudoers
+2018-12-03 06:11:32	-->	auditor (auditor@tilde.team) has joined #sudoers
+2018-12-03 06:11:35	-->	jan6| (jan6|lounge@is.quite.awesome) has joined #sudoers
+2018-12-03 06:11:44	-->	sebboh (sebboh@tilde.team) has joined #sudoers
+2018-12-03 06:11:48	-->	lempamo (lempamo@tilde.team) has joined #sudoers
+2018-12-03 06:11:55	-->	desvox_ (desvox@tilde.team) has joined #sudoers
+2018-12-03 06:12:03	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #sudoers
+2018-12-03 06:12:04	-->	ubergeek (ubergeek@tilde.team) has joined #sudoers
+2018-12-03 06:12:24	-->	jan6 (jan6@tilde.team) has joined #sudoers
+2018-12-03 10:47:17	--	irc: disconnected from server
+2018-12-03 10:47:45	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #sudoers
+2018-12-03 10:47:45	--	Topic for #sudoers is "package requests or whatever go here; ask and maybe we'll do something idk"
+2018-12-03 10:47:45	--	Topic set by khuxkm (khuxkm@oper.tilde.chat) on Wed, 12 Sep 2018 18:46:17
+2018-12-03 10:47:45	--	Channel #sudoers: 24 nicks (3 ops, 0 halfops, 0 voices, 21 normals)
+2018-12-03 10:48:31	--	Channel created on Wed, 11 Jul 2018 00:21:57
+2018-12-03 14:48:42	<--	jan6 (jan6@tilde.team) has quit (Changing host)
+2018-12-03 14:48:42	-->	jan6 (jan6@is.quite.awesome) has joined #sudoers
+2018-12-03 14:52:55	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Changing host)
+2018-12-03 14:52:55	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #sudoers
+2018-12-03 18:15:29	-->	singlet (singlet@37.164.61.148) has joined #sudoers
+2018-12-03 18:16:02	<--	singlet (singlet@37.164.61.148) has quit (Connection closed)
+2018-12-03 19:24:33	--	jan6 is now known as aewenz
+2018-12-03 19:25:59	--	aewenz is now known as jan6
+2018-12-03 22:45:14	--	khuxkm is now known as a
+2018-12-03 22:45:20	--	a is now known as khuxkm
+2018-12-04 06:12:21	--	You are now known as |
+2018-12-04 06:13:48	--	You are now known as fosslinux
+2018-12-04 16:40:40	<--	ben (ben@oper.tilde.chat) has quit (Server shutdown)
+2018-12-04 16:44:23	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-12-04 16:44:34	--	Mode #sudoers [+qo ben ben] by ChanServ
+2018-12-05 06:34:10	<--	aewens (aewens@king.of.chaos) has quit (Ping timeout: 121 seconds)
+2018-12-05 06:41:16	-->	aewens (aewens@tilde.team) has joined #sudoers
+2018-12-05 06:42:44	<--	aewens (aewens@tilde.team) has quit (services.tilde.chat (Too many invalid passwords))
+2018-12-05 06:43:13	-->	aewens (aewens@tilde.team) has joined #sudoers
+2018-12-05 06:44:41	<--	aewens (aewens@tilde.team) has quit (Changing host)
+2018-12-05 06:44:41	-->	aewens (aewens@king.of.chaos) has joined #sudoers
+2018-12-05 21:44:30	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (Changing host)
+2018-12-05 21:44:30	-->	khuxkm|lounge (khuxkm@sudoers.tilde.team) has joined #sudoers
+2018-12-05 21:44:30	--	Mode #sudoers [+o khuxkm|lounge] by ChanServ
+2018-12-07 19:52:54	-->	singlet (singlet@lfbn-1-6791-252.w90-120.abo.wanadoo.fr) has joined #sudoers
+2018-12-07 19:53:33	<--	singlet (singlet@lfbn-1-6791-252.w90-120.abo.wanadoo.fr) has quit (quit: Leaving)
+2018-12-09 01:06:01	<--	ubergeek (ubergeek@tilde.team) has quit (quit: WeeChat 2.3)
+2018-12-09 12:17:26	-->	singlet (singlet@lfbn-1-6791-252.w90-120.abo.wanadoo.fr) has joined #sudoers
+2018-12-09 12:17:44	<--	singlet (singlet@lfbn-1-6791-252.w90-120.abo.wanadoo.fr) has quit (Connection closed)
+2018-12-11 17:46:57	-->	singlet (singlet@lfbn-1-11082-158.w86-213.abo.wanadoo.fr) has joined #sudoers
+2018-12-11 17:47:52	<--	singlet (singlet@lfbn-1-11082-158.w86-213.abo.wanadoo.fr) has quit (quit: Leaving)
+2018-12-11 18:27:29	-->	singlet (singlet@lfbn-1-11082-158.w86-213.abo.wanadoo.fr) has joined #sudoers
+2018-12-11 18:28:00	<--	singlet (singlet@lfbn-1-11082-158.w86-213.abo.wanadoo.fr) has quit (Connection closed)
+2018-12-12 21:21:43	@cmccabe	does ~team currently run anything like this, or have interest in running it?
+2018-12-12 21:21:46	@cmccabe	http://blinkenbot.blinkenshell.org/index_new.html
+2018-12-12 21:22:08	@cmccabe	http://pisg.sourceforge.net/
+2018-12-12 22:41:26	~ben	i'd be fine with it
+2018-12-12 22:41:46	~ben	we don't have anything like that afaik
+2018-12-13 01:37:59	@cmccabe	let me make some time to look into it and install it. i'll also check if there are alternatives.  i believe pisg is a bit old.
+2018-12-13 01:38:46	~ben	ok cool :)
+2018-12-13 01:39:05	~ben	if you need help with nginx or anything, holler and we can hop on a shared tmux/byobu thingy
+2018-12-13 03:06:43	@cmccabe	ok
+2018-12-13 03:07:50	~ben	if you need logs, i can send you some from my weechat (but i'm guessing you have as much as i do in your weechat)
+2018-12-13 03:16:19	@cmccabe	yeah, i should have enough for a proof of concept.  if it works, i guess we set uo a dedicated account for logging?
+2018-12-13 03:23:08	~ben	yeah we can do that
+2018-12-13 03:23:18	~ben	could put something on the https://tilde.chat site
+2018-12-13 03:23:25	~ben	and/or tilde.team site
+2018-12-13 03:23:42	~ben	there are a couple things that i run under the services user
+2018-12-13 03:26:44	@cmccabe	ok. i'll dig in and then discuss with you before finalizing anything
+2018-12-13 03:27:37	~ben	good deal :)
+2018-12-13 03:27:45	~ben	and it will analyze post logs too?
+2018-12-13 03:54:52	@cmccabe	what do you mean by post logs?
+2018-12-13 03:55:52	~ben	chat history
+2018-12-13 03:56:04	~ben	rather than processing anything that comes in after you start it up
+2018-12-13 11:30:15	@cmccabe	ben: sorry i got ctrl-zzz'ed.  yes, i am quite sure it processes historical logs.
+2018-12-13 11:30:29	@cmccabe	not just new incoming posts.
+2018-12-13 11:36:16	<--	slipyx (slip@46.68.203.35.bc.googleusercontent.com) has quit (Ping timeout: 121 seconds)
+2018-12-13 11:37:57	-->	slipyx (slip@46.68.203.35.bc.googleusercontent.com) has joined #sudoers
+2018-12-13 11:47:49	<--	slipyx (slip@46.68.203.35.bc.googleusercontent.com) has quit (Ping timeout: 121 seconds)
+2018-12-13 11:48:43	-->	slipyx (slip@46.68.203.35.bc.googleusercontent.com) has joined #sudoers
+2018-12-13 11:53:07	<--	slipyx (slip@46.68.203.35.bc.googleusercontent.com) has quit (Ping timeout: 121 seconds)
+2018-12-13 11:54:48	-->	slipyx (slip@46.68.203.35.bc.googleusercontent.com) has joined #sudoers
+2018-12-13 13:24:19	~ben	ccol, soounds good
+2018-12-14 05:56:22	--	You are now known as ^
+2018-12-14 06:11:12	--	You are now known as fosslinux
+2018-12-14 06:36:32	slipyx	damn it who broke curl again
+2018-12-14 06:39:44	slipyx	oh nvm my local libcurl was interfering 
+2018-12-14 14:33:22	~ben	owo
+2018-12-14 21:56:09	sebboh	on 2018Dec13 my IRC connection to EFnet dropped and weechat auto-reconnected.  The server said:
+2018-12-14 21:56:54	sebboh	You are now being scanned for open proxies by the irc.mzima.net local and EFNet global open proxy monitors.
+2018-12-14 21:57:31	sebboh	You are banned from this server- Temporary K-line 14400 min. - (r62/10) please use another server (2018/12/13 07.09)
+2018-12-14 21:58:22	sebboh	I'm not sure what their "proxy scan" consists off...  Are any of our users running any such thing?
+2018-12-14 22:08:55	~ben	not that i know of
+2018-12-14 22:09:27	~ben	not sure what that means
+2018-12-14 22:12:19	~ben	open proxies?
+2018-12-14 22:24:58	sebboh	https://en.wikipedia.org/wiki/Open_proxy
+2018-12-14 22:42:07	fosslinux	hmmm
+2018-12-14 22:42:41	fosslinux	well we have users ssh tunnelling sebboh would that count?
+2018-12-14 22:56:56	jan6	nah
+2018-12-14 22:57:56	jan6	I'm pretty sure that they're just checking for public proxies, that someone might be using to circumvent their punishments (one ip banned, move to next one)
+2018-12-14 22:58:54	jan6	it is possible they've detected several users from our IP, and flagged it as one, too
+2018-12-14 23:00:11	jan6	I'd say, worth a shot to join from your own ip, and ask in the admin-help-room or something, nothing to lose from it, after all
+2018-12-15 00:10:40	~ben	hmm could be something like that
+2018-12-15 21:20:48	@khuxkm|lounge	irc.underworld.no works for me
+2018-12-15 21:20:55	@khuxkm|lounge	(wrt EFNet)
+2018-12-17 15:21:24	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-12-17 15:27:52	-->	ben (ben@oper.tilde.chat) has joined #sudoers
+2018-12-17 15:27:53	--	Mode #sudoers [+qo ben ben] by ChanServ
+2018-12-17 19:52:10	sebboh	Well, based on my experience, it's most likely that our IP was running an open proxy.  It aligns with what the server said.
+2018-12-17 19:52:25	sebboh	khuxkm|lounge: thanks
+2018-12-17 19:53:27	~ben	not that i'm aware of :o
+2018-12-17 19:53:49	jan6	open proxy as in allowing anyone to use this box as an intermediary to connect to their irc ;P
+2018-12-17 19:54:03	~ben	that doesn't count afaik
+2018-12-17 19:54:13	jan6	you can talk to them to get it whitelisted, probably, I bet it's just automated script
+2018-12-17 19:54:14	sebboh	jan6, but ssh wouldn't be automatically detected.
+2018-12-17 19:54:19	jan6	ssh, not
+2018-12-17 19:54:21	jan6	ip, yes
+2018-12-17 19:55:24	fosslinux	yessss.
+2018-12-17 19:57:16	jan6	pretty sure they just scan for "multiple users form same ip on at same time, and not within known dynamic ip ranges"
+2018-12-17 19:57:24	jan6	s/or/ro/
+2018-12-17 19:57:24	sedbot	<jan6> pretty sure they just scan fro "multiple users form same ip on at same time, and not within known dynamic ip ranges"
+2018-12-17 19:57:31	jan6	s/or/ro/g
+2018-12-17 19:57:31	sedbot	<jan6> pretty sure they just scan fro "multiple users from same ip on at same time, and not within known dynamic ip ranges"
+2018-12-17 19:57:31	~ben	i submitted a request to increase our allowed connections to freenode
+2018-12-17 19:57:35	sebboh	so... I'm not going to go ask an EFnet oper a question.  Not even "how's it going?". :) like.. those people are the crazy homeless veterans of the internet. :P
+2018-12-17 19:57:47	~ben	and also requested a proper group registration for #tilde.team
+2018-12-17 19:57:55	jan6	lol, sebboh, really?
+2018-12-17 19:58:09	jan6	proper group?
+2018-12-17 19:58:36	sebboh	veterans like... "I SEEN STUFF IN THE JUNGLE, MAAAAN!"
+2018-12-17 20:00:24	~ben	jan6: https://freenode.net/groupreg
+2018-12-17 20:10:22	jan6	"Group hostname cloaks. Cloaks allow your project or organisation to grant official recognition to project participants. Your group contact maintains this cloak list."
+2018-12-17 20:10:55	jan6	so, does freenode approve a list you give them, and group admins can distribute them?
+2018-12-17 20:14:30	~ben	yeah i would do that
+2018-12-18 19:54:11	-->	mushmouth (mushmouth@yourtilde.com) has joined #sudoers
+2018-12-18 20:30:22	-->	singlet (singlet@lfbn-1-11082-158.w86-213.abo.wanadoo.fr) has joined #sudoers
+2018-12-18 20:30:39	<--	singlet (singlet@lfbn-1-11082-158.w86-213.abo.wanadoo.fr) has quit (Connection closed)
+2018-12-19 15:28:59	--	ben is now known as 550AAAAAE
+2018-12-19 15:29:44	--	550AAAAAE is now known as ben
+2018-12-19 15:43:55	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-12-19 15:45:11	-->	550AAAAAE (ben@oper.tilde.chat) has joined #sudoers
+2018-12-19 15:45:11	--	Mode #sudoers [+qo 550AAAAAE 550AAAAAE] by center.tilde.chat
+2018-12-19 15:45:31	--	550AAAAAE is now known as ben
+2018-12-19 19:31:00	<--	mushmouth (mushmouth@yourtilde.com) has quit (Quit: i'll probably be back soon)
+2018-12-19 23:30:56	--	irc: disconnected from server

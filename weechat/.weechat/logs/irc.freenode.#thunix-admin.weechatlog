@@ -1,0 +1,423 @@
+2018-12-13 19:42:12	-->	fosslinux (~fosslinux@bsd.tilde.team) has joined #thunix-admin
+2018-12-13 19:42:12	--	Topic for #thunix-admin is "thunix Administration and Discussion"
+2018-12-13 19:42:12	--	Topic set by hexhaxtron (~hexhaxtro@thunix/admin/hexhaxtron) on Tue, 09 Oct 2018 07:10:41
+2018-12-13 19:42:12	--	Channel #thunix-admin: 5 nicks (0 ops, 0 voices, 5 normals)
+2018-12-13 19:42:14	--	Channel created on Mon, 10 Sep 2018 15:44:02
+2018-12-14 04:54:13	-->	fosslinux (~fosslinux@bsd.tilde.team) has joined #thunix-admin
+2018-12-14 04:54:13	--	Topic for #thunix-admin is "thunix Administration and Discussion"
+2018-12-14 04:54:13	--	Topic set by hexhaxtron (~hexhaxtro@thunix/admin/hexhaxtron) on Tue, 09 Oct 2018 07:10:41
+2018-12-14 04:54:13	--	Channel #thunix-admin: 5 nicks (0 ops, 0 voices, 5 normals)
+2018-12-14 04:54:15	--	Channel created on Mon, 10 Sep 2018 15:44:02
+2018-12-14 04:54:17	fosslinux	helllooooooo
+2018-12-14 06:11:51	fosslinux	i was asking on ~chat
+2018-12-14 06:12:10	fosslinux	if you were looking for another server which i may be able to provide soonish, what would you be looking for?
+2018-12-14 11:14:30	Naglfar	hello fosslinux
+2018-12-14 12:28:39	amcclure	hello
+2018-12-14 12:29:00	amcclure	we would be able to use another server
+2018-12-14 20:48:31	fosslinux	ok :D
+2018-12-14 20:48:36	fosslinux	i'll see what i can do
+2018-12-14 20:48:42	fosslinux	it won't have very good specs tho
+2018-12-14 22:16:54	amcclure	shouldn't be too bad
+2018-12-14 22:17:24	amcclure	regardless of the server, we would need to have limits for accounts
+2018-12-14 22:37:15	fosslinux	true
+2018-12-14 22:37:30	fosslinux	wat are the specs of the one ub3g33k provided
+2018-12-15 00:27:39	ub3g33k	1GB of RAM single core, and 40(?) GB of storage
+2018-12-15 00:29:09	ub3g33k	It can be grown, if needed.
+2018-12-15 01:48:41	Naglfar	that's good specs to start
+2018-12-15 01:49:20	Naglfar	it allow too many services to provide
+2018-12-15 01:49:59	Naglfar	hope thunix grow enough and we become able to upgrade sometime
+2018-12-15 01:51:35	Naglfar	some of you have ever been there yet ? https://www.linuxhotel.de/
+2018-12-15 02:58:02	ub3g33k	for audit... I added myself to group "sudo", and removed my key from /root/.ssh/authorized_keys
+2018-12-15 02:58:31	ub3g33k	also, are we using a central config solution for thunix?
+2018-12-15 02:58:45	ub3g33k	if so, is there a git repo for it?
+2018-12-15 03:20:18	Naglfar	I believe git could be a good central config solution
+2018-12-15 03:21:31	Naglfar	not sure if there's a repo yet
+2018-12-15 03:22:16	Naglfar	if the repo is hosted in github we need to create an account for it
+2018-12-15 03:24:34	Naglfar	even we can use tildegit.org or host by ourself
+2018-12-15 03:24:47	ub3g33k	yep...
+2018-12-15 03:25:04	ub3g33k	I actually took the liberty of creating the thunix org on tildegit, and creating the ansible repo
+2018-12-15 03:26:34	Naglfar	well done, I just noticed it tildegit.org/thunix
+2018-12-15 03:32:38	ub3g33k	I'm working on the the baseline role now
+2018-12-15 03:32:58	ub3g33k	Which, in honestly, could probably be the only role used
+2018-12-15 03:42:16	ub3g33k	when possible, can we get an A record added for the new host?  I was going to add it to .tilde, but then remembered it's only a stub zone there
+2018-12-15 03:42:37	ub3g33k	amcclure: how much work have you done on the new box yet?
+2018-12-15 03:45:49	ub3g33k	also, do we want to use the .tilde DNS resolvers?
+2018-12-15 03:48:51	fosslinux	could thunix.org be re-obtained once it expires?
+2018-12-15 04:03:34	fosslinux	we could have a hashbang like system
+2018-12-15 04:03:54	fosslinux	where there is multiple servers and a main git repo with ansible rules or something likes that
+2018-12-15 04:04:08	fosslinux	ub3g33k: is that what you meant by the "ansible repo"
+2018-12-15 04:04:15	fosslinux	amcclure, Naglfar:
+2018-12-15 13:52:31	Naglfar	fosslinux, once it expires thunix.org will depend on the actual registrar godaddy.org, probably it allow purchase it
+2018-12-15 14:17:59	amcclure	ub3g33k: I'm getting stuff set up
+2018-12-15 14:31:45	amcclure	ub3g33k: is there any reason password login's disabled
+2018-12-15 17:12:43	amcclure	ub3g33k: ssh key isn't working...
+2018-12-15 20:25:33	fosslinux	amcclure: what's your thoughts on a hashbang like system. hashbang have 4 servers and theres a "cap" of 500 users on each. every server has an i dentical system
+2018-12-15 20:44:08	amcclure	sounds like it could be good
+2018-12-15 20:48:12	-->	bizarro__1 (~bizarro_1@15.red-79-154-77.dynamicip.rima-tde.net) has joined #thunix-admin
+2018-12-15 21:17:07	ub3g33k	sorry, went to bed last night.
+2018-12-15 21:17:35	ub3g33k	With a config repo, it can be one server, many servers, doesn't matter.  Just really depends on the config.
+2018-12-15 21:17:50	ub3g33k	As far as servers, with user caps, I suppose we'd cross that bridge when we get there.
+2018-12-15 21:51:47	ub3g33k	first ansible run is complete.  Just handling packages for now.  Working on useradd
+2018-12-15 22:20:09	<--	Bercik (~Yotsuba@unaffiliated/bercik) has quit (Ping timeout: 252 seconds)
+2018-12-15 22:28:58	-->	Bercik (~Yotsuba@unaffiliated/bercik) has joined #thunix-admin
+2018-12-15 22:37:24	ub3g33k	users module all set.
+2018-12-15 22:38:07	ub3g33k	doesnt handles keys yet, however.
+2018-12-15 22:40:46	Naglfar	ub3g33k, do you believe it's possible to avoid nmap related problems?
+2018-12-15 22:48:59	ub3g33k	Not really, other than chiding users.
+2018-12-15 22:49:35	ub3g33k	However, I do not believe nmap is a problem in DO.  I've never had an issue with it, and occasionally use it
+2018-12-15 22:49:56	ub3g33k	that being said...
+2018-12-15 22:50:34	ub3g33k	A good reason to use a central config solution (Like ansible here) is *if* a server is knocked down for some reason, it can be re-instantiated somewhere else, in short order
+2018-12-15 23:03:25	Naglfar	do you mean some like come back to an earlier commit?
+2018-12-15 23:06:35	ub3g33k	Basically.
+2018-12-15 23:06:46	ub3g33k	But, there should be no earlier commits from the running system (Optimally)
+2018-12-15 23:06:57	ub3g33k	Naglfar: do you have a tildegit account?
+2018-12-15 23:07:18	ub3g33k	amcclure: I also have a PR for review. https://tildegit.org/thunix/ansible/pulls/4
+2018-12-15 23:18:01	Naglfar	I have to try sign up, but something is happenning to my connection that I can't load it
+2018-12-15 23:22:22	amcclure	who is bizarro__1?
+2018-12-15 23:27:09	ub3g33k	no clue
+2018-12-15 23:43:59	bizarro__1	hi
+2018-12-16 00:02:34	Naglfar	hi bizarro__1
+2018-12-16 00:15:51	ub3g33k	heyo :)
+2018-12-16 00:22:42	ub3g33k	I guess if we want to kinda gatekeep a bit, for new users, they could have to do a PR requesting their own account haha
+2018-12-16 00:57:12	amcclure	a pr?
+2018-12-16 01:33:30	fosslinux	why ub3g33k 
+2018-12-16 01:36:26	amcclure	why what?
+2018-12-16 01:38:08	fosslinux	why a pr
+2018-12-16 01:39:01	amcclure	^
+2018-12-16 01:39:29	amcclure	I was going to suggest a normal sign up form like what ~town and ~team have
+2018-12-16 01:39:37	fosslinux	i suppose it would make it more difficult for people to sign up.... maybe thats the point
+2018-12-16 01:39:41	fosslinux	amcclure: tahts a good idea
+2018-12-16 01:40:04	amcclure	along with some additional questions and a captcha
+2018-12-16 01:40:15	fosslinux	"captcha" - why
+2018-12-16 01:40:29	fosslinux	or you could just do
+2018-12-16 01:40:30	amcclure	did I spell that wrong?
+2018-12-16 01:40:54	fosslinux	"To create an account please send an email to admin@thunix.org"
+2018-12-16 01:53:54	amcclure	hmm
+2018-12-16 01:54:00	amcclure	I still want the form
+2018-12-16 01:59:00	fosslinux	ok :)
+2018-12-16 01:59:03	fosslinux	https://tildegit.org/team/site/src/branch/master/signup/signup-handler.php
+2018-12-16 01:59:07	fosslinux	heres a stawrting point
+2018-12-16 03:18:17	amcclure	fosslinux: I think the user shell accounts should be on a seperate server
+2018-12-16 03:18:30	amcclure	for security reasons
+2018-12-16 03:18:35	fosslinux	?
+2018-12-16 03:18:54	fosslinux	so shell accounts on one server.... and then wat do the others do
+2018-12-16 03:18:56	amcclure	the server we have now shouldn't be for shell accounts
+2018-12-16 03:19:29	amcclure	the other is for other services provided by thunix
+2018-12-16 03:19:50	fosslinux	why amcclure 
+2018-12-16 03:20:00	amcclure	for a few reasons
+2018-12-16 03:20:02	fosslinux	why cant we have the server we have now for shell accounts
+2018-12-16 03:20:44	amcclure	security reasons and bc shell users might use up available disk space and ram
+2018-12-16 03:20:54	amcclure	also from what I found
+2018-12-16 03:21:21	amcclure	there's data metering for outgoing connections after so much data
+2018-12-16 03:21:37	fosslinux	owo
+2018-12-16 03:21:40	amcclure	so it'll be quickly used up and then some
+2018-12-16 03:21:45	fosslinux	tru
+2018-12-16 03:21:51	amcclure	I don't want ub3g33k to get a huge bill for it
+2018-12-16 03:21:59	fosslinux	we could just start with email/web
+2018-12-16 03:23:00	amcclure	I was thinking we could use a diffrent server hopefully without outgoing data metering for those things
+2018-12-16 03:23:53	fosslinux	yea right
+2018-12-16 03:25:18	amcclure	however
+2018-12-16 03:25:44	amcclure	we might be able to have web hosting on this server
+2018-12-16 03:26:00	amcclure	non-staff accounts could be sftp only
+2018-12-16 03:26:04	amcclure	or something
+2018-12-16 03:26:27	amcclure	I've ran servers that were sftp only before
+2018-12-16 03:30:15	<--	bizarro__1 (~bizarro_1@15.red-79-154-77.dynamicip.rima-tde.net) has quit (Ping timeout: 246 seconds)
+2018-12-16 12:43:22	-->	bizarro__1 (~bizarro_1@15.red-79-154-77.dynamicip.rima-tde.net) has joined #thunix-admin
+2018-12-16 15:25:11	<--	Bercik (~Yotsuba@unaffiliated/bercik) has quit (Ping timeout: 250 seconds)
+2018-12-16 15:32:09	-->	Bercik (~Yotsuba@unaffiliated/bercik) has joined #thunix-admin
+2018-12-16 19:19:12	ub3g33k	re: PR's for user requests, that was really joking, since someone suggested a hashang-like system :)
+2018-12-16 19:19:51	ub3g33k	There's a TB of xfer with the current size machine per month.  You're *supposed* to be billed for over-limit, but I've never been billed for it.
+2018-12-16 19:20:08	ub3g33k	ssh doesn't use an incredible amount of data
+2018-12-16 19:20:21	ub3g33k	but however we want to do it.
+2018-12-16 19:21:05	ub3g33k	And storage is relaitvely cheap
+2018-12-16 19:21:52	ub3g33k	100GB for 10$/month
+2018-12-16 19:39:22	amcclure	ssh doesn't use a lot of data
+2018-12-16 19:39:39	amcclure	but people downloading large amounts of data would
+2018-12-16 19:40:30	Bercik	^
+2018-12-16 19:50:24	fosslinux	yes
+2018-12-16 19:50:26	fosslinux	all true
+2018-12-16 19:53:30	ub3g33k	If that's the only reason we're concerned, I wouldn't sweat it too much.
+2018-12-16 19:53:54	ub3g33k	I mean, unless people are planning to use it to store ISOs or be a debian mirror :)
+2018-12-16 19:56:23	ub3g33k	If people want an idea of the bandwidth prices, they're on digital ocean
+2018-12-16 19:57:28	ub3g33k	If it were to get too nuts, I've been looking for a reason to get a hetzner metal
+2018-12-16 20:02:12	Bercik	to prevent that quota could be used
+2018-12-16 20:30:15	ub3g33k	oh, even better:  I get a bandwidth quota across my account.  So, my other droplets use very little bandwidth, but they all add to the total bucket :)
+2018-12-16 20:37:54	ub3g33k	Also, if we want a separate host for web and ssh, I can pop that up as well.
+2018-12-16 20:38:49	ub3g33k	If user pages are going to a be thing nginx/apache will need to be install on both, with the "web" box acting as a forward proxy
+2018-12-16 20:39:16	ub3g33k	... or nfs export /home and mount it on the web host.
+2018-12-16 20:42:22	Naglfar	ub3g33k is there some way we can know how much bandwidth/month is is used ?
+2018-12-16 20:43:04	Naglfar	to know if we are inside of total
+2018-12-16 20:43:54	Naglfar	...maybe using /proc/net/netstat
+2018-12-16 20:49:12	ub3g33k	hrm...  Let me look in the dashboard
+2018-12-16 20:50:18	ub3g33k	yes
+2018-12-16 20:50:28	ub3g33k	overall, in my bucket, I've used 5 GB used of 3655 GB
+2018-12-16 20:50:30	ub3g33k	Estimated Droplet Transfer Pool
+2018-12-16 20:50:47	ub3g33k	last month, I used .81 GB :P
+2018-12-16 20:51:09	ub3g33k	I don't think I had ns1.master.tilde hosted there, and that might be a sizeable amount of the xfer amount
+2018-12-16 20:51:13	ub3g33k	(Of the 5GB)
+2018-12-16 20:53:08	ub3g33k	after the limit it's a penny per GB
+2018-12-16 20:54:58	Naglfar	we can let know it to users someway
+2018-12-16 20:56:24	Naglfar	to allow the case that some user need more bandwidth and become able to afford it
+2018-12-16 21:01:11	amcclure	ub3g33k: I have apache insatlled on this server already
+2018-12-16 21:08:54	ub3g33k	If it becomes problematic (The cost) I'll be sure to say something.  I just don't think it's an issue for now, personally.
+2018-12-16 21:09:09	Bercik	Naglfar, but its problematic to limit users on one host (bandwith)
+2018-12-16 21:09:20	ub3g33k	amcclure: did you install just apache, or the whole LAMP stack?
+2018-12-16 21:09:37	ub3g33k	I suppsoe I can look, too haha
+2018-12-16 21:10:04	ub3g33k	nginx is installed too?
+2018-12-16 21:10:17	ub3g33k	(and mysql and php, I'm seeing)
+2018-12-16 21:15:13	ub3g33k	stupid question:  why install linux firmware?
+2018-12-16 21:26:29	Naglfar	linux firmware usually is used for some device controllers
+2018-12-16 21:27:22	Naglfar	the server may only use firmware for specific devices
+2018-12-16 21:27:59	Naglfar	or maybe no firmware at all
+2018-12-16 21:54:23	amcclure	LAMP
+2018-12-16 21:54:27	amcclure	nginx is installed?
+2018-12-16 21:54:50	Naglfar	amcclure, I believe apache2 is
+2018-12-16 21:54:54	amcclure	oh I removed nginx
+2018-12-16 21:55:39	amcclure	apache2 is installed
+2018-12-16 21:56:20	Naglfar	nice
+2018-12-16 21:57:21	Naglfar	mariadb is used for mysql
+2018-12-16 21:59:15	Naglfar	postgresql could be installed later (if needed)
+2018-12-16 22:00:38	amcclure	yep
+2018-12-16 22:31:18	ub3g33k	It may or may not be installed (ngin), I just saw it's init script in /etc/init.d/
+2018-12-16 23:40:22	amcclure	oh?
+2018-12-17 01:04:02	<--	bizarro__1 (~bizarro_1@15.red-79-154-77.dynamicip.rima-tde.net) has quit (Quit: bizarro__1)
+2018-12-17 07:04:49	fosslinux	amcclure: why nginx
+2018-12-17 07:04:53	fosslinux	s/nginx/apache2
+2018-12-17 07:04:58	fosslinux	amcclure: why apache2
+2018-12-17 07:05:04	fosslinux	instead of nginx
+2018-12-17 12:11:31	ub3g33k	6 of one, half a dozen of another?
+2018-12-17 13:11:12	amcclure	fosslinux: what's bad about apache2?
+2018-12-17 14:35:32	ub3g33k	fyi, I've done some shopping, and bandwidth at this time shouldn't be a concern.  Should it become a concern, there are some reasonable upgrade paths that shouldn't be an issue to handle
+2018-12-17 18:34:27	-->	bizarro_1 (~bizarro_1@15.red-79-154-77.dynamicip.rima-tde.net) has joined #thunix-admin
+2018-12-17 18:44:57	ub3g33k	as far as PR4 goes (Change resolvers to .tilde resolvers), I'm going to assume silence == consent?
+2018-12-17 18:46:00	Naglfar	o.o
+2018-12-17 18:46:07	Naglfar	PR4 goes ?
+2018-12-17 18:47:39	ub3g33k	Pull request #4 on tildegit.org/thunix/ansible/pulls/4
+2018-12-17 18:48:07	ub3g33k	any configuration I've been doing to that machine is in the repo
+2018-12-17 18:49:42	ub3g33k	that way if I get ran over by a bus, while with amcclure, and my credit card gets canceled, it's far easier to pick up the pieces and carry on :)
+2018-12-17 18:50:48	ub3g33k	.buffer 20
+2018-12-17 18:53:13	Naglfar	I agree to change resolvers to .tilde resolvers
+2018-12-17 18:54:25	Naglfar	even could be good to setup thunix as an tilde DNS server
+2018-12-17 18:58:18	ub3g33k	alright, I'll merge and push at my next convienent moment :)
+2018-12-17 19:31:13	fosslinux	amcclure: apache2 uses way more memory, cpu, and is bloated imo
+2018-12-17 20:14:52	-->	bizarro__1 (~bizarro_1@146.red-79-154-76.dynamicip.rima-tde.net) has joined #thunix-admin
+2018-12-17 20:16:48	amcclure	hello bizarro__1
+2018-12-17 20:17:08	<--	bizarro_1 (~bizarro_1@15.red-79-154-77.dynamicip.rima-tde.net) has quit (Ping timeout: 245 seconds)
+2018-12-17 20:22:26	bizarro__1	hi
+2018-12-17 22:18:31	Naglfar	hi bizarro__1
+2018-12-18 00:19:32	<--	bizarro__1 (~bizarro_1@146.red-79-154-76.dynamicip.rima-tde.net) has quit (Quit: bizarro__1)
+2018-12-18 01:16:23	ub3g33k	added byobu and man to the package list in the repo, and pushed/ran the modified resolv.conf
+2018-12-18 01:30:18	amcclure	why byobu?
+2018-12-18 01:33:02	ub3g33k	I like using it.
+2018-12-18 01:33:25	ub3g33k	I can roll back if that's an issue.
+2018-12-18 01:34:16	amcclure	does byobu start on login?
+2018-12-18 01:34:35	amcclure	if no, then you can keep it
+2018-12-18 01:36:49	Naglfar	I don't remember exactly howto, but you can enable/disable byobu on login
+2018-12-18 01:37:13	ub3g33k	not unless you tell it to
+2018-12-18 01:40:50	ub3g33k	so, are we going to segregate the web server from the ssh server?
+2018-12-18 01:43:54	amcclure	I was planning on having the ssh and user web content on a seperate server
+2018-12-18 01:53:22	ub3g33k	so what is this?  web server or ssh server?  And, how are user pages goings to work?
+2018-12-18 01:56:01	amcclure	web and ssh
+2018-12-18 01:56:59	amcclure	so we aren't putting any thunix-provided services on the same machine as a bunch of ssh users
+2018-12-18 01:57:37	ub3g33k	so, this machine we have now is the one users will ssh into, correct?
+2018-12-18 01:58:02	amcclure	idk
+2018-12-18 01:58:08	ub3g33k	kk
+2018-12-18 01:58:10	amcclure	I didn't plan on that
+2018-12-18 01:58:35	ub3g33k	that's not a problem then, we can "pivot" a bit.
+2018-12-18 01:58:50	ub3g33k	So, just apahe, mysql, and php on this machine, with a couple of admin users then?
+2018-12-18 01:59:07	ub3g33k	*apache
+2018-12-18 02:04:29	amcclure	yes
+2018-12-18 02:06:37	ub3g33k	ok, lemme work on splitting these roles.
+2018-12-18 02:06:54	ub3g33k	I was misunderstanding this machine's role.
+2018-12-18 02:07:00	ub3g33k	Do we have an ssh box yet?
+2018-12-18 02:07:15	amcclure	not yet
+2018-12-18 02:07:26	ub3g33k	If not, should I spin one up?  Or, should I grow this machine, and we can use containers for the roles?
+2018-12-18 02:07:53	amcclure	would spinning up a new one or growing this machine be more affordable for you
+2018-12-18 02:08:11	ub3g33k	both are the same, either costs ~$10
+2018-12-18 02:08:31	ub3g33k	.../month
+2018-12-18 02:09:06	ub3g33k	It's really an architectural decision.  Containers allow us to pack the machine better (Scales well to bare metal too)
+2018-12-18 02:09:15	ub3g33k	However, container security isn't perfect.
+2018-12-18 02:09:31	amcclure	could just spin up a new one
+2018-12-18 02:09:48	amcclure	is php and mysql necessary for users?
+2018-12-18 02:09:52	ub3g33k	so...  public web pages in a ~ fashion are going to be a thing, right?
+2018-12-18 02:09:57	amcclure	yes
+2018-12-18 02:10:52	ub3g33k	If we split www from ssh, how are we looking to share the ~/public_home to the www box?
+2018-12-18 02:10:59	amcclure	o
+2018-12-18 02:11:17	ub3g33k	I *kinda* got a couple of ideas for that...
+2018-12-18 02:11:25	amcclure	I was just going to use a different hostname for the user server
+2018-12-18 02:12:01	ub3g33k	I am not sure if apach can do this, but nginx can forward certain requests to another web server
+2018-12-18 02:12:02	amcclure	something like shells.thunix.cf / shells.thunix.ttm.sh
+2018-12-18 02:12:45	ub3g33k	it would require (possibly) nginx replacing apache
+2018-12-18 02:12:52	amcclure	or just www2.thunix.cf / www2.thunix.ttm.sh for the user sites
+2018-12-18 02:12:52	ub3g33k	(On the www box)
+2018-12-18 02:13:33	amcclure	that way it wouldn't seem like any of the user content is official thunix content
+2018-12-18 02:13:35	ub3g33k	I suppose that would work too
+2018-12-18 02:13:37	amcclure	users.thunix.cf
+2018-12-18 02:13:54	amcclure	almost anything besides www would work
+2018-12-18 02:14:04	ub3g33k	I guess I'm not familiair with the culture of thunix, and how they operated
+2018-12-18 02:14:09	ub3g33k	I showed up late to the game :P
+2018-12-18 02:15:09	Naglfar	ub3g33k, thunix was one server for all services
+2018-12-18 02:15:30	amcclure	^
+2018-12-18 02:15:50	ub3g33k	That's what I thought
+2018-12-18 02:16:38	ub3g33k	whats the deciding reason for steering away from that model?
+2018-12-18 02:17:38	Naglfar	the thunix server was shutdown
+2018-12-18 02:17:58	ub3g33k	well, yes.
+2018-12-18 02:19:29	ub3g33k	but why moving to split model?
+2018-12-18 02:19:59	ub3g33k	were there problems with having a single host pull all duties?
+2018-12-18 02:20:33	Naglfar	really there's not a split model
+2018-12-18 02:21:09	Naglfar	else put several parts together
+2018-12-18 02:21:53	ub3g33k	right, but this go-around, we're doing a split model
+2018-12-18 02:23:06	ub3g33k	and amcclure:  I see there is code in /var/www...  Is that in a git repo somewhere?  If not, should we version-control it, and enable some mangement around that?
+2018-12-18 02:25:26	Naglfar	ub3g33k, the main model is run only one server
+2018-12-18 02:25:56	Naglfar	shells, web, email, backups and other provided services on the same server
+2018-12-18 02:26:43	Naglfar	split is, to have a backup server instead
+2018-12-18 02:27:18	Naglfar	there's to parts but same content twice
+2018-12-18 02:27:22	Naglfar	two*
+2018-12-18 02:29:44	Naglfar	or maybe tildegit.org/thunix
+2018-12-18 02:31:36	Naglfar	we can try to run shells on the main server
+2018-12-18 02:32:57	Naglfar	as amcclure told us some like shells.thunix.cf or shells.thunix.ttm.sh
+2018-12-18 02:34:12	Naglfar	but a backup server with LAMP could be in www.thunix.cf and www.thunix.ttm.sh
+2018-12-18 02:34:18	ub3g33k	well, I'm heading to bed.  But, I'll check scrollback for a definitive architecture
+2018-12-18 02:34:26	ub3g33k	Planning, before building :)
+2018-12-18 02:34:33	Naglfar	:)
+2018-12-18 02:34:35	ub3g33k	We already did some building before planning, but not much.
+2018-12-18 02:35:16	Naglfar	best plan before build
+2018-12-18 02:35:40	Naglfar	but sometimes plans appear while building
+2018-12-18 02:35:46	Naglfar	have good night ub3g33k
+2018-12-18 10:42:29	-->	Ub3g33k_ (~lounge-us@tilde.team) has joined #thunix-admin
+2018-12-18 15:16:24	ub3g33k	morning all
+2018-12-18 15:16:58	Naglfar	morning ub3g33k
+2018-12-18 16:07:25	ub3g33k	Anything cooking I missed?
+2018-12-18 16:26:10	Naglfar	nothing missed lately
+2018-12-18 16:26:48	Naglfar	ub3g33k, do you know if it's possible to set domain name pointer ?
+2018-12-18 16:36:25	ub3g33k	It *should* be possible.  I don't control any of the DNS records, however.
+2018-12-18 16:36:34	ub3g33k	(Except for .tilde DNS :P )
+2018-12-18 16:39:04	Naglfar	so, is it possible to set domain name pointer for thunix.tilde ?
+2018-12-18 16:43:36	ub3g33k	There already is one, if I recall.  However, those records are stubbed out to afraid's NS servers, so I can't do anything with them.  amcclure manages them
+2018-12-18 16:44:26	ub3g33k	looks like it's currently pointed to 81.9.154.185
+2018-12-18 16:45:09	ub3g33k	rather pointed at 185.154.9.81 (I was reading a reverse record, at first)
+2018-12-18 16:46:27	Naglfar	we must replace afraid's NS server
+2018-12-18 16:47:02	Naglfar	on that case we should try to set up a .tilde DNS server on thunix
+2018-12-18 16:47:33	Naglfar	then replace it and if possible set the reverse record
+2018-12-18 16:51:20	ub3g33k	well, nothing wrong with using afraid name servers, imo.  They seem competent enough
+2018-12-18 16:51:53	ub3g33k	but that's not my call.  I only did the stub zone per amcclure's request, and I don't want to mix roles around, if I can help it :)
+2018-12-18 16:52:27	ub3g33k	We *can* however prop up name servers ran by thunix.  not entirely off the wall, but I want to wait for some arch decisions
+2018-12-18 16:53:57	Naglfar	there's something wrong using afraid name servers for .tilde domain
+2018-12-18 16:54:01	Naglfar	Found domain delegation errors
+2018-12-18 16:54:24	Naglfar	Status : Broken
+2018-12-18 16:54:30	ub3g33k	Huh?
+2018-12-18 16:54:31	Naglfar	Tracing to thunix.tilde[a] via A.ROOT-SERVERS.NET, maximum of 3 retries A.ROOT-SERVERS.NET [.] (198.41.0.4)
+2018-12-18 16:54:35	ub3g33k	Well yes
+2018-12-18 16:54:38	ub3g33k	THat is broken.
+2018-12-18 16:54:45	ub3g33k	.tilde isn't an ICANN recognized TLD
+2018-12-18 16:54:45	Naglfar	Checked @ 2018-12-18 08:52:33 in 0.12 seconds
+2018-12-18 16:55:33	ub3g33k	And likely never will be, because I don't have $200K on hand, and don't have a cool $10 mil USD/yr annual revenues :)
+2018-12-18 16:56:40	Naglfar	that's the reason to replace afraid's NS server
+2018-12-18 16:58:07	ub3g33k	Well, I assume thunix will eventually get an ICANN-recognized domain name as well?
+2018-12-18 16:59:13	Naglfar	if thunix.tilde will eventually get an ICANN-recognized then no need to replace afraid's NS servers
+2018-12-18 18:05:01	-->	bizarro_1 (~bizarro_1@146.red-79-154-76.dynamicip.rima-tde.net) has joined #thunix-admin
+2018-12-19 00:46:15	amcclure	or
+2018-12-19 00:46:33	amcclure	maybe we could use this server for thunix
+2018-12-19 00:46:55	amcclure	I kind of want to make it a part of tildeverse again
+2018-12-19 00:47:24	amcclure	we just need to set up user quotas
+2018-12-19 00:50:25	<--	bizarro_1 (~bizarro_1@146.red-79-154-76.dynamicip.rima-tde.net) has quit (Quit: bizarro_1)
+2018-12-19 00:51:00	Naglfar	how much storage mb quota could be used ?
+2018-12-19 00:51:59	amcclure	blinkenshell gives 100mb for free accounts
+2018-12-19 00:52:09	amcclure	somewhere between 100mb and 1gb maybe?
+2018-12-19 00:59:29	Naglfar	it depend on how much available storage and users are
+2018-12-19 01:00:15	Naglfar	amcclure, about cert, have you requested cert for both: thunix.cf and www.thunix.cf ?
+2018-12-19 01:00:30	Naglfar	maybe also mail.thunix.cf
+2018-12-19 01:00:45	amcclure	ok
+2018-12-19 01:06:44	ub3g33k	right now we're using 12 of 25GB
+2018-12-19 01:07:23	ub3g33k	I can add more block storage, if needed, or we can do 100MB quotas.  Even 200MB might be doable.  I think I don't use more than 50MB anywhere except my "home" tilde on yourtilde
+2018-12-19 01:07:45	ub3g33k	and I use ~110 there due to a python env
+2018-12-19 01:08:33	ub3g33k	Or, no quotas, and when disk gets low, send out "Clean up your home dirs, ya filthy animals" email :P
+2018-12-19 01:09:16	Naglfar	:)
+2018-12-19 01:09:35	Naglfar	somewhere between 100mb and 200mb could be enough for webhosting
+2018-12-19 01:10:49	amcclure	ub3g33k: do you run yourtilde?
+2018-12-19 01:11:20	Naglfar	maybe expandable a bit more on custom request
+2018-12-19 01:11:24	ub3g33k	I jr. admin it.  Basically, fill in for critical issues when deepend isn't around
+2018-12-19 01:11:40	amcclure	o couldn't remember who runs it lol
+2018-12-19 01:13:59	ub3g33k	Yeah, deepend does.
+2018-12-19 01:14:35	amcclure	isn't yourtilde centos?
+2018-12-19 01:17:53	ub3g33k	Yes
+2018-12-19 01:17:56	ub3g33k	Cent7
+2018-12-19 01:18:10	ub3g33k	So, how are going to structure this thing?
+2018-12-19 01:18:44	ub3g33k	Two machines with split roles?  One single machine?  A machine of containers?  A k8s cluster? (Last one was a joke, and serious overkill lol)
+2018-12-19 01:20:54	amcclure	maybe just a single machine for now
+2018-12-19 01:21:02	ub3g33k	got it.
+2018-12-19 01:22:23	ub3g33k	did you see my ask about the code in /var/www?
+2018-12-19 01:23:17	amcclure	Naglfar: do you know how I can contact hexhaxtron?
+2018-12-19 01:24:48	amcclure	for transferring registrations for #thunix* channels to me
+2018-12-19 01:26:05	amcclure	ub3g33k: I didn't see it
+2018-12-19 01:28:30	Naglfar	amcclure, try hexhaxtron@gmail.com
+2018-12-19 01:31:13	amcclure	ok
+2018-12-19 01:33:22	Naglfar	could be good to if he transfer it
+2018-12-19 01:34:18	Naglfar	that allow us to use vhosts and add op mode to users
+2018-12-19 01:35:43	ub3g33k	is the code in /var/www in some sort of source control?
+2018-12-19 01:35:50	ub3g33k	If not, should it be?
+2018-12-19 01:37:07	amcclure	idk
+2018-12-19 01:38:07	amcclure	Naglfar: would he respond if I use that email address
+2018-12-19 01:40:03	Naglfar	I hope so, that's what I have used to contact him, asking about to continue thunix and domain name
+2018-12-19 01:55:10	amcclure	we might be able to just use the #thunix channel on tilde.chat
+2018-12-19 01:55:35	ub3g33k	whatevers clever.  I'm in both
+2018-12-19 01:58:51	amcclure	I'm planning on making thunix a part of tildeverse again so I think that'll work better then
+2018-12-19 02:00:55	amcclure	Bercik, fosslinux, Naglfar: should we start using the tildeverse channel?
+2018-12-19 03:49:42	amcclure	thunix.cf or thunix.ttm.sh?
+2018-12-19 06:38:01	fosslinux	thunix.cf for sure
+2018-12-19 06:38:06	fosslinux	both
+2018-12-19 06:38:14	fosslinux	but the main one thunix.ttm.sh
+2018-12-19 06:38:27	fosslinux	amcclure: it would be very good to move to the tildeverse channel
+2018-12-19 13:25:25	amcclure	fosslinux: so .cf or .ttm.sh
+2018-12-19 13:25:56	amcclure	there's some stuff that would require a specific domain name
+2018-12-19 13:28:25	amcclure	probably .cf
+2018-12-19 14:32:21	amcclure	anyone mind if I use this channel to test an attempt at bringing back thunix[bot]
+2018-12-19 14:33:09	-->	thunix[bot] (~amcclure@104.248.2.237) has joined #thunix-admin
+2018-12-19 14:33:09	thunix[bot]	Hello World! ircBot version 0.04 reporting for duty. Use .h to get field manual.
+2018-12-19 14:33:09	thunix[bot]	Timed message turned on.
+2018-12-19 14:33:20	amcclure	.h
+2018-12-19 14:33:20	thunix[bot]	Core: help code | Utility: base64 df(freeHDD) fr(freeRam) fp(freePort) sensor uptime users request sendmail | Entertainment: pull roll motivate | Admin: kick timed-message
+2018-12-19 14:33:32	amcclure	.df
+2018-12-19 14:33:35	amcclure	.fr
+2018-12-19 14:33:35	thunix[bot]	257M out of 996M used, approx. 544M available.
+2018-12-19 14:33:38	amcclure	.fp
+2018-12-19 14:33:39	thunix[bot]	Calm down.
+2018-12-19 14:33:39	thunix[bot]	Port 41071 is available to use.
+2018-12-19 14:33:44	amcclure	.sensor
+2018-12-19 14:33:49	amcclure	.uptime
+2018-12-19 14:33:49	thunix[bot]	 14:33:49 up 5 days, 12:56,  3 users,  load average: 0.00, 0.04, 0.01
+2018-12-19 14:33:59	amcclure	.users
+2018-12-19 14:33:59	thunix[bot]	Online User 2/7
+2018-12-19 14:34:15	amcclure	who else is online
+2018-12-19 14:34:31	amcclure	.request
+2018-12-19 14:34:31	thunix[bot]	Provide proper username and email! - /msg thunix[bot] .request <username> <email>
+2018-12-19 14:35:11	amcclure	.sendmail
+2018-12-19 14:35:11	thunix[bot]	Use .sendmail <from> <to> <count-of-subject-words> <subject> <message>. Use \r\n to make new lines.
+2018-12-19 14:36:25	amcclure	.sendmail root@localhost amcclure@ttm.sh 1 subject message
+2018-12-19 14:36:25	thunix[bot]	Use .sendmail <from> <to> <count-of-subject-words> <subject> <message>. Use \r\n to make new lines.
+2018-12-19 14:36:36	amcclure	hmm
+2018-12-19 14:37:14	amcclure	.allusers
+2018-12-19 14:37:40	amcclure	.motivate
+2018-12-19 14:38:09	<--	thunix[bot] (~amcclure@104.248.2.237) has quit (Remote host closed the connection)
+2018-12-19 14:41:01	Naglfar	amcclure, we should do some like admins confirmation for account requests
+2018-12-19 14:41:43	amcclure	we should
+2018-12-19 14:42:30	Naglfar	about .sendmail it should be internal use only, to avoid spam
+2018-12-19 14:42:53	Naglfar	it only should allow send mail between thunix users
+2018-12-19 14:55:03	amcclure	might be best to remove .sendmail
+2018-12-19 15:47:09	Naglfar	to remove is the best by now, we can add it again later if modified properly
+2018-12-19 17:10:26	ub3g33k	Where is the bot running from?
+2018-12-19 17:11:27	ub3g33k	And before we go too far:  Are we not going to manage the server configs using a config repo?  If so, I'll stop doing things in Ansible, although, I would highly reccomend that we do.
+2018-12-19 17:16:16	Naglfar	ub3g33k, we can manage the server configs that doesn't contains passwords or private info in Ansible repo
+2018-12-19 17:16:32	ub3g33k	Well, of course.
+2018-12-19 17:16:41	ub3g33k	I don't feel like setting up a private password vault
+2018-12-19 17:17:48	Naglfar	we can manage in Ansible repo all other server configs
+2018-12-19 17:20:11	ub3g33k	So...  Asking, because sendmail is a pain in the arse to set up right, once.  Might as well get the configs for it into the repo then
+2018-12-19 17:21:21	Naglfar	I don't know if we have sendmail or dovecot available to use yet
+2018-12-19 18:19:13	amcclure	I think dovecot is
+2018-12-19 18:35:16	-->	bizarro_1 (~bizarro_1@146.red-79-154-76.dynamicip.rima-tde.net) has joined #thunix-admin
+2018-12-19 18:41:54	Naglfar	so we can get dovecot configs on Ansible repo (careful, don't make public the passwords)
+2018-12-19 18:52:35	ub3g33k	what steps were taken to install dovecot?
+2018-12-19 18:56:47	amcclure	do we need to use ansible
+2018-12-19 19:00:35	ub3g33k	we don't need to
+2018-12-19 19:04:02	ub3g33k	However, it does make the configuration of the machine replicable.
+2018-12-19 19:57:43	<--	Ub3g33k_ (~lounge-us@tilde.team) has quit (Quit: tilde lounge - https://irc.tilde.team)

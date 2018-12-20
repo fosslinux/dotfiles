@@ -1,0 +1,1211 @@
+2018-11-13 07:03:50	-->	fosslinux1 (fosslinux@tilde-fhah4o.tilde.team) has joined #tildelinux
+2018-11-13 07:03:50	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-11-13 07:03:50	--	Topic set by ben on Sun, 11 Nov 2018 03:03:14
+2018-11-13 07:03:50	--	Channel #tildelinux: 15 nicks (3 ops, 0 halfops, 0 voices, 12 normals)
+2018-11-13 07:03:52	--	Channel created on Sat, 10 Nov 2018 19:49:41
+2018-11-13 07:06:34	<--	fosslinux (pi@tilde-7hvk8p.exetel.com.au) has quit (quit: changing host)
+2018-11-13 07:06:46	--	You are now known as fosslinux
+2018-11-13 12:41:19	@khuxkm|lounge	sose: again, ttm.sh is available with the same facilities 0x0.st
+2018-11-13 12:41:43	@khuxkm|lounge	s/facilities/facilities\ as/
+2018-11-13 12:41:43	sedbot	<khuxkm|lounge> sose: again, ttm.sh is available with the same facilities as 0x0.st
+2018-11-13 12:52:38	--	irc: disconnected from server
+2018-11-13 23:02:20	-->	fosslinux (fosslinux@tilde-fhah4o.tilde.team) has joined #tildelinux
+2018-11-13 23:02:20	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-11-13 23:02:20	--	Topic set by ben on Sun, 11 Nov 2018 03:03:14
+2018-11-13 23:02:20	--	Channel #tildelinux: 8 nicks (2 ops, 0 halfops, 0 voices, 6 normals)
+2018-11-13 23:02:46	--	Channel created on Sat, 10 Nov 2018 19:49:41
+2018-11-13 23:03:03	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-11-13 23:03:03	--	Mode #tildelinux [+qo ben ben] by ChanServ
+2018-11-13 23:03:12	--	You are now known as 674AAA06V
+2018-11-13 23:03:12	-->	deepend (deepend@yourtilde.com) has joined #tildelinux
+2018-11-13 23:05:06	-->	amcclure[town] (amcclure@tilde.town) has joined #tildelinux
+2018-11-13 23:05:10	-->	amcclure[thunix] (amcclure@tilde-0gnh0q.org) has joined #tildelinux
+2018-11-13 23:27:42	<--	amcclure1 (amcclure@tilde-fhah4o.tilde.team) has quit (Connection closed)
+2018-11-14 00:17:38	<--	deepend (deepend@yourtilde.com) has quit (Changing host)
+2018-11-14 00:17:38	-->	deepend (deepend@oper.tilde.chat) has joined #tildelinux
+2018-11-14 02:15:18	-->	sose (sose@tilde.team) has joined #tildelinux
+2018-11-14 02:15:50	sose	hello everyone
+2018-11-14 02:16:09	sose	so it looks like everythings moved to tilde.team?
+2018-11-14 02:16:15	~ben	hm?
+2018-11-14 02:16:57	sose	I didn't realize that everything was on here, not tilde.chat
+2018-11-14 02:17:11	~ben	same machine :x
+2018-11-14 02:17:26	~ben	a lot of tildeverse services run on there as well
+2018-11-14 02:17:28	~ben	SPOF
+2018-11-14 02:17:49	sose	Connecting to tilde.chat from town gives me a different server I mean
+2018-11-14 02:20:11	~ben	shouldn't
+2018-11-14 02:20:19	~ben	same network
+2018-11-14 02:20:31	~ben	if you connect from town it should be localhost port 7766
+2018-11-14 02:20:41	~ben	otherwise tilde.chat port 6697
+2018-11-14 02:24:27	sose	yeah I tried localhost 7766
+2018-11-14 02:24:38	sose	puts me on a different server
+2018-11-14 02:24:46	sose	maybe something on vil's end?
+2018-11-14 02:25:39	sose	aliassless, login, troido and nilaky are all on there I think
+2018-11-14 02:26:08	sose	also why we thought the bot wasn't working 
+2018-11-14 02:26:55	~ben	oh
+2018-11-14 02:27:05	~ben	vil needs to add some modules 
+2018-11-14 02:27:21	sose	hmm
+2018-11-14 02:27:25	~ben	i sent an update in the oper channel without realizing he wasn't in there
+2018-11-14 02:27:46	sose	Yeah I gues you have to use town irc
+2018-11-14 02:28:07	sose	I can't stay here very long, team is insanely laggy for me for some reason
+2018-11-14 02:28:11	~ben	i /queryied vil 
+2018-11-14 02:28:18	~ben	hmm
+2018-11-14 02:28:32	~ben	interesting
+2018-11-14 02:29:16	sose	have we made any progress on tildelinux btw?
+2018-11-14 02:29:29	sose	sorry for hijacking the chat, lol
+2018-11-14 02:31:26	~ben	no worries my dude
+2018-11-14 02:34:29	<--	sose (sose@tilde.team) has quit (quit: WeeChat 2.3)
+2018-11-14 02:54:17	-->	sose (sose@tilde.team) has joined #tildelinux
+2018-11-14 03:55:43	--	deepend is now known as deepend_wc
+2018-11-14 04:02:55	<--	deepend_wc (deepend@oper.tilde.chat) has quit (team.tilde.chat your.tilde.chat)
+2018-11-14 04:28:08	--	You are now known as fosslinux
+2018-11-14 04:30:06	fosslinux	sose: i pretty much have figured out how to do a debian package
+2018-11-14 04:31:03	fosslinux	what should I do next?
+2018-11-14 14:40:59	sose	Lol its your distro foss
+2018-11-14 14:41:45	sose	it would be could if you could package up some stuff into a tilde-desktop package though
+2018-11-14 14:42:34	sose	openbox, xfce4-panel, obconf, arandr, terminator, firefox, thunar so far
+2018-11-14 14:43:17	sose	plus the openbox mods and themes here: https://gitlab.com/oneseveneight/tildelinux
+2018-11-14 14:43:59	sose	but not the themes yet since i'm switching to a numix base
+2018-11-14 15:13:26	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-14 15:15:04	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-11-14 15:15:04	--	Mode #tildelinux [+qo ben ben] by ChanServ
+2018-11-14 15:30:00	--	You are now known as 674AAA06V
+2018-11-14 15:30:01	-->	deepend_wc (deepend@yourtilde.com) has joined #tildelinux
+2018-11-14 17:59:54	-->	sose_again (sose@tilde.town) has joined #tildelinux
+2018-11-14 18:00:07	sose_again	Finally
+2018-11-14 18:03:28	<--	sose (sose@tilde.team) has quit (quit: WeeChat 2.3)
+2018-11-14 18:03:43	--	sose_again is now known as sose
+2018-11-14 19:10:59	-->	aliasless (aliasless@127.0.0.1) has joined #tildelinux
+2018-11-14 19:10:59	-->	login (login@127.0.0.1) has joined #tildelinux
+2018-11-14 19:45:38	--	You are now known as fosslinux_
+2018-11-14 19:47:54	fosslinux_	lol sose
+2018-11-14 19:47:56	fosslinux_	ok
+2018-11-14 19:48:47	--	amcclure[town] is now known as gowinnt
+2018-11-14 19:48:57	--	gowinnt is now known as amcclure[town]
+2018-11-14 19:56:04	--	You are now known as fosslinux
+2018-11-14 21:10:42	sose	any updates?
+2018-11-14 21:10:54	sose	i'm working on a gui for the ssh stuff
+2018-11-14 21:11:21	sose	and openbox integration
+2018-11-14 21:55:59	amcclure	how's the distro coming along
+2018-11-14 21:58:59	amcclure	also, is there anything I could do for TildeLinux?
+2018-11-14 22:06:40	sose	fosslinux has got packaging down, and ive got a de and some scripts set up
+2018-11-14 22:07:39	sose	If you have any ideas for stuff we should add that would be great!
+2018-11-14 22:12:16	amcclure	since I haven't seen any of the source I wouldn't know, but
+2018-11-14 22:12:52	amcclure	how close are we to a test build of the distro
+2018-11-14 22:32:16	sose	Not very lol
+2018-11-14 22:33:01	amcclure	rip
+2018-11-14 22:40:39	amcclure	sose: what all would need done? I could probably do some of the stuff
+2018-11-14 23:02:38	<--	amcclure[thunix] (amcclure@tilde-0gnh0q.org) has quit (quit: WeeChat 1.6)
+2018-11-14 23:04:31	--	amcclure is now known as amcclure[team]
+2018-11-14 23:04:46	<--	amcclure[team] (amcclure@tilde.team) has quit (quit: WeeChat 2.3)
+2018-11-14 23:06:53	-->	amcclure (amcclure@tilde-0gnh0q.org) has joined #tildelinux
+2018-11-14 23:07:01	amcclure	hello again
+2018-11-14 23:12:35	<--	amcclure (amcclure@tilde-0gnh0q.org) has quit (Changing host)
+2018-11-14 23:12:35	-->	amcclure (amcclure@thunix.org) has joined #tildelinux
+2018-11-14 23:17:30	~ben	lol why are you quitting and joining so much
+2018-11-14 23:18:38	amcclure	got weechat updated
+2018-11-14 23:38:07	~ben	woot
+2018-11-15 00:31:08	--	deepend_wc is now known as deepend
+2018-11-15 00:31:15	<--	deepend (deepend@yourtilde.com) has quit (Changing host)
+2018-11-15 00:31:15	-->	deepend (deepend@oper.tilde.chat) has joined #tildelinux
+2018-11-15 01:06:18	<--	deepend (deepend@oper.tilde.chat) has quit (Quit: WeeChat 2.3)
+2018-11-15 01:52:35	--	brendantcc_lounge is now known as bredtcc
+2018-11-15 01:52:56	--	bredtcc is now known as bredtcc_lounge
+2018-11-15 02:15:06	--	bredtcc_lounge is now known as brendantcc_lounge
+2018-11-15 05:24:33	fosslinux	hey
+2018-11-15 05:24:38	fosslinux	so what do we still have to do?
+2018-11-15 05:24:54	fosslinux	1. install some default packages
+2018-11-15 05:25:03	fosslinux	2. review stuff
+2018-11-15 05:25:08	fosslinux	3. packaging (me)
+2018-11-15 05:48:09	sose	Yeah
+2018-11-15 05:48:29	sose	The ssh script has a gui now btw
+2018-11-15 05:49:39	sose	We neet to at least package the theme, openbox, and xfce4-panel with modifications
+2018-11-15 07:38:13	login	How does dns round-robin work now?
+2018-11-15 07:38:18	login	oh wait, wrong channel
+2018-11-15 08:18:48	fosslinux	nice sose
+2018-11-15 14:25:26	sose	s/neet/need
+2018-11-15 14:25:26	sedbot	<sose> We need to at least package the theme, openbox, and xfce4-panel with modifications
+2018-11-15 23:42:09	-->	deepend (deepend@yourtilde.com) has joined #tildelinux
+2018-11-16 00:09:58	<--	amcclure (amcclure@thunix.org) has quit (quit: WeeChat 2.3)
+2018-11-16 03:53:38	<--	deepend (deepend@yourtilde.com) has quit (Changing host)
+2018-11-16 03:53:38	-->	deepend (deepend@oper.tilde.chat) has joined #tildelinux
+2018-11-16 03:53:55	<--	deepend (deepend@oper.tilde.chat) has quit (team.tilde.chat your.tilde.chat)
+2018-11-16 03:54:02	-->	deepend (deepend@oper.tilde.chat) has joined #tildelinux
+2018-11-16 05:41:13	fosslinux	ill get moving on the packaging in ~an hour
+2018-11-16 05:41:21	sose	Added some modifications to the theme and script, tomorrow or so I should be able to add the big stuff and then maybe we can start thinking about packaging stuff up for our first release
+2018-11-16 05:41:52	fosslinux	oh just realised
+2018-11-16 05:41:56	fosslinux	your not in the gitea org
+2018-11-16 05:41:59	fosslinux	adding you now
+2018-11-16 05:42:16	sose	Can I transfer repos to the org?
+2018-11-16 05:42:26	fosslinux	yes please
+2018-11-16 05:42:26	~ben	i thought i added sose to the org
+2018-11-16 05:42:43	sose	Maybe you did, hold on
+2018-11-16 05:42:51	fosslinux	oh yeah you did ben
+2018-11-16 05:43:07	fosslinux	can you move your repositories over please sose?
+2018-11-16 05:44:21	~ben	owo
+2018-11-16 05:44:53	fosslinux	owo?
+2018-11-16 05:47:18	sose	What should I call the repo with the themes and stuff?
+2018-11-16 05:47:37	sose	Right now its just 'tildelinux'
+2018-11-16 05:47:58	~ben	tildelinux is fine i think
+2018-11-16 05:48:29	fosslinux	or art maybe?
+2018-11-16 05:50:03	sose	K, done
+2018-11-16 05:50:12	fosslinux	cool
+2018-11-16 05:50:14	fosslinux	thanks
+2018-11-16 06:28:21	sose	Oh, also obamenu needs to be packaged for the distro
+2018-11-16 06:29:05	fosslinux	oh ok
+2018-11-16 06:29:15	fosslinux	everyone, i've decided not to package stuff quite yet
+2018-11-16 06:29:24	sose	Alright
+2018-11-16 06:29:27	fosslinux	i think it would be better to make sure everything works properly
+2018-11-16 06:29:31	fosslinux	and then package it
+2018-11-16 06:29:42	sose	True
+2018-11-16 06:29:50	fosslinux	sose, what packages are we modifying? do you have a full list?
+2018-11-16 06:29:55	fosslinux	(that you have for the gui)
+2018-11-16 06:31:23	sose	openbox, xfce4-panel, whiskermenu,  terminator (unless you want to use a different terminal) and lightdm-gtk-greeter
+2018-11-16 06:31:43	fosslinux	terminator is fine with me
+2018-11-16 06:31:55	fosslinux	info_pid=$(( $! + 2 ))
+2018-11-16 06:32:01	fosslinux	this line should be safe
+2018-11-16 06:32:12	fosslinux	oh
+2018-11-16 06:32:13	fosslinux	no
+2018-11-16 06:32:17	fosslinux	it IS NOT sage
+2018-11-16 06:32:30	fosslinux	you might kill another running process
+2018-11-16 06:33:32	sose	Does $! only apply to processes in the current shell?
+2018-11-16 06:34:08	sose	If so, it might be safe-ish, but should still be replaced
+2018-11-16 06:34:19	fosslinux	$! contains the process ID of the most recently executed background pipeline
+2018-11-16 06:34:29	sose	Right
+2018-11-16 06:34:31	fosslinux	from stackoverflow
+2018-11-16 06:34:50	sose	The function starts two processes, and I want to kill the last one
+2018-11-16 06:34:52	fosslinux	so no, not nessecarily safe
+2018-11-16 06:34:55	fosslinux	oh
+2018-11-16 06:34:56	fosslinux	i see
+2018-11-16 06:35:28	sose	I could return the pid, but that's s bit weird
+2018-11-16 06:35:40	fosslinux	hmm
+2018-11-16 06:36:20	fosslinux	idk
+2018-11-16 06:36:25	fosslinux	let's just leave it for now
+2018-11-16 06:36:32	fosslinux	it's not too much of an issue
+2018-11-16 06:36:39	sose	Ok
+2018-11-16 06:36:59	fosslinux	it looks pretty good
+2018-11-16 06:37:06	fosslinux	the script in general
+2018-11-16 06:37:12	fosslinux	i made three commits
+2018-11-16 06:37:19	fosslinux	1. change tabs to spaces (nitpick)
+2018-11-16 06:37:32	fosslinux	2. spelling and puncuation in messages
+2018-11-16 06:38:05	sose	Oh lol I always screw up spelling
+2018-11-16 06:38:10	fosslinux	np
+2018-11-16 06:38:15	fosslinux	dont worry about it :P
+2018-11-16 06:38:40	fosslinux	just wondering, is there a reason i shouldn't use this with pre-existing ssh confi
+2018-11-16 06:38:44	fosslinux	s/$/g
+2018-11-16 06:38:45	sedbot	<fosslinux> just wondering, is there a reason i shouldn't use this with pre-existing ssh config
+2018-11-16 06:39:42	sose	Its fine now, I tested it
+2018-11-16 06:39:45	fosslinux	ok
+2018-11-16 06:40:01	sose	As long as your config isnt *super* weird
+2018-11-16 06:40:10	sose	Like a host named Host or something
+2018-11-16 06:40:34	fosslinux	lol
+2018-11-16 06:40:39	fosslinux	why would you do that
+2018-11-16 06:41:23	sose	"Research" lol
+2018-11-16 06:41:47	sose	Also you don't like sose and want to break his scripts
+2018-11-16 06:42:10	sose	btw, im not by a pc, could you delete yad.sh from the repo for me? 
+2018-11-16 06:42:26	fosslinux	lol
+2018-11-16 06:42:28	fosslinux	sure
+2018-11-16 06:42:32	fosslinux	i was wondering what that was
+2018-11-16 06:42:38	sose	Its an old leftover from testing that I accidentally pushed
+2018-11-16 06:43:36	fosslinux	done
+2018-11-16 06:44:03	sose	Cool, thanks
+2018-11-16 06:44:27	fosslinux	np
+2018-11-16 06:57:56	fosslinux	sose: i'm going to add your~ and thunix to the script
+2018-11-16 06:59:45	sose	kk
+2018-11-16 12:36:14	<--	khuxkm|lounge (khuxkm@sudoers.tilde.team) has quit (Changing host)
+2018-11-16 12:36:14	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #tildelinux
+2018-11-16 12:36:14	--	Mode #tildelinux [+o khuxkm|lounge] by team.tilde.chat
+2018-11-16 15:39:45	-->	aewens (aewens@king.of.chaos) has joined #tildelinux
+2018-11-16 15:39:59	-->	BabiliBot (BabiliBot@tilde.team) has joined #tildelinux
+2018-11-16 19:02:39	-->	jan6 (jan6@is.quite.awesome) has joined #tildelinux
+2018-11-16 19:59:12	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-16 20:00:20	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-11-16 20:00:20	--	Mode #tildelinux [+qo ben ben] by ChanServ
+2018-11-17 17:49:33	sose	I saw the commit, does anyone here have a yourtilde account?
+2018-11-17 17:52:57	deepend	me.. but I run it so that makes sense :D 
+2018-11-17 17:57:13	sose	Do you mind testing out the changes we just pushed to the repo? 
+2018-11-17 17:57:16	sose	https://tildegit.org/tildelinux/tildemerge
+2018-11-17 17:59:31	deepend	i can 
+2018-11-17 18:04:00	deepend	does that script accept private key that requires a passcode.. or do I need to make a private key without passcode
+2018-11-17 18:07:58	sose	You would need a private key without a passcode
+2018-11-17 18:08:19	sose	I'll put that on the todo list though
+2018-11-17 18:08:26	deepend	ok.. in future if I were to use the script I prefer to password my private keys
+2018-11-17 18:11:40	deepend	wonder why tilde.town always ends up in my firewalls block list.. wonder who keeps trying to login and fails.. 
+2018-11-17 18:34:24	deepend	Login successful! Writing ssh config...
+2018-11-17 18:34:26	deepend	Would you like to configure sshfs for this server? (y/n)
+2018-11-17 18:34:28	deepend	y
+2018-11-17 18:34:30	deepend	What would you like to call the local directory? (~/Remote/...)?
+2018-11-17 18:34:32	deepend	Created directory /home/deepend/Remote/.
+2018-11-17 18:34:34	deepend	What directory on "team" would you like to link it to? (absolute path)
+2018-11-17 18:34:36	deepend	/home/deepend/
+2018-11-17 18:34:38	deepend	Linking directory /home/deepend/Remote/ to /home/deepend/ on "team".
+2018-11-17 18:34:40	deepend	read: Connection reset by peer
+2018-11-17 18:34:42	deepend	am I doing anything wrong? :D
+2018-11-17 18:43:13	deepend	sose: ^   ben: ^
+2018-11-17 20:11:53	fosslinux	um depend
+2018-11-17 20:11:59	fosslinux	deepend
+2018-11-17 20:12:02	fosslinux	ill have a look
+2018-11-17 20:12:12	fosslinux	it did work for me...
+2018-11-17 20:12:51	deepend	not sure what the deal is.. I'll take a look at my logs if there are anything for sshfs
+2018-11-17 20:13:03	fosslinux	oh
+2018-11-17 20:13:04	fosslinux	damn
+2018-11-17 20:13:10	fosslinux	on this machine i can't test rn
+2018-11-17 20:13:36	fosslinux	deepend can i dm a key to you and then can you add it to my account so i can test?
+2018-11-17 20:13:48	deepend	yep
+2018-11-17 20:13:55	fosslinux	thanks
+2018-11-17 20:13:55	deepend	or email it
+2018-11-17 20:14:07	fosslinux	check dm
+2018-11-17 20:26:22	fosslinux	deepend: i can't reporduce that error
+2018-11-17 20:26:56	fosslinux	it might be your internet connection?
+2018-11-17 20:27:09	fosslinux	are you behind a proxy or firewall
+2018-11-17 20:27:33	fosslinux	can you try running `sshfs deepend@yourtilde.com ~/Remote/yourtilde`?
+2018-11-17 20:28:12	deepend	i am trying to connect from yourtilde to tilde.team using that script
+2018-11-17 20:28:21	deepend	its not from my local machine
+2018-11-17 20:28:30	deepend	does sshfs use a different port? 
+2018-11-17 20:28:31	fosslinux	oh
+2018-11-17 20:28:40	fosslinux	not afaik
+2018-11-17 20:28:58	fosslinux	let me try from ~team
+2018-11-17 20:29:01	deepend	as long as it is using port 22 it should function.. but dont know 
+2018-11-17 20:29:26	deepend	unless it connects via 22 and then switches to a secondary range of ports...
+2018-11-17 20:34:52	deepend	well not firewall related.. turned off firewall on yourtilde for a sec to test
+2018-11-17 20:35:29	fosslinux	i just tried both yourtilde -> team and team -> yourtilde
+2018-11-17 20:35:31	fosslinux	both worked
+2018-11-17 20:35:45	deepend	the sshfs ?
+2018-11-17 20:36:28	fosslinux	yep
+2018-11-17 20:36:44	fosslinux	can you try again? it might be something weird with your config or just a one time error
+2018-11-17 20:36:47	deepend	hmm.. not sure why its not working for me.. ssh in general works fine...
+2018-11-17 20:37:05	deepend	i've tried like 20 times lol
+2018-11-17 20:37:18	fosslinux	lol
+2018-11-17 20:37:19	fosslinux	um
+2018-11-17 20:37:24	fosslinux	does sshfs by itself work?
+2018-11-17 20:38:17	deepend	never used sshfs personally.. installed it just for this script to function :D 
+2018-11-17 20:38:43	fosslinux	just run sshfs deepend@yourtilde.com ~/Remote/yourtilde
+2018-11-17 20:39:31	deepend	says missing host
+2018-11-17 20:40:50	deepend	read: Connection reset by peer    <-- 
+2018-11-17 20:41:03	deepend	sshfs deepend@tilde.team:/home/deepend ~/Remote/team    is what i ended up trying
+2018-11-17 20:42:41	fosslinux	hmmmmmmm
+2018-11-17 20:42:49	fosslinux	idk let me have a look a bit later
+2018-11-17 20:42:52	fosslinux	ive gtg for now
+2018-11-17 20:43:22	deepend	k
+2018-11-17 20:43:26	deepend	thanks for trying :) 
+2018-11-17 21:28:36	sose	deepend can you ssh in normally? 
+2018-11-17 21:28:41	sose	Without sshfs
+2018-11-17 21:29:11	sose	And can you show what it puts in /var/log/auth.log
+2018-11-17 21:29:22	sose	When you try to sshfs
+2018-11-17 21:35:37	deepend	ssh in to tilde.team no problem.  
+2018-11-17 21:36:50	deepend	haven't found any logs that show anything to do with sshfs 
+2018-11-17 21:37:18	deepend	maybe ben could look at his logs and see if it shows anythign when I try to connect with sshfs? 
+2018-11-17 21:38:16	~ben	try now i'm watching auth.log
+2018-11-17 21:58:35	deepend	oh sorry..walked away for a moment ben 
+2018-11-17 21:59:20	deepend	tried
+2018-11-17 21:59:44	~ben	Nov 17 16:59:16 tilde sshd[28155]: Connection closed by authenticating user deepend 142.44.251.173 port 55802 [preauth]
+2018-11-17 22:00:05	fosslinux	hmm
+2018-11-17 22:00:08	deepend	there we go.. what port range does that sshfs use.. 
+2018-11-17 22:00:11	fosslinux	so it's not an issue w/ the script
+2018-11-17 22:00:32	deepend	nm.. i remembered I did test without firewall enabled as well
+2018-11-17 22:00:45	sose	sshfs should use 22?
+2018-11-17 22:01:53	login	i wonder how sshfs would work without just scping all the files
+2018-11-17 22:02:08	login	and then scping back after each edit...
+2018-11-17 22:02:35	sose	so just monitor the directory and scp the files when they're changed?
+2018-11-17 22:03:00	fosslinux	no sose
+2018-11-17 22:03:03	jan6	sshfs is literally files over ssh
+2018-11-17 22:03:14	fosslinux	i think sshfs uses fuse
+2018-11-17 22:03:24	deepend	fosslinux: it does use fuse
+2018-11-17 22:03:27	jan6	^
+2018-11-17 22:03:56	sose	I know that, I was just wondering what login was proposing
+2018-11-17 22:04:42	login	how does fuse work?
+2018-11-17 22:04:54	fosslinux	he/she wants to know how sshfs works sose
+2018-11-17 22:05:06	sose	https://en.wikipedia.org/wiki/Filesystem_in_Userspace
+2018-11-17 22:05:06	jan6	basically he was thinking it did "monitor all files (kinda tail -f style), and scp on changes", I think
+2018-11-17 22:05:16	sose	ahh no
+2018-11-17 22:05:22	sose	it does some kernel level suff
+2018-11-17 22:05:27	jan6	magic
+2018-11-17 22:05:43	jan6	just magic
+2018-11-17 22:07:36	sose	^^^
+2018-11-17 22:08:48	jan6	basically kernel and driver stuff == magic, usually, here be unicorn-dragons
+2018-11-17 22:08:53	fosslinux	yes
+2018-11-17 22:09:01	fosslinux	at some point i want to read this
+2018-11-17 22:09:35	jan6	https://www.deviantart.com/mnedel/art/Dragon-and-Unicorn-262011653
+2018-11-17 22:09:46	fosslinux	let me just find the book
+2018-11-17 22:10:06	fosslinux	something about everything a sysadmin needs to know
+2018-11-17 22:10:44	fosslinux	the book is caleld
+2018-11-17 22:10:59	fosslinux	"How Linux Works - What Every Superuser Should Know"
+2018-11-17 22:11:04	fosslinux	by Brian Ward
+2018-11-17 22:11:17	fosslinux	it talks about how kernels work and the linux kernelin particular
+2018-11-17 22:11:59	jan6	not every superuser should know the kernel workings
+2018-11-17 22:12:11	fosslinux	ik
+2018-11-17 22:12:27	jan6	but I guess if I find a free copy I could skim it, maybe ever read properly
+2018-11-17 22:14:54	login	If it would help me claim that i can do sysadmin work, then i'll read it
+2018-11-17 22:15:01	fosslinux	lol login
+2018-11-17 22:15:05	fosslinux	proabbly not
+2018-11-17 22:15:21	login	then the book is false advertising...
+2018-11-17 22:15:30	login	Well, Superuser != sysadmin though, right?
+2018-11-17 22:15:35	jan6	yeah
+2018-11-17 22:15:36	fosslinux	right
+2018-11-17 22:15:45	jan6	also, "should know" != "has to know"
+2018-11-17 22:16:05	fosslinux	"should know" != "has to know" != "needs to know"
+2018-11-17 22:18:46	jan6	also includes some basic stuff like dotfiles
+2018-11-17 22:18:51	 *	jan6 night out
+2018-11-17 22:22:42	fosslinux	goodbye jan6
+2018-11-17 23:11:42	brendantcc_lounge	summary of the current progress?
+2018-11-17 23:17:28	sose	foss is working on packaging stuff, ive added a gui for my script and the custom desktop is just about finished
+2018-11-17 23:17:36	sose	no releases yet
+2018-11-17 23:19:02	brendantcc_lounge	so that last screenshot i saw from you...
+2018-11-17 23:19:24	brendantcc_lounge	was that the latest...?
+2018-11-17 23:19:26	sose	Yeah, ive updated the theme and menus
+2018-11-17 23:19:31	brendantcc_lounge	can me seeks?
+2018-11-17 23:30:01	sose	https://ttm.sh/'
+2018-11-17 23:30:07	sose	woops sorry
+2018-11-17 23:30:10	sose	https://ttm.sh/ib.png 
+2018-11-17 23:30:15	sose	https://ttm.sh/iP.png 
+2018-11-17 23:30:20	sose	https://ttm.sh/iw.png 
+2018-11-17 23:30:35	brendantcc_lounge	i likey!
+2018-11-17 23:30:43	brendantcc_lounge	what does the installer look like?
+2018-11-17 23:31:07	sose	Haven't done that yet, but it would probably look like the normal debian installer
+2018-11-17 23:31:15	brendantcc_lounge	damn...
+2018-11-17 23:31:20	sose	unless we want to use ubiquity or something
+2018-11-17 23:31:30	sose	but thats foss's side of things
+2018-11-17 23:31:42	brendantcc_lounge	righto
+2018-11-17 23:31:53	brendantcc_lounge	fosslinux: don't choose a boring installer man
+2018-11-17 23:33:09	sose	If we use ubiquity we'll need to add it to our package repo
+2018-11-17 23:34:19	brendantcc_lounge	okay looks like canonical uses ubiquity - im happy
+2018-11-17 23:34:31	sose	oh also the bottom bar will use a monospace font in release, I just forgot to change it
+2018-11-17 23:34:46	brendantcc_lounge	righto
+2018-11-17 23:35:18	brendantcc_lounge	think you could make the design a little bit more cleaner...?
+2018-11-17 23:35:25	brendantcc_lounge	i'm not sure i like it too much...
+2018-11-17 23:35:35	sose	Of the bar you mean?
+2018-11-17 23:35:49	~ben	that looks hot
+2018-11-17 23:35:49	brendantcc_lounge	i think the window borders are a little bit thick...
+2018-11-17 23:37:34	sose	window borders would require some css tweaking, but should be doable
+2018-11-17 23:38:23	brendantcc_lounge	wait...
+2018-11-17 23:38:37	brendantcc_lounge	is it all based off of html? lol
+2018-11-17 23:39:37	sose	no, gtk just has some... interesting ideas on integrating web technologies into the desktop
+2018-11-17 23:40:19	brendantcc_lounge	lol righto
+2018-11-17 23:40:29	sose	tbh css is kinda nice for theme configuration, if only it wasn't the only way to do anything useful
+2018-11-17 23:42:22	brendantcc_lounge	rip
+2018-11-17 23:47:38	sose	Ok ive got a bit of a dillema here I think
+2018-11-17 23:47:52	sose	How should we store the location of the ssh config file?
+2018-11-17 23:48:15	sose	Should we even store it, or assume it's going to be in ~/.ssh/config
+2018-11-17 23:56:04	@khuxkm|lounge	we can just put the SSH config in ~/.ssh/config
+2018-11-17 23:56:11	@khuxkm|lounge	so yeah, just assume
+2018-11-17 23:58:24	sose	yeah ok
+2018-11-17 23:58:37	sose	I was just thinking someone might want to use the standalone script
+2018-11-17 23:59:05	sose	but its not that hard to modify anyways so we can just leave it like that for now
+2018-11-18 00:55:35	fosslinux	sose: assume is ok 
+2018-11-18 00:55:46	fosslinux	brendantcc_lounge: i wasnt thinking of installer yet
+2018-11-18 00:56:37	brendantcc_lounge	i reckon we should do a custom ubiquity installer
+2018-11-18 00:57:40	sose	Considering its Debian, that would probably be the best choice for a gui
+2018-11-18 01:10:32	brendantcc_lounge	well i ain't installing it if it's the default debian installer...
+2018-11-18 01:11:08	brendantcc_lounge	also is there display output settings (sc 1 only, duplicate, extend, sc 2 only)?
+2018-11-18 01:11:36	brendantcc_lounge	plus, what's the default loading symbol?
+2018-11-18 01:13:17	~ben	what's wrong with the debian installer?
+2018-11-18 01:13:41	brendantcc_lounge	the buttons man!
+2018-11-18 01:13:49	brendantcc_lounge	they look too much like the old Mac OS buttons!
+2018-11-18 01:14:03	~ben	so what?
+2018-11-18 01:14:39	deepend	i miss the old mac os.. assuming we are talking pre-10.x
+2018-11-18 01:14:53	brendantcc_lounge	nostalgia, yeah, cool, but is tildelinux made to be modern...?
+2018-11-18 01:15:44	~ben	no it's meant to be tilde
+2018-11-18 01:16:26	brendantcc_lounge	well then wheres the point in a gui??!! it could just be a frickin console!!
+2018-11-18 01:17:02	brendantcc_lounge	im sure you'd love that ben
+2018-11-18 01:17:29	~ben	i'm not a huge fan of cli browsers
+2018-11-18 01:17:34	~ben	but it would be doable
+2018-11-18 01:17:36	fosslinux	lol brendantcc_lounge Some people prefer the *usability* of a GUI
+2018-11-18 01:17:42	fosslinux	ie cli browsers
+2018-11-18 01:17:51	deepend	updated windows today.. and it didnt delete anything.. so I'm sad.. I always wanted it to delete stuff for me.. would be easier then me going through my craP :D 
+2018-11-18 01:18:10	brendantcc_lounge	lol
+2018-11-18 01:18:11	fosslinux	actually tbh the only reason i use gui is for browser
+2018-11-18 01:18:15	fosslinux	lol deepend
+2018-11-18 01:18:16	~ben	same ^^
+2018-11-18 01:18:37	fosslinux	do you guys use wsl on windows
+2018-11-18 01:18:44	deepend	I need to go back to linux again.. but the audio issues I was having was pissing me off lmao
+2018-11-18 01:18:55	fosslinux	deepend: :<
+2018-11-18 01:18:56	brendantcc_lounge	used to, but then byobu decided to screw me over in ssh
+2018-11-18 01:19:02	fosslinux	oh
+2018-11-18 01:19:05	fosslinux	theres a way to fix that
+2018-11-18 01:19:10	fosslinux	i can't remeber how
+2018-11-18 01:19:11	brendantcc_lounge	lol
+2018-11-18 01:19:14	fosslinux	i use plain tmux anyway
+2018-11-18 01:19:17	fosslinux	which is fine
+2018-11-18 01:19:55	deepend	i'm enjoying byobu.. so far.. lol  still not good at using it tho.. I'm sure it probably does more then waht I'm using it for
+2018-11-18 01:20:00	~ben	msys2 works fine for me if i have to use windows
+2018-11-18 01:20:23	brendantcc_lounge	let's go hog the lounge tv! yay!
+2018-11-18 01:21:01	fosslinux	brendantcc_lounge: are you ok??????
+2018-11-18 01:21:17	fosslinux	ben: i prefer wsl or cgwin
+2018-11-18 01:21:22	fosslinux	s/cgwin/cygwin
+2018-11-18 01:21:23	sedbot	<fosslinux> ben: i prefer wsl or cygwin
+2018-11-18 01:21:35	~ben	ok
+2018-11-18 01:21:53	deepend	i prefer to not use windows.. but here i am.. :( 
+2018-11-18 01:21:55	deepend	lol
+2018-11-18 01:22:30	fosslinux	um does anyone know why on ~team i can't connect to localhost with lynx?
+2018-11-18 01:23:01	deepend	because lynx :P  jk
+2018-11-18 01:23:54	fosslinux	nvm
+2018-11-18 01:23:57	fosslinux	ill just use tilde.team
+2018-11-18 01:24:04	fosslinux	its just as fast
+2018-11-18 01:24:10	fosslinux	some smartness happens *magic*
+2018-11-18 01:25:36	~ben	fosslinux: nginx uses SNI
+2018-11-18 01:25:49	~ben	it won't resolve without a Host: header
+2018-11-18 01:26:01	fosslinux	Ohhhhhh i see
+2018-11-18 01:28:47	brendantcc_lounge	right you guys are on the tv now :D
+2018-11-18 01:28:57	fosslinux	heyyywhat
+2018-11-18 01:29:45	~ben	?
+2018-11-18 01:29:54	brendantcc_lounge	i love using un-necessarily huge displays!
+2018-11-18 01:30:09	brendantcc_lounge	(ben: i'm in the room you 'mericans call the "living room")
+2018-11-18 01:30:25	brendantcc_lounge	or whatever room you guys have the sofa in
+2018-11-18 01:30:26	brendantcc_lounge	lol
+2018-11-18 01:30:36	~ben	living room has the couch and tv usually
+2018-11-18 01:30:42	~ben	i'm in my living room too
+2018-11-18 01:30:58	~ben	you're implying you don't call it the living room?
+2018-11-18 01:31:09	brendantcc_lounge	daaaammmnn right!
+2018-11-18 01:31:18	brendantcc_lounge	we call it the "lounge room" :D
+2018-11-18 01:31:34	~ben	lounge room sounds strange to my ear
+2018-11-18 01:31:41	brendantcc_lounge	lol
+2018-11-18 01:31:44	~ben	i'd say "lounge" 
+2018-11-18 01:31:47	~ben	instead of "lounge room"
+2018-11-18 01:31:49	brendantcc_lounge	"The Lounge" :P
+2018-11-18 01:31:52	brendantcc_lounge	whatever ben...
+2018-11-18 01:31:56	~ben	right?
+2018-11-18 01:32:02	brendantcc_lounge	i think it's VSCode's turn to go on the big screen lol
+2018-11-18 01:32:09	~ben	do you actually say: "i'm in the lounge room?"
+2018-11-18 01:32:09	brendantcc_lounge	ben: ye
+2018-11-18 01:32:21	brendantcc_lounge	lounge, lounge room, same thing
+2018-11-18 01:32:26	~ben	huh ok
+2018-11-18 01:32:39	brendantcc_lounge	what should i code up on the big screen?
+2018-11-18 01:33:49	@khuxkm|lounge	brendantcc_lounge: add pausing support to https://github.com/evansloan/mumble-youtube-player
+2018-11-18 01:33:50	@khuxkm|lounge	:P
+2018-11-18 01:34:34	brendantcc_lounge	nice one, 'merican
+2018-11-18 01:34:55	brendantcc_lounge	s/'murican/Miles
+2018-11-18 01:35:15	brendantcc_lounge	(for some reason, i've been calling people by their surnames lately)
+2018-11-18 01:35:31	brendantcc_lounge	but seriously though guys, what html program should i code up?
+2018-11-18 01:35:47	~ben	html isn't a programming language
+2018-11-18 01:35:55	fosslinux	^
+2018-11-18 01:36:29	brendantcc_lounge	lol ik ben
+2018-11-18 01:36:34	brendantcc_lounge	but it's the only one i know
+2018-11-18 01:36:41	fosslinux	well learn something else
+2018-11-18 01:36:44	fosslinux	thats bad
+2018-11-18 01:36:46	fosslinux	learn python
+2018-11-18 01:36:54	~ben	python is a decent place to start
+2018-11-18 01:37:02	brendantcc_lounge	i dunno...
+2018-11-18 01:37:08	fosslinux	python is very good
+2018-11-18 01:37:12	brendantcc_lounge	i kinda like making web-based shit with html...
+2018-11-18 01:37:15	fosslinux	its both easy and powerful
+2018-11-18 01:37:23	~ben	learn some php then
+2018-11-18 01:37:30	~ben	or flask
+2018-11-18 01:37:31	fosslinux	html is useless w/pout css / javascript /php
+2018-11-18 01:37:34	fosslinux	flask?
+2018-11-18 01:37:35	~ben	(python webapps)
+2018-11-18 01:37:37	 *	brendantcc_lounge shudders at the thought of php...
+2018-11-18 01:37:41	fosslinux	ohhh nice
+2018-11-18 01:37:43	~ben	php is not that bad
+2018-11-18 01:37:47	brendantcc_lounge	you know what
+2018-11-18 01:37:49	fosslinux	php is good
+2018-11-18 01:37:51	~ben	fosslinux: you do py and don't know about flask?
+2018-11-18 01:37:53	~ben	lol
+2018-11-18 01:37:55	~ben	i like php
+2018-11-18 01:37:56	brendantcc_lounge	i'll get python on my laptop
+2018-11-18 01:37:58	fosslinux	yes :}
+2018-11-18 01:38:18	brendantcc_lounge	but i'm asking for as much help as possible from you guys since i know hardly any py
+2018-11-18 01:38:26	brendantcc_lounge	except for the print command cause lol
+2018-11-18 01:38:31	~ben	google is your friend
+2018-11-18 01:38:40	~ben	the idea is that you learn how to learn
+2018-11-18 01:38:41	fosslinux	i had a good tutorial
+2018-11-18 01:39:01	fosslinux	it was on udacity i think?
+2018-11-18 01:39:08	fosslinux	it taught you basics -> oop
+2018-11-18 01:39:17	fosslinux	after that its really making programs
+2018-11-18 01:39:22	fosslinux	you learn by making
+2018-11-18 01:39:23	brendantcc_lounge	right
+2018-11-18 01:39:28	brendantcc_lounge	just prepped a .py file
+2018-11-18 01:39:46	brendantcc_lounge	in vscode
+2018-11-18 01:39:57	brendantcc_lounge	and lol it recommended the "Python" extension
+2018-11-18 01:39:59	fosslinux	that does
+2018-11-18 01:40:00	fosslinux	what
+2018-11-18 01:40:22	brendantcc_lounge	are you meaning to tell me vscode doesn't ship with extensions for shit like python? wtf?
+2018-11-18 01:40:35	fosslinux	it does
+2018-11-18 01:40:38	fosslinux	of course
+2018-11-18 01:40:45	fosslinux	what will this .py file do
+2018-11-18 01:41:03	brendantcc_lounge	idk..
+2018-11-18 01:41:12	fosslinux	make a hello world
+2018-11-18 01:41:16	brendantcc_lounge	print "hello! what's your name?"
+2018-11-18 01:41:22	fosslinux	no
+2018-11-18 01:41:28	fosslinux	if we are using python 3
+2018-11-18 01:41:28	brendantcc_lounge	wait...
+2018-11-18 01:41:34	brendantcc_lounge	is python capable of tts, ben?
+2018-11-18 01:41:36	brendantcc_lounge	>:D
+2018-11-18 01:41:38	fosslinux	print("hello! whats your name?")
+2018-11-18 01:41:39	fosslinux	um
+2018-11-18 01:41:45	fosslinux	yes brendantcc_lounge
+2018-11-18 01:41:48	fosslinux	python can do tts
+2018-11-18 01:41:52	fosslinux	with a libary
+2018-11-18 01:42:28	brendantcc_lounge	how do i get py to do input
+2018-11-18 01:42:44	fosslinux	var = input("what you name?")
+2018-11-18 01:43:38	fosslinux	and then
+2018-11-18 01:43:47	fosslinux	print("hi, " + var)
+2018-11-18 01:44:07	~ben	or print(f"hi {var}")
+2018-11-18 01:44:11	fosslinux	^
+2018-11-18 01:44:16	~ben	or print("hi {}".format(var))
+2018-11-18 01:44:21	fosslinux	wow ben
+2018-11-18 01:44:26	brendantcc_lounge	ben!
+2018-11-18 01:44:29	brendantcc_lounge	keep it simple man
+2018-11-18 01:44:37	fosslinux	that last one does work
+2018-11-18 01:44:38	~ben	none of those are complex
+2018-11-18 01:44:42	fosslinux	except i never use it
+2018-11-18 01:44:45	fosslinux	because readablity
+2018-11-18 01:44:52	fosslinux	^
+2018-11-18 01:44:59	fosslinux	none of those are really complex
+2018-11-18 01:45:07	~ben	not sure which version of py introduced format string literals
+2018-11-18 01:45:14	~ben	i prefer the "".format()
+2018-11-18 01:45:19	fosslinux	really?
+2018-11-18 01:45:20	~ben	concatenation is slow
+2018-11-18 01:45:21	fosslinux	why?
+2018-11-18 01:45:27	fosslinux	oh
+2018-11-18 01:45:38	~ben	especially if you're doing a lot of string operations
+2018-11-18 01:45:51	~ben	concatenation looks messy too
+2018-11-18 01:46:14	fosslinux	thats areguable
+2018-11-18 01:46:26	fosslinux	id say that looks more messy ("".format())
+2018-11-18 01:46:54	brendantcc_lounge	let's move this to #meta, since there seems to be no conversation.
+2018-11-18 01:46:59	fosslinux	yes
+2018-11-18 01:47:36	~ben	ok
+2018-11-18 01:54:38	brendantcc_lounge	also is linting important?
+2018-11-18 01:54:48	fosslinux	#meta
+2018-11-18 01:54:49	fosslinux	yes
+2018-11-18 01:54:55	fosslinux	but not for small projects
+2018-11-18 21:43:05	-->	fosslinux| (fosslinux@tilde-9m1cgd.optusnet.com.au) has joined #tildelinux
+2018-11-18 23:23:22	<--	fosslinux| (fosslinux@tilde-9m1cgd.optusnet.com.au) has quit (Ping timeout: 121 seconds)
+2018-11-19 03:27:27	<--	aliasless (aliasless@127.0.0.1) has quit (Quit: WeeChat 2.2)
+2018-11-19 06:03:15	fosslinux	ok
+2018-11-19 06:03:26	fosslinux	so today, i'm going to make custom packages for everything we need
+2018-11-19 06:03:59	fosslinux	sose: in tildelinux repository, is there EVERYTHING i need to make forks of packages? if not where do i find it?
+2018-11-19 06:28:51	sose	The only thing there really is the openbox configs
+2018-11-19 06:29:48	sose	I would assume all you need to do is replace whatever config is in the default Debian package with that one
+2018-11-19 06:31:02	fosslinux	yep
+2018-11-19 06:31:06	fosslinux	its pretty simple
+2018-11-19 06:31:34	sose	Then yeah, the configs are there
+2018-11-19 06:32:15	sose	The only packages we should make right now are the custom openbox package and a package for obamenu
+2018-11-19 06:32:34	fosslinux	what about tildelinux-art?
+2018-11-19 06:32:37	fosslinux	that will be needed too
+2018-11-19 06:32:48	sose	Ahh yeah that as well
+2018-11-19 06:33:36	sose	We should bundle all of that with xfce panel, obconf, obmenu amd obamenu into a tilde-desktop package or something
+2018-11-19 06:33:47	sose	s/amd/and
+2018-11-19 06:33:47	sedbot	<sose> We should bundle all of that with xfce panel, obconf, obmenu and obamenu into a tilde-desktop package or something
+2018-11-19 06:34:07	fosslinux	so what i'm talking about is forking the `apt-get source` so that i can package that
+2018-11-19 06:34:24	fosslinux	so i'll have to fork xfce-panel obconf obmenu obamenu seperatley
+2018-11-19 06:34:29	fosslinux	then package them seperatley
+2018-11-19 06:34:31	fosslinux	then a metapackage
+2018-11-19 06:35:18	sose	For now could you do a 'test' run with just the stock debian versions of everything but openbox?
+2018-11-19 06:35:39	sose	And we can fork and mod later
+2018-11-19 06:36:12	sose	The same metapackage, but just openbox is forked
+2018-11-19 06:37:39	fosslinux	ok
+2018-11-19 06:37:39	sose	I have no idea how debian packaging works outside of using them so idk
+2018-11-19 06:37:47	sose	Alright, cool
+2018-11-19 06:37:50	fosslinux	openbox is going ot be the biggest issue
+2018-11-19 06:37:53	fosslinux	if anything
+2018-11-19 06:37:58	fosslinux	i'd prfer to test that first
+2018-11-19 06:38:05	fosslinux	what have you changed in openbox?
+2018-11-19 06:38:13	sose	Just configs
+2018-11-19 06:38:18	fosslinux	easy
+2018-11-19 06:38:25	sose	cool
+2018-11-19 06:38:46	sose	Oh, also feh should be in the metapackage
+2018-11-19 06:38:56	sose	Along with the arr
+2018-11-19 06:39:01	sose	*art
+2018-11-19 06:39:01	fosslinux	feh?
+2018-11-19 06:39:25	sose	Image viewer/wallpaper engine
+2018-11-19 06:39:51	sose	I use it to set the desktop background
+2018-11-19 06:40:02	sose	Oh and also terminator and firefox
+2018-11-19 06:40:21	sose	All debian upstream, of course
+2018-11-19 06:40:59	fosslinux	debian upstream is cool
+2018-11-19 06:41:26	sose	Kk good
+2018-11-19 06:42:51	sose	By upstream I mean stock debian testing packages btw
+2018-11-19 06:43:23	fosslinux	yep
+2018-11-19 06:43:59	sose	I'll keep working on the remote mounting script, I'm having trouble making password protected keys work with the gui
+2018-11-19 06:44:42	sose	Ill probably do something hacky like run it in a terminal or something
+2018-11-19 06:44:56	sose	Unless deepend knows a way to automate it
+2018-11-19 06:45:25	fosslinux	deepend says he can't code for his life lol
+2018-11-19 06:48:28	sose	well rip
+2018-11-19 06:49:23	sose	I *really* don't wanna use expect here, but it might just be the most elegant solution
+2018-11-19 06:49:29	fosslinux	except
+2018-11-19 06:49:30	fosslinux	ew
+2018-11-19 06:49:35	fosslinux	i don't like except
+2018-11-19 06:49:47	fosslinux	thats why i dont know it very well :P
+2018-11-19 06:49:54	sose	noone likes expect foss
+2018-11-19 06:50:41	fosslinux	sose: "noone likes except foss" I DONT LIKE
+2018-11-19 06:50:55	sose	No i mean
+2018-11-19 06:51:29	sose	https://en.m.wikipedia.org/wiki/Expect
+2018-11-19 06:51:33	sose	That
+2018-11-19 06:52:08	fosslinux	yes i know that
+2018-11-19 06:52:16	fosslinux	i dont like tcl or except
+2018-11-19 06:52:46	sose	*expect
+2018-11-19 06:52:50	sose	But yeah
+2018-11-19 06:53:36	sose	I gotta go, ill try to figure this out tomorrow
+2018-11-19 06:53:39	fosslinux	cya
+2018-11-19 06:53:49	fosslinux	my ingrained ttping skils
+2018-11-19 06:53:52	fosslinux	habits
+2018-11-19 13:49:27	jan6	y u no tcl
+2018-11-20 06:45:16	fosslinux	sose: i think you heard, but thunix is down, permeantly afaik, so we don't need to add it to our script
+2018-11-20 07:00:48	sose	oh, thats too bad
+2018-11-20 07:13:59	sose	I'm still trying to workout how to do password auth
+2018-11-20 07:15:49	fosslinux	passwd auth? or passwd auth for key?
+2018-11-20 07:16:08	sose	Password auth for key
+2018-11-20 07:16:13	fosslinux	hmm
+2018-11-20 07:16:15	fosslinux	i have no idea
+2018-11-20 07:16:26	fosslinux	why is it any different?
+2018-11-20 07:16:52	sose	So far I dont see any way to do it from the commandline
+2018-11-20 07:17:02	fosslinux	but normallly
+2018-11-20 07:17:13	fosslinux	well idk i dont use passwords on my ssh keys atm
+2018-11-20 07:17:18	sose	normally you just put it in through the console
+2018-11-20 07:17:18	fosslinux	i will start doing so
+2018-11-20 07:17:23	fosslinux	so
+2018-11-20 07:17:40	fosslinux	why dont you just ssh like sormal and get them to input the password?
+2018-11-20 07:18:20	sose	Well I would want to do it from the gui
+2018-11-20 07:18:41	sose	which I cant do if the password input is terminal only
+2018-11-20 07:19:04	fosslinux	ohhh
+2018-11-20 07:19:10	fosslinux	so does the password auth work on terminal?
+2018-11-20 07:19:15	sose	yeah
+2018-11-20 07:19:18	fosslinux	okok
+2018-11-20 07:19:20	fosslinux	good
+2018-11-20 07:19:21	fosslinux	so
+2018-11-20 07:19:28	fosslinux	hmmmmmmmmmm
+2018-11-20 07:19:32	sose	but no way to do it from the gui
+2018-11-20 07:19:36	sose	afaik
+2018-11-20 07:19:36	fosslinux	yeah
+2018-11-20 07:20:21	sose	I could maybe prompt the user for the key type and decrypt it manually
+2018-11-20 07:20:39	sose	If I do that, I think im gonna have to do some refactoring
+2018-11-20 07:20:48	fosslinux	http://rabexc.org/posts/using-ssh-agent
+2018-11-20 07:21:29	sose	hmm
+2018-11-20 07:22:30	fosslinux	how about
+2018-11-20 07:22:33	fosslinux	https://stackoverflow.com/questions/1340366/how-to-make-ssh-receive-the-password-from-stdin
+2018-11-20 07:24:22	sose	ssh-agent seems to have the same issue, where you have to input the password on the commandline
+2018-11-20 07:24:55	sose	looking into ssh_askpass now
+2018-11-20 07:37:24	sose	I seem to be getting permission denied when I log in
+2018-11-20 07:42:40	sose	Ah ok looks like I got it
+2018-11-20 07:43:31	sose	Super contrived, but it looks like it will work
+2018-11-20 07:48:54	sose	Oh wow
+2018-11-20 07:48:58	sose	Oh wow i am dumb
+2018-11-20 07:49:38	sose	So it looks like it will ask with a gui as long as the script isn't run in a terminal
+2018-11-20 07:50:01	sose	Well, good to know I guess
+2018-11-20 07:50:14	 *	sose bangs head against wall
+2018-11-20 08:06:32	sose	Alright, I pushed the sshfs gui to the repo, last thing to do is integrate with openbox
+2018-11-20 17:10:59	--	jan6 is now known as nyan6
+2018-11-20 19:40:10	--	nyan6 is now known as jan6
+2018-11-20 21:21:54	<--	brendantcc_lounge (brendantcc@tilde.team) has quit (Connection closed)
+2018-11-20 21:21:54	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (Connection closed)
+2018-11-20 21:22:11	-->	brendantcc_lounge (brendantcc@tilde.team) has joined #tildelinux
+2018-11-20 21:22:45	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #tildelinux
+2018-11-21 02:26:32	--	irc: disconnected from server
+2018-11-21 02:26:54	-->	fosslinux (fosslinux@fhah4o.tilde.team) has joined #tildelinux
+2018-11-21 02:26:54	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-11-21 02:26:54	--	Topic set by ben on Sun, 11 Nov 2018 03:03:14
+2018-11-21 02:26:54	--	Channel #tildelinux: 14 nicks (2 ops, 0 halfops, 0 voices, 12 normals)
+2018-11-21 02:27:24	--	Channel created on Sat, 10 Nov 2018 19:49:41
+2018-11-21 03:39:40	--	irc: disconnected from server
+2018-11-21 03:40:02	-->	fosslinux1 (fosslinux@fhah4o.tilde.team) has joined #tildelinux
+2018-11-21 03:40:02	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-11-21 03:40:02	--	Topic set by ben on Sun, 11 Nov 2018 03:03:14
+2018-11-21 03:40:02	--	Channel #tildelinux: 15 nicks (2 ops, 0 halfops, 0 voices, 13 normals)
+2018-11-21 03:40:32	--	Channel created on Sat, 10 Nov 2018 19:49:41
+2018-11-21 03:40:52	<--	fosslinux (fosslinux@fhah4o.tilde.team) has quit (Connection closed)
+2018-11-21 04:19:27	--	You are now known as fosslinux
+2018-11-21 04:24:09	fosslinux	ben: do you mind opping me/sose? we're basically running this now :D
+2018-11-21 05:08:31	--	Mode #tildelinux [+o fosslinux] by ben
+2018-11-21 05:08:34	--	Mode #tildelinux [+o sose] by ben
+2018-11-21 05:08:44	~ben	can't op sose persistently cause his nick isn't registered
+2018-11-21 05:09:16	@fosslinux	ok
+2018-11-21 05:09:17	@fosslinux	thanks
+2018-11-21 05:09:22	@fosslinux	i'd better nickserv
+2018-11-21 05:09:34	@fosslinux	after for some reason the connect droppedout
+2018-11-21 05:10:56	@fosslinux	ahh good
+2018-11-21 05:19:39	~ben	yeah as long as you're identified with nickserv, the chanmode will be persistent
+2018-11-21 15:18:34	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Changing host)
+2018-11-21 15:18:34	-->	khuxkm|lounge (khuxkm@sudoers.tilde.team) has joined #tildelinux
+2018-11-21 15:18:34	--	Mode #tildelinux [+o khuxkm|lounge] by ChanServ
+2018-11-21 16:58:06	<--	minerbot2 (minerbot2@tilde.team) has quit (Connection closed)
+2018-11-21 16:58:26	-->	minerbot2 (minerbot2@tilde.team) has joined #tildelinux
+2018-11-21 17:03:17	minerbot2	[GLOBAL] going down
+2018-11-21 17:03:23	<--	minerbot2 (minerbot2@tilde.team) has quit (Connection closed)
+2018-11-21 17:03:43	-->	minerbot2 (minerbot2@tilde.team) has joined #tildelinux
+2018-11-21 17:03:50	<--	minerbot2 (minerbot2@tilde.team) has quit (Connection closed)
+2018-11-21 17:23:05	-->	minerbot2 (minerbot2@tilde.team) has joined #tildelinux
+2018-11-21 23:08:09	-->	fosslinux| (fosslinux@svubk6.optusnet.com.au) has joined #tildelinux
+2018-11-22 03:10:21	<--	fosslinux| (fosslinux@svubk6.optusnet.com.au) has quit (Ping timeout: 121 seconds)
+2018-11-22 03:12:22	-->	fosslinux| (fosslinux@20m279.optusnet.com.au) has joined #tildelinux
+2018-11-22 04:29:41	<--	fosslinux| (fosslinux@20m279.optusnet.com.au) has quit (Ping timeout: 121 seconds)
+2018-11-22 06:02:14	@sose	Alright guys, I pushed the final stuff to integrate tildemerge with openbox, just need to test it onw
+2018-11-22 06:02:20	@sose	s/onw/now
+2018-11-22 06:02:20	sedbot	<sose> Alright guys, I pushed the final stuff to integrate tildemerge with openbox, just need to test it now
+2018-11-22 06:03:40	@fosslinux	NICE BOI
+2018-11-22 20:24:02	-->	netsuper (netsuperorg@ip-3-2-55-196.in.asianpacifictelephone.com) has joined #tildelinux
+2018-11-22 20:24:02	<--	netsuper (netsuperorg@ip-3-2-55-196.in.asianpacifictelephone.com) has quit (RecvQ exceeded)
+2018-11-22 23:35:49	@sose	Config related stuff should be solid, I just need to make sshfs_gui write mount locations to the config
+2018-11-22 23:36:02	@sose	And then figure out this menu situation
+2018-11-22 23:36:26	@sose	Unless I already did that
+2018-11-22 23:39:37	@sose	obamenu doesn't seem to handle symbolic links properly, openbox-menu doesn't seem to work without debian-menu, debian-menu doesn't seem to allow me to change the menu title, and nothing else is packaged 
+2018-11-22 23:40:03	@sose	I think I'm gonna just end up writing my own
+2018-11-22 23:40:38	@sose	I've also added some installer and uninstaller scripts, so that should help you out fosslinux
+2018-11-22 23:43:24	@sose	The uninstaller script doesn't work too well, so I'm gonna work on that too
+2018-11-23 03:53:58	-->	coochiemanflex (coochiemooc@89.238.186.230) has joined #tildelinux
+2018-11-23 03:54:01	<--	coochiemanflex (coochiemooc@89.238.186.230) has quit (RecvQ exceeded)
+2018-11-23 04:46:17	@fosslinux	cool
+2018-11-23 04:46:21	@fosslinux	i'll work on that asap
+2018-11-23 04:46:34	@fosslinux	i've been working on other stuff (ie finding and setting up my new vps)
+2018-11-23 04:46:40	@fosslinux	i'll be getting back into tildelinux very soon
+2018-11-24 14:49:07	login	sshfs by default would be wonderful
+2018-11-24 15:00:21	jan6	^not exactly, but a one-click solution sure would
+2018-11-24 15:01:03	jan6	kinda like how the usb drives usually appear in the file managers, click, and it mounts
+2018-11-24 17:20:00	@sose	Thats what I was working on kinda
+2018-11-24 21:32:44	@fosslinux	yes that would be really good
+2018-11-24 21:32:54	@fosslinux	do you think that would be possible sose?
+2018-11-24 23:09:32	@sose	Probably yeah
+2018-11-24 23:10:00	@sose	I think thunar already has stuff for that
+2018-11-24 23:10:14	@sose	The big issue would be remounting
+2018-11-25 01:37:09	@fosslinux	i don't think remounting is a BIG issue
+2018-11-25 01:37:16	@fosslinux	if it dosen't exist oh well
+2018-11-25 04:40:29	<--	khuxkm|lounge (khuxkm@sudoers.tilde.team) has quit (Changing host)
+2018-11-25 04:40:29	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #tildelinux
+2018-11-25 04:40:29	--	Mode #tildelinux [+o khuxkm|lounge] by team.tilde.chat
+2018-11-25 22:48:15	<--	khuxkm (khuxkm@oper.tilde.chat) has quit (Changing host)
+2018-11-25 22:48:15	-->	khuxkm (khuxkm@sudoers.tilde.team) has joined #tildelinux
+2018-11-25 22:48:15	--	Mode #tildelinux [+o khuxkm] by team.tilde.chat
+2018-11-25 22:56:21	brendantcc_lounge	sose: has there been any design changes to tildelinux?
+2018-11-26 01:31:22	@sose	Not so far, any suggestiona besides the borders?
+2018-11-26 01:31:42	@sose	s/suggestiona/suggestions
+2018-11-26 01:31:42	sedbot	<sose> Not so far, any suggestions besides the borders?
+2018-11-26 01:37:16	brendantcc_lounge	maybe not have the windows so blocky...?
+2018-11-26 01:37:21	brendantcc_lounge	s/blocky/boring
+2018-11-26 01:37:21	sedbot	<brendantcc_lounge> maybe not have the windows so boring...?
+2018-11-26 02:10:52	<--	ben (ben@oper.tilde.chat) has quit (Server shutdown)
+2018-11-26 02:10:52	<--	sose (sose@tilde.town) has quit (Server shutdown)
+2018-11-26 02:11:07	-->	sose (sose@tilde.town) has joined #tildelinux
+2018-11-26 02:13:37	sose	Like, rounded corners?
+2018-11-26 02:15:51	brendantcc_lounge	well, since you can't shadow the windows cause black bg...
+2018-11-26 02:15:56	brendantcc_lounge	sure!
+2018-11-26 02:15:58	brendantcc_lounge	let's try that!
+2018-11-26 02:24:12	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-11-26 02:24:12	--	Mode #tildelinux [+qo ben ben] by ChanServ
+2018-11-26 02:50:09	sose	The windows are shadowed, maybe a different bg then?
+2018-11-26 03:14:49	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-26 03:18:04	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-11-26 03:18:04	--	Mode #tildelinux [+qo ben ben] by ChanServ
+2018-11-26 04:54:44	brendantcc_lounge	ye
+2018-11-26 04:55:18	brendantcc_lounge	maybe try black-on-whi- HA no
+2018-11-26 04:55:26	brendantcc_lounge	hm...
+2018-11-26 04:55:40	brendantcc_lounge	also frosted-glass effect!!
+2018-11-26 04:55:52	brendantcc_lounge	somewhere! please!
+2018-11-26 04:57:11	~ben	wot
+2018-11-26 04:57:13	~ben	no
+2018-11-26 05:16:38	brendantcc_lounge	wot
+2018-11-26 05:16:39	brendantcc_lounge	yes
+2018-11-26 05:18:57	~ben	black on white no fkin way
+2018-11-26 05:19:00	~ben	delet that shit now
+2018-11-26 05:19:02	brendantcc_lounge	ohhh
+2018-11-26 05:19:12	brendantcc_lounge	i was just screwing around lmao
+2018-11-26 14:32:14	@khuxkm	windows 3.1 theme choice :P
+2018-11-26 15:39:58	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (Connection closed)
+2018-11-26 15:39:58	<--	brendantcc_lounge (brendantcc@tilde.team) has quit (Connection closed)
+2018-11-26 15:54:21	<--	BabiliBot (BabiliBot@tilde.team) has quit (Connection closed)
+2018-11-26 21:08:28	--	jan6 is now known as ok
+2018-11-26 21:13:42	--	ok is now known as jan6
+2018-11-26 21:50:41	-->	brendantcc_lounge (brendantcc@tilde.team) has joined #tildelinux
+2018-11-26 21:51:24	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #tildelinux
+2018-11-27 16:17:00	<--	login (login@127.0.0.1) has quit (team.tilde.chat town.tilde.chat)
+2018-11-27 16:17:31	<--	minerbot2 (minerbot2@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:29	<--	jan6 (jan6@is.quite.awesome) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:18:29	<--	sedbot (sedbot@localhost) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:00	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:00	<--	brendantcc_lounge (brendantcc@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:20:08	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #tildelinux
+2018-11-27 16:20:17	-->	jan6 (jan6@tilde.team) has joined #tildelinux
+2018-11-27 16:32:08	-->	brendantcc_lounge (brendantcc@tilde.team) has joined #tildelinux
+2018-11-27 16:32:24	<--	jan6 (jan6@tilde.team) has quit (Changing host)
+2018-11-27 16:32:24	-->	jan6 (jan6@is.quite.awesome) has joined #tildelinux
+2018-11-27 16:45:40	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-11-27 16:45:56	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-11-27 16:45:56	--	Mode #tildelinux [+qo ben ben] by gingko.tilde.chat
+2018-11-27 18:42:42	-->	login (login@127.0.0.1) has joined #tildelinux
+2018-11-27 19:41:06	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Changing host)
+2018-11-27 19:41:06	-->	khuxkm|lounge (khuxkm@sudoers.tilde.team) has joined #tildelinux
+2018-11-27 19:41:07	--	Mode #tildelinux [+o khuxkm|lounge] by ChanServ
+2018-11-27 21:07:15	-->	minerbot2 (minerbot2@tilde.team) has joined #tildelinux
+2018-11-27 22:11:38	-->	amcclure[team] (amcclure@tilde.team) has joined #tildelinux
+2018-11-28 07:11:04	@fosslinux	sose: i was just looming at the tildelinux repository. is the only things that get installed in $HOME?
+2018-11-28 07:11:57	@fosslinux	we *could* simply install everythign in $HOME, making it way easier to install and uninstall tildelinux
+2018-11-28 07:12:23	@fosslinux	making an install script etc would be easier
+2018-11-28 07:12:31	@fosslinux	w/out packaging etc
+2018-11-28 07:13:28	@fosslinux	on anoter note, i'm going to begin making a script that will let you sign up to tildes easily
+2018-11-28 07:17:05	@fosslinux	and aditonally, i'm going to add cosmic.voyage to tildemerge
+2018-11-28 09:12:00	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-11-28 09:16:26	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-11-28 09:16:26	--	Mode #tildelinux [+qo ben ben] by gingko.tilde.chat
+2018-11-28 17:07:49	--	amcclure[team] is now known as amcclure
+2018-11-28 19:06:04	sose	Alright
+2018-11-28 19:07:02	sose	BTW I'm probably going to phase out the CLI once all the bugs in the GUI are ironed out
+2018-11-28 19:07:37	sose	So if you add a server, add it to the GUI as well
+2018-11-28 19:14:11	jan6	why?
+2018-11-28 19:14:15	jan6	y u no cli?
+2018-11-28 19:23:34	sose	It'll stay, but I'm not planning on adding any features to it
+2018-11-28 19:48:25	@fosslinux	i reckon that we should have both the cli and the gui
+2018-11-28 19:48:51	@fosslinux	there are some people who would like to be able to use it in a cli only environment (myself included)
+2018-11-28 20:17:34	sose	Alright, I didn't know people were getting so much use out of the cli :)
+2018-11-28 20:19:02	jan6	cli ftw
+2018-11-28 23:24:46	login	CLI is automatically mobile-friendly
+2018-11-28 23:25:35	jan6	^weeeeeel, kinda
+2018-11-29 03:40:34	--	brendantcc_lounge is now known as bredantcc_lounge
+2018-11-29 03:42:29	--	bredantcc_lounge is now known as brendantcc_lounge
+2018-11-29 05:54:27	@fosslinux	hmmm i dont agree login
+2018-11-29 06:16:44	login	well, i guess i don't agree w/ myself either
+2018-11-29 06:19:58	@fosslinux	lol
+2018-11-29 11:04:39	login	lol indeed
+2018-11-29 18:01:49	<--	aewens (aewens@king.of.chaos) has left #tildelinux ("WeeChat 2.2")
+2018-11-30 03:44:04	--	brendantcc_lounge is now known as plan9
+2018-11-30 03:44:42	--	plan9 is now known as brendantcc_lounge
+2018-11-30 05:11:59	--	irc: disconnected from server
+2018-11-30 05:12:16	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #tildelinux
+2018-11-30 05:12:16	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-11-30 05:12:16	--	Topic set by ben on Sun, 11 Nov 2018 03:03:14
+2018-11-30 05:12:16	--	Channel #tildelinux: 12 nicks (3 ops, 0 halfops, 0 voices, 9 normals)
+2018-11-30 05:12:56	--	Channel created on Sat, 10 Nov 2018 19:49:41
+2018-11-30 20:39:18	sose	Foss were you planning on adding cosmic.voyage to the gui?
+2018-11-30 20:39:25	sose	Or should I?
+2018-11-30 20:43:19	fosslinux	oh ye[
+2018-11-30 20:43:25	fosslinux	i'll do that now
+2018-11-30 20:43:28	fosslinux	forgot sorry
+2018-11-30 21:38:05	login	How would one add a website to a gui?
+2018-11-30 21:39:28	fosslinux	?
+2018-11-30 21:39:35	fosslinux	its a gui script
+2018-11-30 22:07:56	login	cosmic.voyage is a gui script?
+2018-11-30 22:08:22	~ben	?
+2018-11-30 22:09:04	login	Oh yeah, cosmic.voyage was a website about an rpg right?
+2018-11-30 22:09:16	~ben	https://cosmic.voyage
+2018-11-30 22:09:21	~ben	not really
+2018-11-30 22:14:15	login	no?
+2018-11-30 22:16:29	jan6	afaik it's kinda a "themed tilde" so "do your stuff from the perspective of a space-o-naut on the last surviving network"
+2018-11-30 22:16:46	login	that's exactly what it is
+2018-11-30 22:46:55	fosslinux	login: we're talking about a script we're making, tildemerge, which has a gui interface.
+2018-11-30 22:47:04	fosslinux	https://tildegit.org/tildelinux/tildemerge
+2018-12-01 00:07:36	--	Mode #tildelinux [+o fosslinux] by ChanServ
+2018-12-01 02:39:26	@khuxkm|lounge	login: cosmic.voyage isn't about an RPG, it's an RPT (role-playing tilde)
+2018-12-01 02:39:32	@khuxkm|lounge	but this is not the channel to discuss it
+2018-12-01 02:39:36	@khuxkm|lounge	that channel is #cosmic
+2018-12-01 03:33:34	<--	khuxkm|lounge (khuxkm@sudoers.tilde.team) has quit (Changing host)
+2018-12-01 03:33:34	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #tildelinux
+2018-12-01 03:33:34	--	Mode #tildelinux [+o khuxkm|lounge] by team.tilde.chat
+2018-12-01 21:01:38	--	jan6 is now known as ben_shapiro
+2018-12-01 21:02:31	--	ben_shapiro is now known as jan6
+2018-12-02 21:56:56	--	brendantcc_lounge is now known as Real_jan6
+2018-12-02 21:57:26	--	Real_jan6 is now known as brendantcc_lounge
+2018-12-02 22:08:49	--	jan6 is now known as irc_irc_jan6
+2018-12-02 22:10:13	--	irc_irc_jan6 is now known as |
+2018-12-02 22:13:04	--	| is now known as jan6
+2018-12-03 06:10:31	<--	minerbot2 (minerbot2@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	brendantcc_lounge (brendantcc@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	amcclure (amcclure@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	jan6 (jan6@is.quite.awesome) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:10:31	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:11:24	-->	brendantcc_lounge (brendantcc@tilde.team) has joined #tildelinux
+2018-12-03 06:11:43	-->	minerbot2 (minerbot2@tilde.team) has joined #tildelinux
+2018-12-03 06:11:56	-->	amcclure (amcclure@tilde.team) has joined #tildelinux
+2018-12-03 06:12:07	-->	khuxkm|lounge (khuxkm@tilde.team) has joined #tildelinux
+2018-12-03 06:12:36	-->	jan6 (jan6@tilde.team) has joined #tildelinux
+2018-12-03 06:16:54	--	brendantcc_lounge is now known as Guest22889
+2018-12-03 06:17:51	<--	Guest22889 (brendantcc@tilde.team) has quit (OperServ ((ben) No reason specified))
+2018-12-03 10:47:17	--	irc: disconnected from server
+2018-12-03 10:47:39	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #tildelinux
+2018-12-03 10:47:39	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-12-03 10:47:39	--	Topic set by ben on Sun, 11 Nov 2018 03:03:14
+2018-12-03 10:47:39	--	Channel #tildelinux: 11 nicks (2 ops, 0 halfops, 0 voices, 9 normals)
+2018-12-03 10:48:25	--	Channel created on Sat, 10 Nov 2018 19:49:41
+2018-12-03 14:48:42	<--	jan6 (jan6@tilde.team) has quit (Changing host)
+2018-12-03 14:48:42	-->	jan6 (jan6@is.quite.awesome) has joined #tildelinux
+2018-12-03 14:52:55	<--	khuxkm|lounge (khuxkm@tilde.team) has quit (Changing host)
+2018-12-03 14:52:55	-->	khuxkm|lounge (khuxkm@oper.tilde.chat) has joined #tildelinux
+2018-12-03 19:24:33	--	jan6 is now known as aewenz
+2018-12-03 19:25:59	--	aewenz is now known as jan6
+2018-12-03 22:45:14	--	khuxkm is now known as a
+2018-12-03 22:45:20	--	a is now known as khuxkm
+2018-12-04 06:11:27	fosslinux	ill be working on tildemerge today
+2018-12-04 06:12:21	--	You are now known as |
+2018-12-04 06:13:48	--	You are now known as fosslinux
+2018-12-04 15:59:06	amcclure	nice
+2018-12-04 16:40:40	<--	ben (ben@oper.tilde.chat) has quit (Server shutdown)
+2018-12-04 16:44:23	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-12-04 16:44:34	--	Mode #tildelinux [+qo ben ben] by ChanServ
+2018-12-04 19:39:30	fosslinux	sose: added cosmic.voyage to gui, and tilde.institute (a new member of the tildeverse) to cli
+2018-12-05 06:10:51	--	Mode #tildelinux [+o fosslinux] by ChanServ
+2018-12-05 06:14:30	--	Mode #tildelinux [+o sose] by fosslinux
+2018-12-05 06:14:44	--	#tildelinux: You must have channel founder access or above to set channel mode q
+2018-12-05 17:25:17	--	amcclure is now known as amcclure[team]
+2018-12-05 21:29:46	-->	cardboard64 (irc@weh67-1-78-236-120-181.fbx.proxad.net) has joined #tildelinux
+2018-12-05 21:44:30	<--	khuxkm|lounge (khuxkm@oper.tilde.chat) has quit (Changing host)
+2018-12-05 21:44:30	-->	khuxkm|lounge (khuxkm@sudoers.tilde.team) has joined #tildelinux
+2018-12-05 21:44:30	--	Mode #tildelinux [+o khuxkm|lounge] by ChanServ
+2018-12-06 15:44:19	@sose	is it in the gui? I don't see he commit
+2018-12-06 15:44:22	@sose	s/he/the
+2018-12-06 15:44:31	--	Notice(team.tilde.chat): *** sose invited sedbot into the channel
+2018-12-06 15:44:31	-->	sedbot (sedbot@tilde.team) has joined #tildelinux
+2018-12-06 15:46:00	@sose	also deepend do you mind giving the gui a try with a password protected key?
+2018-12-06 15:46:15	@sose	just make sure you have ssh-askpass installed
+2018-12-06 15:47:47	@sose	Also i'm working on a dynamic openbox menu since obamenu doesn't seem to handle symbolic links correctly
+2018-12-06 19:17:27	@fosslinux	oh no
+2018-12-06 19:17:39	@fosslinux	i think i just acidentally overwrote your TODO commit
+2018-12-06 19:17:45	@fosslinux	sose:
+2018-12-06 19:21:23	@sose	Looks ok to me fosslinux
+2018-12-06 20:34:37	@sose	why the set -e btw, I though it was bad practice?
+2018-12-06 20:34:49	@sose	s/though/thought
+2018-12-06 20:34:49	sedbot	<sose> why the set -e btw, I thought it was bad practice?
+2018-12-06 21:05:24	jan6	-e on what? (asks somebody who has no idea what's going on ;P)
+2018-12-06 21:47:07	@sose	https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script
+2018-12-06 21:47:57	@sose	I think I see why its there now
+2018-12-06 22:07:08	jan6	hm, kay
+2018-12-06 22:07:31	jan6	as said in the comment, possibly better to trap it instead
+2018-12-06 22:07:36	jan6	no idea why tho
+2018-12-06 22:59:34	deepend	because lynx :P  jk
+2018-12-06 22:59:36	deepend	because lynx :P  jk
+2018-12-06 22:59:52	deepend	dvcv
+2018-12-06 23:00:02	<--	deepend (deepend@oper.tilde.chat) has left #tildelinux ("WeeChat 2.3")
+2018-12-06 23:03:37	@sose	hmm
+2018-12-07 21:55:22	@fosslinux	sose: i wonder why it is known as bad practice? i always use it
+2018-12-07 21:55:26	@fosslinux	ben: ?
+2018-12-07 21:55:35	~ben	huh?
+2018-12-07 21:55:51	@fosslinux	why is set -e "bad practice"?
+2018-12-07 21:56:01	@fosslinux	But it's considered as a bad practice by some people (bash FAQ and such like people writing this FAQ on irc freenode #bash), better use :
+2018-12-07 21:56:08	@fosslinux	trap 'do_something' ERR
+2018-12-07 21:56:15	~ben	tbhidk
+2018-12-07 21:56:21	~ben	tomasino would be the person to ask
+2018-12-07 21:56:28	-->	tomasino (tomasino@gopher.black) has joined #tildelinux
+2018-12-07 21:56:32	~ben	i don't know if i would consider it bad practice
+2018-12-07 21:56:37	@fosslinux	i dont
+2018-12-07 21:56:46	@fosslinux	i use it in a lot of scripts
+2018-12-07 21:56:54	@fosslinux	tomasino: why is set -e "bad practice"?
+2018-12-07 22:24:47	tomasino	it will exit the script immediately on an error rather than trap the error and handle cleanup manually
+2018-12-07 22:25:32	tomasino	https://tildegit.org/cosmic/cosmic/src/branch/master/bin/cosmic-log#L23-L26  for instance
+2018-12-07 22:32:20	tomasino	"bad practice" is a strong label
+2018-12-07 22:32:54	tomasino	if you're scripting something that causes changes in the environment or system then it's best to trap exits and clean up. If you're just patching together a string of simple commands, -e is fine
+2018-12-07 22:59:24	jan6	so basically trapping allows to delete any temporary files, or variables, or close related programs (like if opening web interface fails, kill server too), and other stuff
+2018-12-07 23:22:14	@fosslinux	okay
+2018-12-07 23:22:16	@fosslinux	i see
+2018-12-08 00:36:46	tomasino	so... um... what's this channel about exactly?
+2018-12-08 00:37:02	tomasino	a custom distro?
+2018-12-08 02:06:54	login	Yes, exactly!
+2018-12-08 02:07:02	login	One that has sshfs
+2018-12-08 02:07:05	login	and tilde branding
+2018-12-08 02:07:30	login	My wish is for it to be installable as a liveusb with sshfs used for storing data & programs
+2018-12-08 02:07:38	login	So your computer is literally in three pieces:
+2018-12-08 02:07:41	login	piece 1: hardware
+2018-12-08 02:07:45	login	piece 2: os (on flash drive)
+2018-12-08 02:07:48	login	piece 3: data & programs
+2018-12-08 02:08:16	login	piece 2 probably has a web browser (and associated on-flash-drive storage) as well...
+2018-12-08 02:08:34	login	I wouldn't want to put a whole web browser in piece 3
+2018-12-08 02:08:37	login	(not yet)
+2018-12-08 03:07:15	@fosslinux	}#E6i.U,z+s#|,8#oR>[
+2018-12-08 03:07:21	@fosslinux	da fauqqqq
+2018-12-08 03:07:26	@fosslinux	qqqqqqqqqqqqqqqqq
+2018-12-08 03:07:27	@fosslinux	frick
+2018-12-08 03:07:32	@fosslinux	now ive got to cahnge that password
+2018-12-08 03:07:34	@fosslinux	whooops
+2018-12-08 03:07:40	@fosslinux	anyway
+2018-12-08 03:07:57	@fosslinux	tomasino: yes, its a ~tilde~ debian distro, that makes it easier to acess tidles.
+2018-12-08 04:40:24	tomasino	neat
+2018-12-08 16:08:53	<--	cardboard64 (irc@weh67-1-78-236-120-181.fbx.proxad.net) has left #tildelinux
+2018-12-08 16:23:52	jan6	tidles
+2018-12-08 16:23:55	jan6	noice
+2018-12-08 16:24:04	jan6	tidlebot approved
+2018-12-08 20:21:12	@fosslinux	jan6: s/approved/approves
+2018-12-08 20:21:13	sedbot	<jan6> tidlebot approves
+2018-12-08 20:27:27	jan6	s/s/kay/
+2018-12-08 20:28:27	@fosslinux	approvekay
+2018-12-08 20:28:29	@fosslinux	wtf
+2018-12-09 00:57:24	@sose	I really dig the idea of having everything on a tilde, i haven't written anything for that though
+2018-12-09 01:05:02	@sose	We should have 
+2018-12-09 01:05:33	@sose	*something that links your home dir to a "main" tilde when you first start up
+2018-12-09 01:06:19	@sose	Having the whole thing run from a liveusb will add quite a bit of difficulty though
+2018-12-09 01:36:40	@fosslinux	^
+2018-12-09 01:36:54	@fosslinux	01:05:33             @sose | *something that links your home dir to a "main" tilde when you first start up
+2018-12-09 01:36:55	@fosslinux	for sure
+2018-12-09 01:37:29	@fosslinux	ohh
+2018-12-09 01:37:39	@fosslinux	but tildemerge links to ~/Remote
+2018-12-09 01:41:08	@sose	Yea
+2018-12-09 01:41:20	@sose	Remote can just be another folder
+2018-12-09 01:41:29	@sose	And you can decide which tilde you want
+2018-12-09 01:41:37	@sose	From it
+2018-12-09 01:42:22	@sose	Like, ~/ will just be a link to /Remote/town/home or whatever
+2018-12-09 01:42:33	@sose	And bin can be the same
+2018-12-09 02:28:12	@fosslinux	nice
+2018-12-09 02:28:29	@fosslinux	i might start working on a plan for that
+2018-12-09 02:28:38	@fosslinux	that could be set up with tildemerge
+2018-12-09 02:28:50	@fosslinux	and .ssh would have to link somewhere else too
+2018-12-09 09:28:20	jan6	eh
+2018-12-09 09:28:41	jan6	not exactly sure about that
+2018-12-09 09:29:25	jan6	I think having a graphical OS's home dir on a tilde isn't a good idea
+2018-12-09 09:29:44	jan6	but linking ~/bin and ~/.ssh and such is fine
+2018-12-09 09:30:44	jan6	and you can just set HOME=whatever before running a program and it'll see whatever as your ~ anyway
+2018-12-09 17:13:28	@sose	Maybe just link the files in the remote dir into ~/
+2018-12-09 17:46:22	jan6	possibly
+2018-12-09 19:55:48	@fosslinux	jan6: why? if you exclude dotfiles then you should be fine
+2018-12-09 19:58:26	jan6	sure, but that includes .ssh and .local and such
+2018-12-09 19:58:35	jan6	which you're exluding
+2018-12-09 19:58:59	@fosslinux	.... so why not have HOME on a tilde
+2018-12-09 20:05:13	jan6	because graphical programs' files
+2018-12-09 20:05:45	jan6	I guess it's not too bad
+2018-12-09 20:05:49	jan6	but eh
+2018-12-09 22:59:12	@sose	I think we should have a sync type system instead of pure sshfs
+2018-12-09 22:59:23	@sose	since that would make things feel kinda laggy
+2018-12-10 06:36:08	@fosslinux	hmm yeah
+2018-12-10 06:36:17	@fosslinux	rsync
+2018-12-10 07:36:17	@fosslinux	began developing an rsync/sshfs mode
+2018-12-10 17:20:28	@sose	is it on git?
+2018-12-10 19:25:38	jan6	gitsync
+2018-12-10 20:44:40	@sose	I mean the code lol
+2018-12-11 02:36:19	-->	cmccabe1 (cmccabe@yourtilde.com) has joined #tildelinux
+2018-12-11 02:36:45	cmccabe1	wut? tildelinux? nice!
+2018-12-11 02:38:20	<--	cmccabe1 (cmccabe@yourtilde.com) has quit (Quit: WeeChat 2.3)
+2018-12-11 02:39:53	-->	cmccabe1 (cmccabe@yourtilde.com) has joined #tildelinux
+2018-12-11 05:46:39	@fosslinux	sose: ? what 
+2018-12-11 07:06:40	<--	tomasino (tomasino@gopher.black) has quit (Connection closed)
+2018-12-11 07:10:31	-->	tomasino (tomasino@gopher.black) has joined #tildelinux
+2018-12-11 15:06:01	<--	tomasino (tomasino@gopher.black) has left #tildelinux ("WeeChat 2.3")
+2018-12-11 15:42:38	@sose	It seemed like jan6 was implying we do the file syncing with git
+2018-12-11 15:43:11	@sose	but I was just wondering where the git repo for the rsync scripts was
+2018-12-11 15:44:01	@sose	btw fosslinux try to push untested stuff to the testing branch, then move it to master once we've tested it
+2018-12-11 19:32:24	@fosslinux	ok sure
+2018-12-11 19:32:49	@fosslinux	i've tested institute
+2018-12-11 19:32:54	@fosslinux	works fine for me
+2018-12-11 22:02:44	@sose	Alright
+2018-12-11 22:03:21	@sose	I'm still working on the menu, we should also think about how to get the sync working
+2018-12-13 14:55:27	<--	amcclure[town] (amcclure@tilde.town) has quit (quit: WeeChat 2.2)
+2018-12-13 14:58:42	--	amcclure[team] is now known as amcclure
+2018-12-14 05:56:22	--	You are now known as ^
+2018-12-14 06:11:12	--	You are now known as fosslinux
+2018-12-15 22:12:11	@sose	Actually, I think im gonna put the menu on hold for now
+2018-12-15 22:14:34	@sose	also made some updates to the kanban board
+2018-12-15 22:15:36	@sose	I'm gonna color stuff roygbiv in descending priority
+2018-12-15 22:17:07	@sose	Black stuff can be special priority, i.e other stuff has to be done first
+2018-12-15 22:29:29	@fosslinux	okey dokie
+2018-12-15 22:29:30	@fosslinux	thanks
+2018-12-15 22:29:38	@fosslinux	i've been working on a sign up to tildes script
+2018-12-15 22:30:47	@fosslinux	sose: what does connecting with tildes mean
+2018-12-15 22:31:21	@fosslinux	and wat does far progress mean
+2018-12-15 22:31:40	@fosslinux	ill get to work packaing tildemerge
+2018-12-15 22:33:07	@sose	connecting with tildes is just the rsync stuff
+2018-12-15 22:33:14	@sose	but also integrating it into the os
+2018-12-15 22:33:21	@fosslinux	oh ok
+2018-12-15 22:33:26	@sose	far progrss means almos done basically
+2018-12-15 22:33:38	@fosslinux	what would you like me to put as the maintainer
+2018-12-15 22:33:40	@sose	s/almos/almost
+2018-12-15 22:33:40	sedbot	<sose> far progrss means almost done basically
+2018-12-15 22:33:48	@fosslinux	for tildemerge
+2018-12-15 22:33:51	@sose	sure
+2018-12-15 22:33:57	@fosslinux	??
+2018-12-15 22:34:05	@sose	oh sorry
+2018-12-15 22:34:06	@fosslinux	what should i put in the maintainer field?
+2018-12-15 22:34:11	@sose	I could be maintainer
+2018-12-15 22:34:14	@fosslinux	sure
+2018-12-15 22:34:23	@fosslinux	what for name, what for email
+2018-12-15 22:34:34	@sose	sose, oneseveneight@airmail.cc
+2018-12-15 22:34:46	@fosslinux	kk tanks
+2018-12-15 22:34:49	@fosslinux	s/tanks/thanks
+2018-12-15 22:34:50	sedbot	<fosslinux> kk thanks
+2018-12-15 22:35:22	@sose	should probably get another email tbqh, but that one's likend with all my stuff lol
+2018-12-15 22:36:11	@sose	s/likend/linked
+2018-12-15 22:36:11	sedbot	<sose> should probably get another email tbqh, but that one's linked with all my stuff lol
+2018-12-15 22:36:33	@sose	we're probably gonna need to rewrite tildemerge to work with whatever rsync solution we come up with
+2018-12-15 22:37:01	@sose	and we're gonna need a way to keep track of tildes and their files
+2018-12-15 22:37:46	@sose	maybe sqlite, but idk
+2018-12-15 22:39:59	@sose	I was thinking using inotify to monitor file creation and deletion, and then rsync when that happens
+2018-12-15 22:40:57	@sose	but then we would need a way for the remote to inform about file changes too
+2018-12-15 22:49:21	@sose	ive never used rsync so idk if thats already builtin or whatever, but i'll play around with it and probaly get some scripts up
+2018-12-15 23:14:20	@sose	s/probaly/probably
+2018-12-15 23:14:21	sedbot	<sose> ive never used rsync so idk if thats already builtin or whatever, but i'll play around with it and probably get some scripts up
+2018-12-15 23:37:15	~ben	rsync is basically scp but better
+2018-12-16 01:31:15	@fosslinux	sose: should we get a tildelinux email? tildelinux@tildeverse.org? so we can put the maintainer as TildeLinux Development Team <tildelinux@tildeverse.org>
+2018-12-16 01:44:10	@fosslinux	sose: does tildemerge use gtk2 or gtk3
+2018-12-16 02:01:51	~ben	i can make a mailing list for it too
+2018-12-16 02:01:58	~ben	linux@lists.tildeverse.org?
+2018-12-16 02:02:14	~ben	i can also set up tildelinux@tildeverse.org to forward to your addresses if you like
+2018-12-16 02:02:28	~ben	let me know how you want me to set it up
+2018-12-16 02:02:53	@fosslinux	i'd like that but i'd prefer to wait for sose's opinion
+2018-12-16 02:03:52	~ben	well i can make the mailing list now
+2018-12-16 02:04:03	@fosslinux	ok sure thanks :)
+2018-12-16 02:04:28	~ben	https://lists.tildeverse.org/postorius/lists/linux.lists.tildeverse.org/
+2018-12-16 02:10:31	@sose	yeah thats cool
+2018-12-16 02:11:26	@fosslinux	tildelinux@tildeverse.org?
+2018-12-16 02:11:43	~ben	what emails do you want me to forward it to
+2018-12-16 02:11:50	~ben	fosslinux@ttm.sh?
+2018-12-16 02:11:55	~ben	sose@ttm.sh?
+2018-12-16 02:12:42	@fosslinux	yep
+2018-12-16 02:12:50	@fosslinux	for me at least
+2018-12-16 02:13:08	@fosslinux	i think sose might want oneseveneight@airmail.cc but just check with them
+2018-12-16 02:13:36	@sose	i'd prefer airmail
+2018-12-16 02:13:41	~ben	sose: you could just drop your preferred mail in ~/.forward on ~team 
+2018-12-16 02:13:49	@sose	alright
+2018-12-16 02:14:40	~ben	i added you both as owners on the list
+2018-12-16 02:14:48	@fosslinux	wat does that do
+2018-12-16 02:14:57	~ben	you can change settings for the list
+2018-12-16 02:20:52	@sose	oh cool
+2018-12-16 02:20:54	@sose	also
+2018-12-16 02:21:00	@sose	~ben | rsync is basically scp but better
+2018-12-16 02:21:17	~ben	lol yes and?
+2018-12-16 02:21:18	@sose	so will it not sync files both directions automatically?
+2018-12-16 02:21:29	~ben	there's probably a flag for it
+2018-12-16 02:21:33	~ben	i haven't used it that way
+2018-12-16 02:23:19	@sose	we could probably just do an inotify hook on the remote end to sync the files back now that I think of it
+2018-12-16 02:23:34	@sose	how is rsync better than scp btw?
+2018-12-16 02:24:26	~ben	it handles symlinks, permissions, owners, modify dates and the like
+2018-12-16 02:24:29	~ben	plus it's way faster
+2018-12-16 02:24:34	~ben	compression
+2018-12-16 02:24:39	~ben	man rsync
+2018-12-16 02:24:45	@sose	looking at it rn
+2018-12-16 02:24:59	~ben	in a lot of cases you can just drop it in for scp
+2018-12-16 02:25:27	~ben	-avz is archive verbose zip(compress) and that handle symlinks and permissions
+2018-12-16 02:26:05	@sose	does it matter whether you use ssh or the daemon? 
+2018-12-16 02:26:41	~ben	i've never had a need to use the daemon but this might be a use-case for it
+2018-12-16 02:27:26	@sose	rsync is preinstalled on town but idk about others
+2018-12-16 02:27:35	@sose	we can just use ssh for now I guess
+2018-12-16 02:28:25	~ben	ssh doesn't replace rsync
+2018-12-16 02:28:33	~ben	rsync is installed on ~team
+2018-12-16 02:28:39	~ben	yourtilde as well afaik
+2018-12-16 02:28:55	@sose	I mean the ssh transport
+2018-12-16 02:29:09	@sose	still using rsync though
+2018-12-16 02:29:21	@sose	instead of the daemon
+2018-12-16 02:30:26	~ben	oh
+2018-12-16 02:30:29	~ben	ok yeah that's fine
+2018-12-16 02:39:12	@sose	btw mailman doesnt seem to be taking my token
+2018-12-16 02:39:36	~ben	subscription token?
+2018-12-16 02:39:58	~ben	you're on the subscriber list
+2018-12-16 02:40:32	~ben	if you make an account on the web ui with your airmail address you'll have access to the list settings
+2018-12-16 02:41:01	@sose	hmm ok
+2018-12-16 02:41:05	@sose	im getting this https://hastebin.com/miyeveduko.coffeescript
+2018-12-16 02:42:24	~ben	strange
+2018-12-16 04:45:21	@sose	idk i'll just frorward though right?
+2018-12-16 04:45:28	@sose	from ~team?
+2018-12-16 04:51:41	@sose	*it'll
+2018-12-16 05:05:32	~ben	yups
+2018-12-16 05:49:36	@fosslinux	7/go 36
+2018-12-16 05:49:41	@fosslinux	woooops
+2018-12-16 05:53:03	~ben	oh wow
+2018-12-16 05:53:16	~ben	36 for me is #pleroma on freenode lol
+2018-12-16 05:55:34	@fosslinux	lol
+2018-12-16 05:58:02	~ben	this is 101 oof
+2018-12-16 05:58:12	~ben	i should probably trim my channels
+2018-12-16 06:48:31	login	do you switch using /buffer?
+2018-12-16 06:51:15	~ben	no
+2018-12-16 06:51:24	~ben	that's way too many chars to type
+2018-12-16 06:51:27	~ben	alt-a
+2018-12-16 07:00:49	login	how does alt-a work?
+2018-12-16 07:03:04	~ben	it goes to the oldes unread buffer in your hotlist
+2018-12-16 07:03:48	~ben	the hotlist is the thing in the status line that looks like [H: num(num), num(num), num] 
+2018-12-16 20:01:01	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-12-16 20:01:01	--	Topic set by ben on Sun, 11 Nov 2018 03:03:14
+2018-12-16 20:01:52	--	fosslinux has changed topic for #tildelinux from "a customized, extra ~tilde~ debian distro https://linux.tildeverse.org - gitea org: https://tildegit.org/tildelinux - kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/" to "a customized, extra ~tilde~ debian distro. website: https://linux.tildeverse.org. gitea org: https://tildegit.org/tildelinux. kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-12-16 20:02:42	-->	mushmouth (mushmouth@yourtilde.com) has joined #tildelinux
+2018-12-17 15:21:24	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-12-17 15:27:53	-->	ben (ben@oper.tilde.chat) has joined #tildelinux
+2018-12-17 15:27:53	--	Mode #tildelinux [+qo ben ben] by ChanServ
+2018-12-19 15:28:59	--	ben is now known as 550AAAAAE
+2018-12-19 15:29:44	--	550AAAAAE is now known as ben
+2018-12-19 15:43:55	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-12-19 15:45:11	-->	550AAAAAE (ben@oper.tilde.chat) has joined #tildelinux
+2018-12-19 15:45:11	--	Mode #tildelinux [+qo 550AAAAAE 550AAAAAE] by center.tilde.chat
+2018-12-19 15:45:31	--	550AAAAAE is now known as ben
+2018-12-19 19:31:00	<--	mushmouth (mushmouth@yourtilde.com) has quit (Quit: i'll probably be back soon)
+2018-12-19 23:30:56	--	irc: disconnected from server
+2018-12-19 23:38:16	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #tildelinux
+2018-12-19 23:38:16	--	Topic for #tildelinux is "a customized, extra ~tilde~ debian distro. website: https://linux.tildeverse.org. gitea org: https://tildegit.org/tildelinux. kanban board: https://pad.tildeverse.org/kanban/#/2/kanban/edit/6w87ujP7uDa4BmZndChHSwZl/"
+2018-12-19 23:38:16	--	Topic set by fosslinux (fosslinux@fosslinux.tk) on Sun, 16 Dec 2018 20:01:52
+2018-12-19 23:38:16	--	Channel #tildelinux: 11 nicks (4 ops, 0 halfops, 0 voices, 7 normals)
+2018-12-19 23:38:18	--	Channel created on Sat, 10 Nov 2018 19:49:41

@@ -1,0 +1,169 @@
+2018-11-13 07:02:17	--	irc: connecting to server irc.hashbang.sh/6697 (SSL)...
+2018-11-13 07:02:17	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-13 07:02:17	--	gnutls: receiving 2 certificates
+2018-11-13 07:02:17	--	 - certificate[1] info:
+2018-11-13 07:02:17	--	   - subject `CN=irc.hashbang.sh', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x045b9776974d264976a06ba47c003694158f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-09-16 18:13:36 UTC', expires `2018-12-15 18:13:36 UTC', pin-sha256="uDQdLTTjAnls0822GE8L1VR9oBATek9BZ7DCD2lkrQ4="
+2018-11-13 07:02:17	--	 - certificate[2] info:
+2018-11-13 07:02:17	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-13 07:02:17	--	gnutls: peer's certificate is trusted
+2018-11-13 07:02:17	--	irc: connected to irc.hashbang.sh/6697 (107.170.252.157)
+2018-11-13 07:02:17	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Looking up your hostname...
+2018-11-13 07:02:17	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Checking ident...
+2018-11-13 07:02:17	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** No ident response; username prefixed with ~
+2018-11-13 07:02:17	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Found your hostname
+2018-11-13 07:02:18	--	irc: nickname "fosslinux" is already in use, trying nickname "fosslinux1"
+2018-11-13 07:02:18	--	irc: nickname "fosslinux1" is already in use, trying nickname "fosslinux2"
+2018-11-13 07:02:18	--	irc: nickname "fosslinux2" is already in use, trying nickname "fosslinux3"
+2018-11-13 07:02:18	--	irc: nickname "fosslinux3" is already in use, trying nickname "fosslinux4"
+2018-11-13 07:02:18	--	Welcome to the #! IRC Network fosslinux4!~fosslinux@71.19.146.164
+2018-11-13 07:02:18	--	Your host is sfo1.irc.hashbang.sh.irc.hashbang.sh, running version Unreal3.2.10.7
+2018-11-13 07:02:18	--	This server was created Wed Aug 2 2017 at 02:48:05 UTC
+2018-11-13 07:02:18	--	sfo1.irc.hashbang.sh.irc.hashbang.sh Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-11-13 07:02:18	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-11-13 07:02:18	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=#! CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-11-13 07:02:18	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-11-13 07:02:18	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** You are connected to sfo1.irc.hashbang.sh.irc.hashbang.sh with TLSv1.2-ECDHE-RSA-AES256-GCM-SHA384-256bits
+2018-11-13 07:02:18	--	There are 2 users and 358 invisible on 1 servers
+2018-11-13 07:02:18	--	5 :operator(s) online
+2018-11-13 07:02:18	--	16 :unknown connection(s)
+2018-11-13 07:02:18	--	70 :channels formed
+2018-11-13 07:02:18	--	I have 360 clients and 0 servers
+2018-11-13 07:02:18	--	360 377 :Current local users 360, max 377
+2018-11-13 07:02:18	--	360 366 :Current global users 360, max 366
+2018-11-13 07:02:18	--	- sfo1.irc.hashbang.sh.irc.hashbang.sh Message of the Day -
+2018-11-13 07:02:18	--	- 2/5/2015 21:47
+2018-11-13 07:02:18	--	-    _  _    __
+2018-11-13 07:02:18	--	-  _| || |_ |  |  Welcome to #!. This network has three rules:
+2018-11-13 07:02:18	--	- |_  __  _||  |
+2018-11-13 07:02:18	--	-  _| || |_ |  |  1. When people need help, teach. Don't do it for them
+2018-11-13 07:02:18	--	- |_  __  _||__|  2. Don't use our resources for closed source projects
+2018-11-13 07:02:18	--	-   |_||_|  (__)  3. Be excellent to each other
+2018-11-13 07:02:18	--	-
+2018-11-13 07:02:18	--	- -----------------------------------------------------------------------------
+2018-11-13 07:02:18	--	-   Server: irc.hashbang.sh      -     Port: 6697      -      SSL: Required
+2018-11-13 07:02:18	--	- -----------------------------------------------------------------------------
+2018-11-13 07:02:18	--	-
+2018-11-13 07:02:18	--	- Please register your nick: /msg nickserv register somepassword some@email.com
+2018-11-13 07:02:18	--	-
+2018-11-13 07:02:18	--	- -----------------------------------------------------------------------------
+2018-11-13 07:02:18	--	End of /MOTD command.
+2018-11-13 07:02:18	--	User mode [+iwxz] by fosslinux4
+2018-11-13 07:07:36	--	MSG(NickServ): IDENTIFY ********************
+2018-11-13 07:07:36	--	NickServ: No such nick/channel
+2018-11-13 07:09:13	--	You are now known as fosslinux
+2018-11-28 09:21:31	=!=	irc: reading data on socket: error -110 The TLS connection was non-properly terminated.
+2018-11-28 09:21:31	--	irc: disconnecting from server...
+2018-11-28 09:21:31	--	irc: disconnected from server
+2018-11-28 09:21:31	--	irc: reconnecting to server in 10 seconds
+2018-11-28 09:21:41	--	irc: reconnecting to server...
+2018-11-28 09:21:41	--	irc: connecting to server irc.hashbang.sh/6697 (SSL)...
+2018-11-28 09:21:54	=!=	irc: connection refused
+2018-11-28 09:21:54	--	irc: reconnecting to server in 20 seconds
+2018-11-28 09:22:14	--	irc: reconnecting to server...
+2018-11-28 09:22:14	--	irc: connecting to server irc.hashbang.sh/6697 (SSL)...
+2018-11-28 09:22:14	=!=	irc: connection refused
+2018-11-28 09:22:14	--	irc: reconnecting to server in 40 seconds
+2018-11-28 09:22:54	--	irc: reconnecting to server...
+2018-11-28 09:22:54	--	irc: connecting to server irc.hashbang.sh/6697 (SSL)...
+2018-11-28 09:22:54	=!=	irc: connection refused
+2018-11-28 09:22:54	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-11-28 09:24:14	--	irc: reconnecting to server...
+2018-11-28 09:24:14	--	irc: connecting to server irc.hashbang.sh/6697 (SSL)...
+2018-11-28 09:24:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-28 09:24:14	--	gnutls: receiving 2 certificates
+2018-11-28 09:24:14	--	 - certificate[1] info:
+2018-11-28 09:24:14	--	   - subject `CN=irc.hashbang.sh', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x045b9776974d264976a06ba47c003694158f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-09-16 18:13:36 UTC', expires `2018-12-15 18:13:36 UTC', pin-sha256="uDQdLTTjAnls0822GE8L1VR9oBATek9BZ7DCD2lkrQ4="
+2018-11-28 09:24:14	--	 - certificate[2] info:
+2018-11-28 09:24:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-28 09:24:14	--	gnutls: peer's certificate is trusted
+2018-11-28 09:24:14	--	irc: connected to irc.hashbang.sh/6697 (107.170.252.157)
+2018-11-28 09:24:14	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Looking up your hostname...
+2018-11-28 09:24:14	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Checking ident...
+2018-11-28 09:24:14	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** No ident response; username prefixed with ~
+2018-11-28 09:24:14	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Found your hostname
+2018-11-28 09:24:14	--	Welcome to the #! IRC Network fosslinux!~fosslinux@71.19.146.164
+2018-11-28 09:24:14	--	Your host is sfo1.irc.hashbang.sh.irc.hashbang.sh, running version Unreal3.2.10.7
+2018-11-28 09:24:14	--	This server was created Wed Aug 2 2017 at 02:48:05 UTC
+2018-11-28 09:24:14	--	sfo1.irc.hashbang.sh.irc.hashbang.sh Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-11-28 09:24:14	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-11-28 09:24:14	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=#! CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-11-28 09:24:14	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-11-28 09:24:14	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** You are connected to sfo1.irc.hashbang.sh.irc.hashbang.sh with TLSv1.2-ECDHE-RSA-AES256-GCM-SHA384-256bits
+2018-11-28 09:24:14	--	There are 1 users and 38 invisible on 1 servers
+2018-11-28 09:24:14	--	19 :unknown connection(s)
+2018-11-28 09:24:14	--	16 :channels formed
+2018-11-28 09:24:14	--	I have 39 clients and 0 servers
+2018-11-28 09:24:14	--	39 377 :Current local users 39, max 377
+2018-11-28 09:24:14	--	39 39 :Current global users 39, max 39
+2018-11-28 09:24:14	--	- sfo1.irc.hashbang.sh.irc.hashbang.sh Message of the Day -
+2018-11-28 09:24:14	--	- 2/5/2015 21:47
+2018-11-28 09:24:14	--	-    _  _    __
+2018-11-28 09:24:14	--	-  _| || |_ |  |  Welcome to #!. This network has three rules:
+2018-11-28 09:24:14	--	- |_  __  _||  |
+2018-11-28 09:24:14	--	-  _| || |_ |  |  1. When people need help, teach. Don't do it for them
+2018-11-28 09:24:14	--	- |_  __  _||__|  2. Don't use our resources for closed source projects
+2018-11-28 09:24:14	--	-   |_||_|  (__)  3. Be excellent to each other
+2018-11-28 09:24:14	--	-
+2018-11-28 09:24:14	--	- -----------------------------------------------------------------------------
+2018-11-28 09:24:14	--	-   Server: irc.hashbang.sh      -     Port: 6697      -      SSL: Required
+2018-11-28 09:24:14	--	- -----------------------------------------------------------------------------
+2018-11-28 09:24:14	--	-
+2018-11-28 09:24:14	--	- Please register your nick: /msg nickserv register somepassword some@email.com
+2018-11-28 09:24:14	--	-
+2018-11-28 09:24:14	--	- -----------------------------------------------------------------------------
+2018-11-28 09:24:14	--	End of /MOTD command.
+2018-11-28 09:24:14	--	User mode [+iwxz] by fosslinux
+2018-11-30 05:11:59	=!=	irc: disconnecting from server because upgrade can't work for servers connected via SSL
+2018-11-30 05:11:59	--	irc: disconnected from server
+2018-11-30 05:12:04	--	irc: reconnecting to server...
+2018-11-30 05:12:04	--	irc: connecting to server irc.hashbang.sh/6697 (SSL)...
+2018-11-30 05:12:04	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-30 05:12:04	--	gnutls: receiving 2 certificates
+2018-11-30 05:12:04	--	 - certificate[1] info:
+2018-11-30 05:12:04	--	   - subject `CN=irc.hashbang.sh', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x045b9776974d264976a06ba47c003694158f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-09-16 18:13:36 UTC', expires `2018-12-15 18:13:36 UTC', pin-sha256="uDQdLTTjAnls0822GE8L1VR9oBATek9BZ7DCD2lkrQ4="
+2018-11-30 05:12:04	--	 - certificate[2] info:
+2018-11-30 05:12:04	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-30 05:12:04	--	gnutls: peer's certificate is trusted
+2018-11-30 05:12:04	--	irc: connected to irc.hashbang.sh/6697 (107.170.252.157)
+2018-11-30 05:12:04	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Looking up your hostname...
+2018-11-30 05:12:04	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Checking ident...
+2018-11-30 05:12:04	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** No ident response; username prefixed with ~
+2018-11-30 05:12:04	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** Found your hostname
+2018-11-30 05:12:04	--	Welcome to the #! IRC Network fosslinux!~fosslinux@71.19.146.164
+2018-11-30 05:12:04	--	Your host is sfo1.irc.hashbang.sh.irc.hashbang.sh, running version Unreal3.2.10.7
+2018-11-30 05:12:04	--	This server was created Wed Aug 2 2017 at 02:48:05 UTC
+2018-11-30 05:12:04	--	sfo1.irc.hashbang.sh.irc.hashbang.sh Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-11-30 05:12:04	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-11-30 05:12:04	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=#! CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-11-30 05:12:04	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-11-30 05:12:04	--	sfo1.irc.hashbang.sh.irc.hashbang.sh: *** You are connected to sfo1.irc.hashbang.sh.irc.hashbang.sh with TLSv1.2-ECDHE-RSA-AES256-GCM-SHA384-256bits
+2018-11-30 05:12:04	--	There are 1 users and 309 invisible on 1 servers
+2018-11-30 05:12:04	--	5 :operator(s) online
+2018-11-30 05:12:04	--	16 :unknown connection(s)
+2018-11-30 05:12:04	--	74 :channels formed
+2018-11-30 05:12:04	--	I have 310 clients and 0 servers
+2018-11-30 05:12:04	--	310 377 :Current local users 310, max 377
+2018-11-30 05:12:04	--	310 313 :Current global users 310, max 313
+2018-11-30 05:12:04	--	- sfo1.irc.hashbang.sh.irc.hashbang.sh Message of the Day -
+2018-11-30 05:12:04	--	- 2/5/2015 21:47
+2018-11-30 05:12:04	--	-    _  _    __
+2018-11-30 05:12:04	--	-  _| || |_ |  |  Welcome to #!. This network has three rules:
+2018-11-30 05:12:04	--	- |_  __  _||  |
+2018-11-30 05:12:04	--	-  _| || |_ |  |  1. When people need help, teach. Don't do it for them
+2018-11-30 05:12:04	--	- |_  __  _||__|  2. Don't use our resources for closed source projects
+2018-11-30 05:12:04	--	-   |_||_|  (__)  3. Be excellent to each other
+2018-11-30 05:12:04	--	-
+2018-11-30 05:12:04	--	- -----------------------------------------------------------------------------
+2018-11-30 05:12:04	--	-   Server: irc.hashbang.sh      -     Port: 6697      -      SSL: Required
+2018-11-30 05:12:04	--	- -----------------------------------------------------------------------------
+2018-11-30 05:12:04	--	-
+2018-11-30 05:12:04	--	- Please register your nick: /msg nickserv register somepassword some@email.com
+2018-11-30 05:12:04	--	-
+2018-11-30 05:12:04	--	- -----------------------------------------------------------------------------
+2018-11-30 05:12:04	--	End of /MOTD command.
+2018-11-30 05:12:04	--	User mode [+iwxz] by fosslinux
+2018-11-30 06:31:19	--	tildeverse: No such channel
+2018-12-17 05:26:17	--	MSG(ChanServ): INFO #!
+2018-12-17 05:26:17	--	ChanServ: No such nick/channel
+2018-12-17 05:26:29	--	MSG(ChanServ): INFO #!
+2018-12-17 05:26:29	--	ChanServ: No such nick/channel

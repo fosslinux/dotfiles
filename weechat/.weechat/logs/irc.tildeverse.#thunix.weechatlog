@@ -1,0 +1,319 @@
+2018-11-16 05:56:33	-->	fosslinux (fosslinux@tilde-fhah4o.tilde.team) has joined #thunix
+2018-11-16 05:56:33	--	Channel #thunix: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2018-11-16 05:56:35	--	Channel created on Wed, 14 Nov 2018 15:14:52
+2018-11-16 05:56:36	fosslinux	oh
+2018-11-16 05:58:17	@ben	oh
+2018-11-16 07:12:32	-->	L0nely^C0wboy (cowboy@tilde-egr.vbb.214.117.IP) has joined #thunix
+2018-11-16 07:13:04	<--	L0nely^C0wboy (cowboy@tilde-egr.vbb.214.117.IP) has quit (quit: )
+2018-11-16 14:38:10	amcclure	hi
+2018-11-16 15:15:00	<--	amcclure (amcclure@tilde-0gnh0q.org) has quit (Changing host)
+2018-11-16 15:15:00	-->	amcclure (amcclure@thunix.org) has joined #thunix
+2018-11-16 15:59:06	@ben	hello!
+2018-11-16 19:36:15	-->	ben|thunix (benharri@oper.tilde.chat) has joined #thunix
+2018-11-16 19:36:22	--	ben|thunix is now known as benharri|thunix
+2018-11-16 19:59:12	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-16 20:00:08	-->	ben (ben@oper.tilde.chat) has joined #thunix
+2018-11-16 20:02:47	<--	amcclure (amcclure@thunix.org) has quit (Changing host)
+2018-11-16 20:02:47	-->	amcclure (amcclure@oper.tilde.chat) has joined #thunix
+2018-11-16 20:04:26	<--	benharri|thunix (benharri@oper.tilde.chat) has left #thunix ("WeeChat 2.3")
+2018-11-18 12:04:55	<--	amcclure (amcclure@oper.tilde.chat) has quit (team.tilde.chat thunix.tilde.chat)
+2018-11-18 17:12:35	-->	amcclure (amcclure@tilde.team) has joined #thunix
+2018-11-18 17:18:10	amcclure	ben
+2018-11-18 19:02:33	ben	amcclure: 
+2018-11-18 19:02:38	ben	wha happened
+2018-11-18 19:10:10	amcclure	According to Naglfar, hexhaxtron just shut down the server
+2018-11-18 19:11:03	ben	on purpose or accident?
+2018-11-18 19:12:13	amcclure	we don't really have any information about why
+2018-11-18 19:14:12	ben	huh
+2018-11-18 19:14:16	ben	that's shitty
+2018-11-18 19:14:40	amcclure	I asked if Naglfar and Bercik, two other sysadmins for thunix if they could join this channel
+2018-11-18 19:18:06	ben	oh ok
+2018-11-18 19:18:32	amcclure	haven't gotten a response yet
+2018-11-18 19:22:34	ben	isn't his email @thunix.org?
+2018-11-18 19:23:13	amcclure	thunix (server) is down completely, every @thunix.org email address is inaccessable
+2018-11-18 19:23:29	ben	oh, you weren't emailing
+2018-11-18 19:23:37	amcclure	I was using irc
+2018-11-18 19:27:54	ben	on freenode, yeah
+2018-11-18 19:29:02	-->	Naglfar (Severance@elite.bshellz.net) has joined #thunix
+2018-11-18 19:29:13	Naglfar	hello 
+2018-11-18 19:29:49	amcclure	hi
+2018-11-18 19:30:03	Naglfar	what happening ?
+2018-11-18 19:30:36	ben	heh i was hoping you might know
+2018-11-18 19:32:51	Naglfar	the latest news I have is that hexhaxtron shutdown thunix
+2018-11-18 19:34:25	amcclure	I was hoping we could at least be able to figure out what to do from here since thunix is gone
+2018-11-18 19:35:21	amcclure	for example: every users that wasn't and isn't still aware about the shutdown
+2018-11-18 19:37:00	Naglfar	we can't email them
+2018-11-18 19:38:01	amcclure	I don't have a list of registered users let alone any way to contact most of them unless they're still on irc
+2018-11-18 19:38:56	fosslinux	amcclure: jesus
+2018-11-18 19:38:58	Naglfar	anyway, we can't provide them backup files or another login shell
+2018-11-18 19:39:06	fosslinux	oh dear thats BAD
+2018-11-18 19:39:29	amcclure	very bad
+2018-11-18 19:40:03	fosslinux	can you contact hexhaxatron
+2018-11-18 19:41:00	amcclure	idk
+2018-11-18 19:41:14	amcclure	the only contact information I have for him is hexhaxtron@thunix.org
+2018-11-18 19:41:32	fosslinux	ur admin right
+2018-11-18 19:41:50	amcclure	the server's down completely
+2018-11-18 19:41:55	fosslinux	lucky i didn't have anything on there
+2018-11-18 19:42:03	amcclure	lucky
+2018-11-18 19:42:11	fosslinux	but amcclure, are/were you admin on thuix
+2018-11-18 19:42:39	fosslinux	thunix.org is down too
+2018-11-18 19:42:40	amcclure	Naglfar and I were 2 of the admins
+2018-11-18 19:42:57	fosslinux	right
+2018-11-18 19:43:00	amcclure	everything *.thunix.org is down
+2018-11-18 19:43:14	fosslinux	any other way than irc to contact everyone?
+2018-11-18 19:43:24	amcclure	none that I know of
+2018-11-18 19:43:39	fosslinux	jesus
+2018-11-18 19:43:43	fosslinux	thats screwed up
+2018-11-18 19:46:41	fosslinux	is there anywhere that there was a list of accounts?
+2018-11-18 19:47:36	amcclure	not that I know of
+2018-11-18 19:48:02	fosslinux	this is more screwed than the ip lock
+2018-11-18 19:48:35	fosslinux	ben: you should learn from this, does ~team have off-site (ie not-from-hetzner) backups?
+2018-11-18 19:48:45	fosslinux	thats a bit unrealistic for thunix
+2018-11-18 19:48:52	fosslinux	tbh 6tb
+2018-11-18 19:48:56	amcclure	I made occasional backups of my site
+2018-11-18 19:49:07	amcclure	not mirrors since those are just mirrors
+2018-11-18 19:49:49	fosslinux	my site and everything on ~team is a) in a git repository syncing to my home pc b) in my lxd container using syncthing to sync to my home pc and a raspberry pi
+2018-11-18 19:50:25	amcclure	non-site content wasn't backed up either
+2018-11-18 19:50:49	Naglfar	we nave off-site nothing, hexhaxtron left us without suitcases on the street
+2018-11-18 19:50:51	fosslinux	amcclure are you asm as well on ~team?
+2018-11-18 19:51:00	amcclure	yes
+2018-11-18 19:51:14	fosslinux	a
+2018-11-18 19:51:15	fosslinux	ah
+2018-11-18 19:51:16	fosslinux	ok
+2018-11-18 19:52:06	amcclure	I mainly had it since I had an A Name record for amcclure.ttm.sh for thunix's ip address
+2018-11-18 19:52:22	fosslinux	right
+2018-11-18 19:53:52	ben	i have offsite backups hourly with tarsnap
+2018-11-18 19:54:22	fosslinux	good boy
+2018-11-18 19:54:28	 *	fosslinux pats ben on head
+2018-11-18 19:54:40	amcclure	I remember hexhaxtron kept backups too
+2018-11-18 19:54:49	fosslinux	offsite?
+2018-11-18 19:55:00	ben	do we know if it was accidental or on purpose?
+2018-11-18 19:55:06	ben	was there any communication from him?
+2018-11-18 19:55:07	fosslinux	^
+2018-11-18 19:55:24	Naglfar	on purpose, < hexhaxtron__> I need to shutdown thunix...
+2018-11-18 19:55:41	ben	oh damn that sucks
+2018-11-18 19:55:52	fosslinux	when was that?
+2018-11-18 19:55:55	fosslinux	was that on irc?
+2018-11-18 19:56:08	ben	shutdown doesn't necessarily mean forever either
+2018-11-18 19:56:28	Naglfar	this was the last communcation with him: < hexhaxtron__> I'm starting to hate it...
+2018-11-18 19:56:31	fosslinux	ik
+2018-11-18 19:56:38	Naglfar	on irc
+2018-11-18 19:56:39	fosslinux	I'm starting to hate it...
+2018-11-18 19:56:42	fosslinux	dm?
+2018-11-18 19:56:46	fosslinux	or was it on #thunix?
+2018-11-18 19:56:48	fosslinux	i cant find it
+2018-11-18 19:56:49	ben	huh
+2018-11-18 19:56:51	ben	:(
+2018-11-18 19:56:53	fosslinux	oh no
+2018-11-18 19:56:57	fosslinux	thats really really bad
+2018-11-18 19:57:03	ben	btw amcclure i removed your amcclure.ttm.sh A record
+2018-11-18 19:57:12	amcclure	ty
+2018-11-18 19:57:21	fosslinux	you'd think that at least he'd give you a snapshot of the disk so you can "revive" it
+2018-11-18 19:57:57	amcclure	I remember him once mentioning that running the server caused issues with services and stuff
+2018-11-18 19:58:05	ben	huh
+2018-11-18 19:58:25	fosslinux	"running the server caused issues with services and stuff" what does that mean
+2018-11-18 19:58:32	ben	internet service?
+2018-11-18 19:58:35	amcclure	from what I know, and idk if it's correct, he ran the server himself
+2018-11-18 19:59:06	fosslinux	well the website shows a pic of a server that he seems to be running out of home
+2018-11-18 19:59:14	fosslinux	most isps get pissed off about that
+2018-11-18 19:59:17	amcclure	Naglfar: do you know if the server was ran from his home?
+2018-11-18 19:59:26	fosslinux	http://web.archive.org/web/20181115222403/https://www.thunix.org/?lang=en
+2018-11-18 19:59:36	Naglfar	yes, amcclure it was
+2018-11-18 19:59:39	amcclure	idk if the ISP cared or not
+2018-11-18 20:00:28	fosslinux	ive gtg
+2018-11-18 20:00:32	fosslinux	ill check in later
+2018-11-18 20:00:33	fosslinux	cya
+2018-11-18 20:01:01	amcclure	but with how users were using thunix, especially with how he also had a proxy service, the servers ip got blocked on stuff based on some users activity
+2018-11-18 20:48:10	-->	Bercik (Yotsuba@staticline56959.toya.net.pl) has joined #thunix
+2018-11-18 20:48:17	Bercik	what is up guys?
+2018-11-18 20:49:14	ben	thunix seems to  have dropped off the face of the planet
+2018-11-18 20:54:08	Naglfar	hi Bercik 
+2018-11-18 20:58:34	Bercik	why we moved here? freenode works fine
+2018-11-18 21:00:04	ben	https://tilde.chat/wiki/?page=servers
+2018-11-18 21:00:06	ben	idk
+2018-11-18 21:00:17	ben	amcclure had just gotten us set up with tilde.chat
+2018-11-18 21:42:50	-->	fosslinux| (fosslinux@tilde-9m1cgd.optusnet.com.au) has joined #thunix
+2018-11-18 21:43:16	fosslinux|	what's happening
+2018-11-18 21:47:13	ben	nothing
+2018-11-18 23:05:33	<--	Bercik (Yotsuba@staticline56959.toya.net.pl) has quit (Ping timeout: 121 seconds)
+2018-11-18 23:23:22	<--	fosslinux| (fosslinux@tilde-9m1cgd.optusnet.com.au) has quit (Ping timeout: 121 seconds)
+2018-11-19 01:03:12	<--	Naglfar (Severance@elite.bshellz.net) has quit (Quit: yepee!)
+2018-11-19 02:28:54	fosslinux	yepee
+2018-11-19 02:28:55	fosslinux	ok
+2018-11-19 03:21:46	--	amcclure is now known as amcclure[team]
+2018-11-19 06:48:13	-->	Bercik (Yotsuba@staticline56959.toya.net.pl) has joined #thunix
+2018-11-19 15:12:26	<--	Bercik (Yotsuba@staticline56959.toya.net.pl) has quit (Ping timeout: 121 seconds)
+2018-11-19 22:17:15	-->	Bercik (Yotsuba@staticline56959.toya.net.pl) has joined #thunix
+2018-11-19 22:46:08	<--	Bercik (Yotsuba@staticline56959.toya.net.pl) has quit (Ping timeout: 121 seconds)
+2018-11-20 03:33:25	-->	hyperboredoubt (hyperboredo@yourtilde.com) has joined #thunix
+2018-11-20 03:33:34	hyperboredoubt	What happens in this one?
+2018-11-20 03:34:18	ben	oh it was for thunix.org
+2018-11-20 03:34:24	ben	which is a now-defunct tilde
+2018-11-20 03:34:40	ben	they went down with like no explanation 2 days ago
+2018-11-20 03:35:10	hyperboredoubt	:(
+2018-11-20 03:36:34	ben	yeah :/
+2018-11-20 03:36:45	ben	the admin was running it from his house
+2018-11-20 03:38:18	hyperboredoubt	Is there anything that can be done to fix the situation?
+2018-11-20 03:39:07	ben	the only email we had for him was hosted on that machine lol
+2018-11-20 03:46:45	hyperboredoubt	Suxxx to be him, lol.
+2018-11-20 03:46:48	<--	hyperboredoubt (hyperboredo@yourtilde.com) has left #thunix ("WeeChat 2.3")
+2018-11-20 08:49:54	-->	Bercik (Yotsuba@staticline56959.toya.net.pl) has joined #thunix
+2018-11-20 09:05:55	<--	Bercik (Yotsuba@staticline56959.toya.net.pl) has quit (Ping timeout: 121 seconds)
+2018-11-21 02:26:32	--	irc: disconnected from server
+2018-11-21 02:27:10	-->	fosslinux (fosslinux@fhah4o.tilde.team) has joined #thunix
+2018-11-21 02:27:10	--	Channel #thunix: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2018-11-21 02:27:40	--	Channel created on Wed, 14 Nov 2018 15:14:52
+2018-11-21 03:39:40	--	irc: disconnected from server
+2018-11-21 03:40:18	-->	fosslinux1 (fosslinux@fhah4o.tilde.team) has joined #thunix
+2018-11-21 03:40:18	--	Channel #thunix: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2018-11-21 03:40:48	--	Channel created on Wed, 14 Nov 2018 15:14:52
+2018-11-21 03:40:52	<--	fosslinux (fosslinux@fhah4o.tilde.team) has quit (Connection closed)
+2018-11-21 04:19:27	--	You are now known as fosslinux
+2018-11-21 23:08:17	-->	fosslinux| (fosslinux@svubk6.optusnet.com.au) has joined #thunix
+2018-11-21 23:08:24	fosslinux|	rip
+2018-11-21 23:08:42	fosslinux|	Rest In Peace Thunix. you were good
+2018-11-22 03:10:21	<--	fosslinux| (fosslinux@svubk6.optusnet.com.au) has quit (Ping timeout: 121 seconds)
+2018-11-22 03:12:24	-->	fosslinux| (fosslinux@20m279.optusnet.com.au) has joined #thunix
+2018-11-22 04:29:41	<--	fosslinux| (fosslinux@20m279.optusnet.com.au) has quit (Ping timeout: 121 seconds)
+2018-11-26 02:10:52	<--	ben (ben@oper.tilde.chat) has quit (Server shutdown)
+2018-11-26 02:22:55	-->	ben (ben@oper.tilde.chat) has joined #thunix
+2018-11-26 02:23:05	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-26 02:24:00	-->	ben (ben@oper.tilde.chat) has joined #thunix
+2018-11-26 03:14:49	<--	ben (ben@oper.tilde.chat) has quit (quit: i'll probably be back soon)
+2018-11-26 03:18:04	-->	ben (ben@oper.tilde.chat) has joined #thunix
+2018-11-27 16:18:57	<--	amcclure[team] (amcclure@tilde.team) has quit (Ping timeout: 121 seconds)
+2018-11-27 16:19:45	-->	amcclure[team] (amcclure@tilde.team) has joined #thunix
+2018-11-27 16:45:40	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-11-27 16:45:56	-->	ben (ben@oper.tilde.chat) has joined #thunix
+2018-11-28 09:12:00	<--	ben (ben@oper.tilde.chat) has quit (team.tilde.chat gingko.tilde.chat)
+2018-11-28 09:16:26	-->	ben (ben@oper.tilde.chat) has joined #thunix
+2018-11-28 17:07:49	--	amcclure[team] is now known as amcclure
+2018-11-30 05:11:59	--	irc: disconnected from server
+2018-11-30 05:12:32	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #thunix
+2018-11-30 05:12:32	--	Channel #thunix: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2018-11-30 05:13:16	--	Channel created on Wed, 14 Nov 2018 15:14:52
+2018-12-01 04:17:47	<--	ben (ben@oper.tilde.chat) has left #thunix ("ping me anyways i guess")
+2018-12-03 06:10:31	<--	amcclure (amcclure@tilde.team) has quit (G-Lined: [ben] you need to stop (ID: TM21RYBH6G))
+2018-12-03 06:11:50	-->	amcclure (amcclure@tilde.team) has joined #thunix
+2018-12-03 10:47:17	--	irc: disconnected from server
+2018-12-03 10:47:55	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #thunix
+2018-12-03 10:47:55	--	Channel #thunix: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2018-12-03 10:48:41	--	Channel created on Wed, 14 Nov 2018 15:14:52
+2018-12-04 02:32:22	-->	ubergeek (ubergeek@tilde.team) has joined #thunix
+2018-12-04 06:12:21	--	You are now known as |
+2018-12-04 06:13:48	--	You are now known as fosslinux
+2018-12-05 17:25:17	--	amcclure is now known as amcclure[team]
+2018-12-07 19:01:39	ubergeek	no web server listening on thunix.tilde yet?
+2018-12-07 19:01:47	ubergeek	Or rather, no landing page?
+2018-12-07 21:57:16	fosslinux	no
+2018-12-07 21:57:20	fosslinux	because thunix is down
+2018-12-07 21:57:23	fosslinux	ubergeek:
+2018-12-08 01:43:38	ubergeek	I thought it was getting pointed somewhere?  thunix.tilde just shows a default, for example.
+2018-12-08 03:08:28	fosslinux	idk
+2018-12-08 03:08:36	fosslinux	huh
+2018-12-08 03:09:04	fosslinux	HUH
+2018-12-08 03:11:46	fosslinux	ubergeek: amcclure[team]: can you both leave? then amcclure can register this channel fo thunix
+2018-12-08 03:12:13	-->	fosslinux (fosslinux@fosslinux.tk) has joined #thunix
+2018-12-08 03:12:13	--	Channel #thunix: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2018-12-08 03:12:15	--	Channel created on Wed, 14 Nov 2018 15:14:52
+2018-12-08 16:27:51	amcclure[team]	how would I register it?
+2018-12-08 16:28:20	-->	amcclure (amcclure@triton.blinkenshell.org) has joined #thunix
+2018-12-08 16:38:10	amcclure	fosslinux: please leave the channel
+2018-12-08 16:38:38	<--	amcclure[team] (amcclure@tilde.team) has left #thunix ("WeeChat 2.3")
+2018-12-08 16:45:20	-->	deepend (deepend@oper.tilde.chat) has joined #thunix
+2018-12-08 16:46:22	amcclure	hello
+2018-12-08 16:46:50	deepend	1 moment.. just been awhile since i"ve done this crap :P
+2018-12-08 16:48:34	<--	fosslinux (fosslinux@fosslinux.tk) has left #thunix
+2018-12-08 17:19:52	-->	fosslinux (fosslinux@fosslinux.tk) has joined #thunix
+2018-12-08 17:19:52	--	Channel #thunix: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2018-12-08 17:19:52	--	Channel created on Sat, 08 Dec 2018 16:59:15
+2018-12-08 17:22:57	~amcclure	not oper though
+2018-12-08 17:23:16	deepend	channel op you mean? 
+2018-12-08 17:23:24	deepend	you are channel op
+2018-12-08 17:24:51	~amcclure	oh
+2018-12-08 20:19:24	fosslinux	sorry
+2018-12-09 00:01:17	-->	amcclure[team] (amcclure@tilde.team) has joined #thunix
+2018-12-09 00:01:24	amcclure[team]	leave
+2018-12-09 00:01:37	amcclure[team]	oops
+2018-12-09 00:01:38	<--	amcclure[team] (amcclure@tilde.team) has left #thunix ("WeeChat 2.3")
+2018-12-09 00:01:41	-->	amcclure[team] (amcclure@tilde.team) has joined #thunix
+2018-12-09 19:06:58	-->	ubergeek (ubergeek@tilde.team) has joined #thunix
+2018-12-10 15:58:46	~amcclure	hello
+2018-12-10 19:32:58	<--	ubergeek (ubergeek@tilde.team) has quit (quit: WeeChat 2.3)
+2018-12-11 01:18:21	-->	ubergeek (ubergeek@tilde.team) has joined #thunix
+2018-12-11 01:47:23	<--	deepend (deepend@oper.tilde.chat) has left #thunix ("WeeChat 2.3")
+2018-12-12 14:57:10	~amcclure	idk if this is going to work...
+2018-12-12 17:08:25	ubergeek	It will.  I have faith.
+2018-12-12 23:44:09	~amcclure	I mean I tried to run the old thunix bot on here and it didn't work
+2018-12-13 04:42:19	<--	amcclure (amcclure@triton.blinkenshell.org) has quit (Ping timeout: 121 seconds)
+2018-12-13 04:45:02	-->	amcclure (amcclure@triton.blinkenshell.org) has joined #thunix
+2018-12-13 14:14:30	--	Mode #thunix [+qo amcclure amcclure] by ChanServ
+2018-12-13 14:48:55	ubergeek	what specs are you looking at for a server?
+2018-12-13 14:57:32	<--	amcclure (amcclure@triton.blinkenshell.org) has quit (quit: leaving)
+2018-12-13 14:58:42	--	amcclure[team] is now known as amcclure
+2018-12-13 14:59:16	--	Mode #thunix [+qo amcclure amcclure] by ChanServ
+2018-12-13 15:00:51	~amcclure	just something that could run a web and email server
+2018-12-13 15:00:59	~amcclure	nothing too much though
+2018-12-13 15:10:49	ubergeek	lemme get back to you.  I should be able to spin up a DO droplet.
+2018-12-13 15:11:24	~amcclure	tysm ubergeek!
+2018-12-13 15:11:31	ubergeek	It *may* take until sometime this weekend.  I really need to downsize one of my droplets too
+2018-12-13 15:11:47	~amcclure	oh
+2018-12-13 15:11:47	ubergeek	what OS?
+2018-12-13 15:12:06	~amcclure	what operating systems are available
+2018-12-13 15:12:17	~amcclure	I'd prefer Debian
+2018-12-13 15:12:18	ubergeek	Got centos, ubuntu, rancher, fedroa, debian...
+2018-12-13 15:12:24	~amcclure	ok Debian 9
+2018-12-13 15:12:25	ubergeek	lemme check real quick for the list
+2018-12-13 15:14:11	ubergeek	Yep, debian 9 is there, as well as freebsd, CoreOS, and Atomic
+2018-12-13 15:14:43	ubergeek	also, email me a pubkey for root, if you don't mind
+2018-12-13 15:14:49	~amcclure	1 second
+2018-12-13 15:14:51	ubergeek	o7
+2018-12-13 15:19:30	~amcclure	I sent a msg with it
+2018-12-13 15:24:18	ubergeek	do you have a preferred region?
+2018-12-13 15:24:37	~amcclure	what regions are available?
+2018-12-13 15:25:03	ubergeek	NY, San Fran, Amerstam, Frankfurt, Londons, Singapore, Toronot, and Bangalore
+2018-12-13 15:25:17	ubergeek	disregard my crap spelling
+2018-12-13 15:25:35	~amcclure	is there any way to see which region would be best
+2018-12-13 15:25:44	ubergeek	what is "best"?
+2018-12-13 15:25:55	ubergeek	Best depends on where you want it, really.
+2018-12-13 15:26:17	~amcclure	what are all the us locations
+2018-12-13 15:26:24	~amcclure	just san fran?
+2018-12-13 15:26:37	ubergeek	NYC, and San Fran
+2018-12-13 15:26:42	~amcclure	maybe NYC
+2018-12-13 15:26:48	ubergeek	Toronto might as well be US
+2018-12-13 15:27:06	ubergeek	Since NYS is just "southern Canadan" lol
+2018-12-13 15:27:13	~amcclure	is ny available?
+2018-12-13 15:27:18	ubergeek	yes
+2018-12-13 15:27:22	~amcclure	ok
+2018-12-13 15:27:29	ubergeek	NYC it is :)
+2018-12-13 15:28:39	~amcclure	ok :)
+2018-12-13 15:29:16	~amcclure	would you be able to join #thunix-admin on freenode?
+2018-12-13 15:29:36	~amcclure	oops meant to msg that
+2018-12-13 15:29:39	~amcclure	lol
+2018-12-13 15:40:19	ubergeek	sure
+2018-12-13 19:40:52	fosslinux	hey ubergeek, amcclure, so now you have something for web/email?
+2018-12-13 19:42:46	fosslinux	if you were looking for another server which i may be able to provide soonish, what would you be looking for?
+2018-12-13 20:04:45	~amcclure	fosslinux: can you join #thunix-admin on freenode as well?
+2018-12-14 04:54:06	fosslinux	kk
+2018-12-14 05:56:22	--	You are now known as ^
+2018-12-14 06:11:12	--	You are now known as fosslinux
+2018-12-15 00:37:07	-->	ubergeek1 (ubergeek@yourtilde.com) has joined #thunix
+2018-12-15 00:40:20	<--	ubergeek1 (ubergeek@yourtilde.com) has quit (Quit: WeeChat 2.3)
+2018-12-19 01:54:13	--	amcclure has changed topic for #thunix to "Welcome to thunix! -- https://www.thunix.cf"
+2018-12-19 12:24:08	~amcclure	hello
+2018-12-19 12:31:44	ubergeek	morning :)
+2018-12-19 19:58:27	-->	ubergeek|lounge (ubergeek@tilde.team) has joined #thunix
+2018-12-19 22:59:38	fosslinux	amcclure: is thunix website on a git repo somewhere?
+2018-12-19 23:00:01	fosslinux	i'm happy to maintain the site
+2018-12-19 23:19:03	~amcclure	I was just going to maintain the site myself
+2018-12-19 23:19:17	fosslinux	sure
+2018-12-19 23:19:29	fosslinux	it needs a revamp tho
+2018-12-19 23:20:10	~amcclure	revamp?
+2018-12-19 23:21:43	fosslinux	complete redo
+2018-12-19 23:21:51	fosslinux	because pretty much everything on there has changed
+2018-12-19 23:30:56	--	irc: disconnected from server
+2018-12-19 23:38:09	-->	fosslinux (fosslinux@bsd.tilde.team) has joined #thunix
+2018-12-19 23:38:09	--	Topic for #thunix is "Welcome to thunix! -- https://www.thunix.cf"
+2018-12-19 23:38:09	--	Topic set by amcclure (amcclure@tilde.team) on Wed, 19 Dec 2018 01:54:13
+2018-12-19 23:38:09	--	Channel #thunix: 4 nicks (1 op, 0 halfops, 0 voices, 3 normals)
+2018-12-19 23:38:11	--	Channel created on Sat, 08 Dec 2018 16:59:15
