@@ -1,4 +1,4 @@
-config_dir_gopher="$HOME/public_gopher/"
+config_dir_gopher="${HOME}/public_gopher/"
 
 config_gopher_server="tilde.team"
 config_gopher_port="70"
@@ -26,4 +26,3 @@ config_file_rss="rss.xml"
 config_gopher_name="~fosslinux"
 config_gopher_desc="~fosslinux's gopherhole"
 config_rss_num_entries="10"
-
