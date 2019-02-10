@@ -4,7 +4,7 @@
 
 STOW_INSTALL = stow -t ~ -S
 STOW_REMOVE = stow -t ~ -D
-STOW_UPDATE = stow -t ~ -R
+STOW_UPDATE = ./stow_update
 
 # =============================
 # =    PER-PACKAGE INSTALL    =
@@ -12,76 +12,95 @@ STOW_UPDATE = stow -t ~ -R
 
 bash-install:
 	$(STOW_INSTALL) bash
+	echo 'bash' >> installed
 
 burrow-install:
 	$(STOW_INSTALL) burrow
+	echo 'burrow' >> installed
 
 gimp-install:
 	$(STOW_INSTALL) gimp
+	echo 'gimp' >> installed
 
 git-install:
 	$(STOW_INSTALL) git
+	echo 'git' >> installed
 
 gnupg-install:
 	$(STOW_INSTALL) gnupg
+	echo 'gnupg' >> installed
 
 libreoffice-install:
 	$(STOW_INSTALL) libreoffice
+	echo 'libreoffice' >> installed
 
-links2-install:
-	$(STOW_INSTALL) links2
+LICENSE-install:
+	$(STOW_INSTALL) LICENSE
+	echo 'LICENSE' >> installed
+
+Makefile-install:
+	$(STOW_INSTALL) Makefile
+	echo 'Makefile' >> installed
 
 mixxx-install:
 	$(STOW_INSTALL) mixxx
+	echo 'mixxx' >> installed
 
-oh-my-zsh-install: zsh-install
+oh-my-zsh-install:
 	$(STOW_INSTALL) oh-my-zsh
+	echo 'oh-my-zsh' >> installed
 
 pavucontrol-install:
 	$(STOW_INSTALL) pavucontrol
+	echo 'pavucontrol' >> installed
 
 smplayer-install:
 	$(STOW_INSTALL) smplayer
+	echo 'smplayer' >> installed
 
 ssh-install:
 	$(STOW_INSTALL) ssh
+	echo 'ssh' >> installed
 
 thunar-install:
 	$(STOW_INSTALL) thunar
+	echo 'thunar' >> installed
 
 tmux-install:
 	$(STOW_INSTALL) tmux
-
-torbrowser-install:
-	$(STOW_INSTALL) torbrowser
+	echo 'tmux' >> installed
 
 vim-install:
 	$(STOW_INSTALL) vim
+	echo 'vim' >> installed
 
 vlc-install:
 	$(STOW_INSTALL) vlc
-
-w3m-install:
-	$(STOW_INSTALL) w3m
+	echo 'vlc' >> installed
 
 weechat-install:
 	$(STOW_INSTALL) weechat
+	echo 'weechat' >> installed
 
 wget-install:
 	$(STOW_INSTALL) wget
+	echo 'wget' >> installed
 
 xarchiver-install:
 	$(STOW_INSTALL) xarchiver
+	echo 'xarchiver' >> installed
 
 xfce4-install:
 	$(STOW_INSTALL) xfce4
+	echo 'xfce4' >> installed
 
 youtube-dl-install:
 	$(STOW_INSTALL) youtube-dl
+	echo 'youtube-dl' >> installed
 
 zsh-install:
 	$(STOW_INSTALL) zsh
-
+	echo 'zsh' >> installed
 # ============================
 # =    PER-PACKAGE REMOVE    = 
 # ============================
@@ -106,9 +125,6 @@ libreoffice-remove:
 
 LICENSE-remove:
 	$(STOW_REMOVE) LICENSE
-
-links2-remove:
-	$(STOW_REMOVE) links2
 
 Makefile-remove:
 	$(STOW_REMOVE) Makefile
@@ -142,9 +158,6 @@ vim-remove:
 
 vlc-remove:
 	$(STOW_REMOVE) vlc
-
-w3m-remove:
-	$(STOW_REMOVE) w3m
 
 weechat-remove:
 	$(STOW_REMOVE) weechat
@@ -189,9 +202,6 @@ libreoffice-update:
 LICENSE-update:
 	$(STOW_UPDATE) LICENSE
 
-links2-update:
-	$(STOW_UPDATE) links2
-
 Makefile-update:
 	$(STOW_UPDATE) Makefile
 
@@ -225,9 +235,6 @@ vim-update:
 vlc-update:
 	$(STOW_UPDATE) vlc
 
-w3m-update:
-	$(STOW_UPDATE) w3m
-
 weechat-update:
 	$(STOW_UPDATE) weechat
 
@@ -250,7 +257,7 @@ zsh-update:
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-install zsh-install
 
@@ -268,9 +275,9 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+remove: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
-update: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+update: bash-update burrow-update gimp-update git-update gnupg-update libreoffice-update ixxx-update oh-my-zsh-update pavucontrol-update smplayer-update ssh-update thunar-update tmux-update torbrowser-update vim-update vlc-update weechat-update wget-update xarchiver-update xfce4-update youtube-dl-update zsh-update
 
 all: update
 
