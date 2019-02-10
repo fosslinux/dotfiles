@@ -34,9 +34,6 @@ links2-install:
 mixxx-install:
 	$(STOW_INSTALL) mixxx
 
-node-install:
-	$(STOW_INSTALL) node
-
 oh-my-zsh-install: zsh-install
 	$(STOW_INSTALL) oh-my-zsh
 
@@ -127,9 +124,6 @@ Makefile-remove:
 
 mixxx-remove:
 	$(STOW_REMOVE) mixxx
-
-node-remove: 
-	$(STOW_REMOVE) node
 
 oh-my-zsh-remove:
 	$(STOW_REMOVE) oh-my-zsh
@@ -222,9 +216,6 @@ Makefile-update:
 mixxx-update:
 	$(STOW_UPDATE) mixxx
 
-node-update:
-	$(STOW_UPDATE) node
-
 oh-my-zsh-update:
 	$(STOW_UPDATE) oh-my-zsh
 
@@ -286,11 +277,11 @@ zsh-update:
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-install zsh-install
 
-install-home: install-base burrow-install gimp-install git-install gnupg-install libreoffice-install node-install pavucontrol-install torbrowser-install thunar-install tig-install vlc-install wget-install xarchiver-install youtube-dl-install
+install-home: install-base burrow-install gimp-install git-install gnupg-install libreoffice-install pavucontrol-install torbrowser-install thunar-install tig-install vlc-install wget-install xarchiver-install youtube-dl-install
 
 install-pubnix: install-base burrow-install gnupg-install wget-install
 
@@ -304,9 +295,9 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+remove: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
-update: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+update: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 all: update
 
