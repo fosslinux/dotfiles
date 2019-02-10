@@ -1,6 +1,7 @@
 packages
 oh-my-zsh/.oh-my-zsh/cache/.zsh-update
 oh-my-zsh/.oh-my-zsh/.git
+oh-my-zsh/.oh-my-zsh/custom/themes/spaceship-prompt/.git
 libreoffice/.config/libreoffice/4/.lock
 weechat/.weechat/logs
 mixxx/.mixxx/*.log*
