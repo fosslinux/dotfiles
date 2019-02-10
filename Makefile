@@ -16,9 +16,6 @@ bash-install:
 burrow-install:
 	$(STOW_INSTALL) burrow
 
-byobu-install:
-	$(STOW_INSTALL) byobu
-
 fontconfig-install:
 	$(STOW_INSTALL) fontconfig
 
@@ -112,9 +109,6 @@ bash-remove:
 
 burrow-remove:
 	$(STOW_REMOVE) burrow
-
-byobu-remove:
-	$(STOW_REMOVE) byobu
 
 fontconfig-remove: fonts-remove
 	$(STOW_REMOVE) fontconfig
@@ -216,9 +210,6 @@ bash-update:
 burrow-update:
 	$(STOW_UPDATE) burrow
 
-byobu-update:
-	$(STOW_UPDATE) byobu
-
 fontconfig-update:
 	$(STOW_UPDATE) fontconfig
 
@@ -313,7 +304,7 @@ zsh-update:
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install byobu-install fontconfig-install fonts-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install fontconfig-install fonts-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 install-base: bash-install fontconfig-install fonts-install oh-my-zsh-install ssh-install tmux-install vim-install zsh-install
 
@@ -331,9 +322,9 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-install byobu-install fontconfig-install fonts-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+remove: bash-remove burrow-install fontconfig-install fonts-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
-update: bash-remove burrow-install byobu-install fontconfig-install fonts-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+update: bash-remove burrow-install fontconfig-install fonts-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install node-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install subversion-install thunar-install tig-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 all: update
 
