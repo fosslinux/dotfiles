@@ -61,9 +61,6 @@ vim-install:
 vlc-install:
 	$(STOW_INSTALL) vlc
 
-vscode-install:
-	$(STOW_INSTALL) vscode
-
 w3m-install:
 	$(STOW_INSTALL) w3m
 
@@ -145,9 +142,6 @@ vim-remove:
 
 vlc-remove:
 	$(STOW_REMOVE) vlc
-
-vscode-remove:
-	$(STOW_REMOVE) vscode
 
 w3m-remove:
 	$(STOW_REMOVE) w3m
@@ -231,9 +225,6 @@ vim-update:
 vlc-update:
 	$(STOW_UPDATE) vlc
 
-vscode-update:
-	$(STOW_UPDATE) vscode
-
 w3m-update:
 	$(STOW_UPDATE) w3m
 
@@ -259,7 +250,7 @@ zsh-update:
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-install zsh-install
 
@@ -277,9 +268,9 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+remove: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
-update: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install vscode-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+update: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install links2-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install w3m-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 all: update
 
