@@ -2,3 +2,4 @@ oh-my-zsh/.oh-my-zsh/cache/.zsh-update
 oh-my-zsh/.oh-my-zsh/.git
 libreoffice/.config/libreoffice/4/.lock
 weechat/.weechat/logs
+mixxx/.mixxx/*.log*
