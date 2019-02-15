@@ -11,31 +11,24 @@ STOW_REMOVE = stow -t ~ -D
 
 bash-install:
 	$(STOW_INSTALL) bash
-	echo 'bash' >> installed
 
 burrow-install:
 	$(STOW_INSTALL) burrow
-	echo 'burrow' >> installed
 
 gimp-install:
 	$(STOW_INSTALL) gimp
-	echo 'gimp' >> installed
 
 git-install:
 	$(STOW_INSTALL) git
-	echo 'git' >> installed
 
 gnupg-install:
 	$(STOW_INSTALL) gnupg
-	echo 'gnupg' >> installed
 
 libreoffice-install:
 	$(STOW_INSTALL) libreoffice
-	echo 'libreoffice' >> installed
 
 mixxx-install:
 	$(STOW_INSTALL) mixxx
-	echo 'mixxx' >> installed
 
 oh-my-zsh-install: git-install
 	git clone https://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
@@ -44,55 +37,42 @@ oh-my-zsh-install: git-install
 
 pavucontrol-install:
 	$(STOW_INSTALL) pavucontrol
-	echo 'pavucontrol' >> installed
 
 smplayer-install:
 	$(STOW_INSTALL) smplayer
-	echo 'smplayer' >> installed
 
 ssh-install:
 	$(STOW_INSTALL) ssh
-	echo 'ssh' >> installed
 
 thunar-install:
 	$(STOW_INSTALL) thunar
-	echo 'thunar' >> installed
 
 tmux-install:
 	$(STOW_INSTALL) tmux
-	echo 'tmux' >> installed
 
 vim-install:
 	$(STOW_INSTALL) vim
-	echo 'vim' >> installed
 
 vlc-install:
 	$(STOW_INSTALL) vlc
-	echo 'vlc' >> installed
 
 weechat-install:
 	$(STOW_INSTALL) weechat
-	echo 'weechat' >> installed
 
 wget-install:
 	$(STOW_INSTALL) wget
-	echo 'wget' >> installed
 
 xarchiver-install:
 	$(STOW_INSTALL) xarchiver
-	echo 'xarchiver' >> installed
 
 xfce4-install:
 	$(STOW_INSTALL) xfce4
-	echo 'xfce4' >> installed
 
 youtube-dl-install:
 	$(STOW_INSTALL) youtube-dl
-	echo 'youtube-dl' >> installed
 
 zsh-install:
 	$(STOW_INSTALL) zsh
-	echo 'zsh' >> installed
 
 # ============================
 # =    PER-PACKAGE REMOVE    = 
@@ -241,7 +221,6 @@ help:
 	@printf "removing dotfiles. These are most useful when:\\n"
 	@printf " install) adding a new package after install, however this can\\n"
 	@printf "          normally be done by running the same target you\\n"
-	@printf "          installed with if it was added to that target.\\n"
 	@printf " remove)  deciding a package is no longer needed. if a package\\n"
 	@printf "          is removed from its install target, re-running the\\n"
 	@printf "          install target with not remove it, this must be done\\n"
