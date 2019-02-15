@@ -15,6 +15,12 @@ bash-install:
 burrow-install:
 	$(STOW_INSTALL) burrow
 
+cron-pubnix-install:
+	cat ~/dotfiles/cron/pubnix-cron >> ~/dotfiles/my-cron
+
+cron-install:
+	if [ -e ~/dotfiles/my-cron ] ; then crontab ~/dotfiles/my-cron ; fi
+
 gimp-install:
 	$(STOW_INSTALL) gimp
 
@@ -151,7 +157,7 @@ install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-instal
 
 install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install thunar-install vlc-install wget-install xarchiver-install youtube-dl-install
 
-install-pubnix: install-base burrow-install gnupg-install wget-install
+install-pubnix: install-base burrow-install gnupg-install wget-install cron-install-pubnix
 
 install-team: install-pubnix youtube-dl-install
 
