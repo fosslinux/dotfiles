@@ -4,7 +4,6 @@
 
 STOW_INSTALL = stow -t ~ -S
 STOW_REMOVE = stow -t ~ -D
-STOW_UPDATE = ./stow_update
 
 # =============================
 # =    PER-PACKAGE INSTALL    =
@@ -34,21 +33,14 @@ libreoffice-install:
 	$(STOW_INSTALL) libreoffice
 	echo 'libreoffice' >> installed
 
-LICENSE-install:
-	$(STOW_INSTALL) LICENSE
-	echo 'LICENSE' >> installed
-
-Makefile-install:
-	$(STOW_INSTALL) Makefile
-	echo 'Makefile' >> installed
-
 mixxx-install:
 	$(STOW_INSTALL) mixxx
 	echo 'mixxx' >> installed
 
-oh-my-zsh-install:
-	$(STOW_INSTALL) oh-my-zsh
-	echo 'oh-my-zsh' >> installed
+oh-my-zsh-install: git-install
+	git clone https://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
+	git clone https://github.com/denysdovhan/spaceship-prompt.git ~/.oh-my-zsh/custom/themes/spaceship-prompt
+	ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
 pavucontrol-install:
 	$(STOW_INSTALL) pavucontrol
@@ -101,6 +93,7 @@ youtube-dl-install:
 zsh-install:
 	$(STOW_INSTALL) zsh
 	echo 'zsh' >> installed
+
 # ============================
 # =    PER-PACKAGE REMOVE    = 
 # ============================
@@ -133,7 +126,7 @@ mixxx-remove:
 	$(STOW_REMOVE) mixxx
 
 oh-my-zsh-remove:
-	$(STOW_REMOVE) oh-my-zsh
+	rm -rf ~/.oh-my-zsh
 
 pavucontrol-remove:
 	$(STOW_REMOVE) pavucontrol
@@ -149,9 +142,6 @@ thunar-remove:
 
 tmux-remove:
 	$(STOW_REMOVE) tmux
-
-torbrowser-remove:
-	$(STOW_REMOVE) torbrowser
 
 vim-remove:
 	$(STOW_REMOVE) vim
@@ -177,91 +167,15 @@ youtube-dl-remove:
 zsh-remove: oh-my-zsh-remove
 	$(STOW_REMOVE) zsh
 
-# ============================
-# =    PER-PACKAGE UPDATE    =
-# ============================
-
-bash-update:
-	$(STOW_UPDATE) bash
-
-burrow-update:
-	$(STOW_UPDATE) burrow
-
-gimp-update:
-	$(STOW_UPDATE) gimp
-
-git-update:
-	$(STOW_UPDATE) git
-
-gnupg-update:
-	$(STOW_UPDATE) gnupg
-
-libreoffice-update:
-	$(STOW_UPDATE) libreoffice
-
-LICENSE-update:
-	$(STOW_UPDATE) LICENSE
-
-Makefile-update:
-	$(STOW_UPDATE) Makefile
-
-mixxx-update:
-	$(STOW_UPDATE) mixxx
-
-oh-my-zsh-update:
-	$(STOW_UPDATE) oh-my-zsh
-
-pavucontrol-update:
-	$(STOW_UPDATE) pavucontrol
-
-smplayer-update:
-	$(STOW_UPDATE) smplayer
-
-ssh-update:
-	$(STOW_UPDATE) ssh
-
-thunar-update:
-	$(STOW_UPDATE) thunar
-
-tmux-update:
-	$(STOW_UPDATE) tmux
-
-torbrowser-update:
-	$(STOW_UPDATE) torbrowser
-
-vim-update:
-	$(STOW_UPDATE) vim
-
-vlc-update:
-	$(STOW_UPDATE) vlc
-
-weechat-update:
-	$(STOW_UPDATE) weechat
-
-wget-update:
-	$(STOW_UPDATE) wget
-
-xarchiver-update:
-	$(STOW_UPDATE) xarchiver
-
-xfce4-update:
-	$(STOW_UPDATE) xfce4
-
-youtube-dl-update:
-	$(STOW_UPDATE) youtube-dl
-
-zsh-update:
-	$(STOW_UPDATE) zsh
-
 # =======================
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install gimp-install git-install gnupg-install libreoffice-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install vim-install vlc-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-install zsh-install
 
-install-home: install-base burrow-install gimp-install git-install gnupg-install libreoffice-install pavucontrol-install torbrowser-install thunar-install vlc-install wget-install xarchiver-install youtube-dl-install
+install-home: install-base burrow-install gimp-install git-install gnupg-install libreoffice-install pavucontrol-install thunar-install vlc-install wget-install xarchiver-install youtube-dl-install
 
 install-pubnix: install-base burrow-install gnupg-install wget-install
 
@@ -275,11 +189,9 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-install gimp-install git-install gnupg-install libreoffice-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install torbrowser-install vim-install vlc-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove libreoffice-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove smplayer-remove ssh-remove thunar-remove tmux-remove vim-remove vlc-remove weechat-remove wget-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
 
-update: bash-update burrow-update gimp-update git-update gnupg-update libreoffice-update ixxx-update oh-my-zsh-update pavucontrol-update smplayer-update ssh-update thunar-update tmux-update torbrowser-update vim-update vlc-update weechat-update wget-update xarchiver-update xfce4-update youtube-dl-update zsh-update
-
-all: update
+all: help
 
 install:
 	@printf "Please choose an install type:\\n"
