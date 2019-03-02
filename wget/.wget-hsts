@@ -2,7 +2,7 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 pypi.python.org	0	1	1542503180	31536000
-raw.githubusercontent.com	0	0	1545609687	31536000
+raw.githubusercontent.com	0	0	1550891508	31536000
 codeload.github.com	0	0	1543303256	31536000
 pypi.org	0	1	1542503180	31536000
 updates.duplicati.com	0	0	1545632422	31536000

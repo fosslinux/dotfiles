@@ -101,7 +101,9 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
+source .zsh-tmux-conf
+
+if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ] && [ -n "$NO_TMUX" ] ; } then
 	tmux attach
 fi
 

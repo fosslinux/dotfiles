@@ -1,5 +1,6 @@
 # GIMP gimp-gradient-tool options
 
+(foreground (color-rgb 0.454902 0.772549 0.941176))
 (gradient "FG to BG (RGB)")
 (brush-size 51.000000)
 (brush-hardness 0.500000)
