@@ -103,8 +103,10 @@ export EDITOR='vim'
 
 source .zsh-tmux-conf
 
-if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ] && [ -n "$NO_TMUX" ] ; } then
-	tmux attach
+if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ] ; } then
+    if [[ -v $NOTMUX ]] ; then
+        tmux attach
+    fi
 fi
 
 
