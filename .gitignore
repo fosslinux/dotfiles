@@ -3,3 +3,4 @@ weechat/.weechat/logs
 mixxx/.mixxx/*.log*
 vim/.viminfo
 my-cron
+wget/ # backwards compatibility
