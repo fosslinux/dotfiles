@@ -157,11 +157,15 @@ install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-instal
 
 install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install thunar-install vlc-install wget-install xarchiver-install youtube-dl-install
 
-install-pubnix: install-base burrow-install gnupg-install wget-install cron-pubnix-install
+install-server: install-base bash-install git-install
+
+install-pubnix: install-base burrow-install git-install gnupg-install wget-install cron-pubnix-install
+
+install-weechat: install-base gnupg-install weechat-install
 
 install-team: install-pubnix youtube-dl-install
 
-install-weechat: install-base gnupg-install weechat-install
+install-aussie: install-pubnix install-weechat youtube-dl-install
 
 install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 
