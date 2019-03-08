@@ -62,9 +62,6 @@ vlc-install:
 weechat-install:
 	$(STOW_INSTALL) weechat
 
-wget-install:
-	$(STOW_INSTALL) wget
-
 xarchiver-install:
 	$(STOW_INSTALL) xarchiver
 
@@ -132,9 +129,6 @@ vlc-remove:
 weechat-remove:
 	$(STOW_REMOVE) weechat
 
-wget-remove:
-	$(STOW_REMOVE) wget
-
 xarchiver-remove:
 	$(STOW_REMOVE) xarchiver
 
@@ -151,15 +145,15 @@ zsh-remove: oh-my-zsh-remove
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install vim-install vlc-install weechat-install wget-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install gimp-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-install zsh-install
 
-install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install thunar-install vlc-install wget-install xarchiver-install youtube-dl-install
+install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install thunar-install vlc-install xarchiver-install youtube-dl-install
 
 install-server: install-base bash-install git-install
 
-install-pubnix: install-base burrow-install git-install gnupg-install wget-install cron-pubnix-install
+install-pubnix: install-base burrow-install git-install gnupg-install cron-pubnix-install
 
 install-weechat: install-base gnupg-install weechat-install
 
@@ -173,7 +167,7 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove smplayer-remove ssh-remove thunar-remove tmux-remove vim-remove vlc-remove weechat-remove wget-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
+remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove smplayer-remove ssh-remove thunar-remove tmux-remove vim-remove vlc-remove weechat-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
 
 all: help
 
