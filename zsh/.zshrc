@@ -101,3 +101,6 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+if [ -d "/home/linuxbrew/.linuxbrew" ] ; then
+    export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+fi
