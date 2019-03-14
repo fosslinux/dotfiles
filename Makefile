@@ -18,6 +18,9 @@ burrow-install:
 cron-pubnix-install:
 	cat ~/dotfiles/cron/pubnix-cron >> ~/dotfiles/my-cron
 
+cron-auto-update-install:
+	cat ~/dotfiles/cron/auto-update-cron >> ~/dotfiles/my-cron
+
 cron-install:
 	if [ -e ~/dotfiles/my-cron ] ; then crontab ~/dotfiles/my-cron ; fi
 
