@@ -1,2 +1,1 @@
-0,30 * * * * cd ~/public_html && git pull >/dev/null 2>&1
 0    * * * * cd ~/dotfiles && git pull | sed '/Already up to date/d'
