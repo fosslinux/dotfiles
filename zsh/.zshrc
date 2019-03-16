@@ -78,12 +78,6 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_AU.UTF-8
 export LC_ALL=en_AU.UTF-8
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
 export EDITOR='vim'
 
 # Compilation flags
@@ -101,6 +95,10 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# zshvars
+source .zshvars
+
+# if linuxbrew installed add to PATH
 if [ -d "/home/linuxbrew/.linuxbrew" ] ; then
     export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 fi
