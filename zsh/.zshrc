@@ -100,5 +100,5 @@ source .zshvars
 
 # if linuxbrew installed add to PATH
 if [ -d "/home/linuxbrew/.linuxbrew" ] ; then
-    export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+    export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 fi

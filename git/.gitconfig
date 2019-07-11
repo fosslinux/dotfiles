@@ -1,5 +1,7 @@
 [user]
 	name = fosslinux
-	email = fosslinux@tilde.team
+	email = fosslinux@aussies.space
 [color]
 	ui = auto
+[gpg]
+	program = gpg2
