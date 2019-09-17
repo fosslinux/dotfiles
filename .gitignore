@@ -4,3 +4,4 @@ mixxx/.mixxx/*.log*
 vim/.viminfo
 my-cron
 wget/ # backwards compatibility
+vim/.vim/.netrwhist
