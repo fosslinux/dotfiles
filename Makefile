@@ -47,9 +47,6 @@ pavucontrol-install:
 smplayer-install:
 	$(STOW_INSTALL) smplayer
 
-ssh-install:
-	$(STOW_INSTALL) ssh
-
 thunar-install:
 	$(STOW_INSTALL) thunar
 
@@ -114,9 +111,6 @@ pavucontrol-remove:
 smplayer-remove:
 	$(STOW_REMOVE) smplayer
 
-ssh-remove:
-	$(STOW_REMOVE) ssh
-
 thunar-remove:
 	$(STOW_REMOVE) thunar
 
@@ -148,9 +142,9 @@ zsh-remove: oh-my-zsh-remove
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install ssh-install thunar-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install gimp-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install thunar-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
-install-base: bash-install oh-my-zsh-install ssh-install tmux-install vim-install zsh-install
+install-base: bash-install oh-my-zsh-install  tmux-install vim-install zsh-install
 
 install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install thunar-install vlc-install xarchiver-install youtube-dl-install
 
@@ -170,7 +164,7 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove smplayer-remove ssh-remove thunar-remove tmux-remove vim-remove vlc-remove weechat-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
+remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove smplayer-remove thunar-remove tmux-remove vim-remove vlc-remove weechat-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
 
 all: help
 
