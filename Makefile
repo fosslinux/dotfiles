@@ -44,12 +44,6 @@ oh-my-zsh-install: git-install
 pavucontrol-install:
 	$(STOW_INSTALL) pavucontrol
 
-smplayer-install:
-	$(STOW_INSTALL) smplayer
-
-thunar-install:
-	$(STOW_INSTALL) thunar
-
 tmux-install:
 	$(STOW_INSTALL) tmux
 
@@ -108,12 +102,6 @@ oh-my-zsh-remove:
 pavucontrol-remove:
 	$(STOW_REMOVE) pavucontrol
 
-smplayer-remove:
-	$(STOW_REMOVE) smplayer
-
-thunar-remove:
-	$(STOW_REMOVE) thunar
-
 tmux-remove:
 	$(STOW_REMOVE) tmux
 
@@ -142,11 +130,11 @@ zsh-remove: oh-my-zsh-remove
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install smplayer-install thunar-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install gimp-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
 install-base: bash-install oh-my-zsh-install  tmux-install vim-install zsh-install
 
-install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install thunar-install vlc-install xarchiver-install youtube-dl-install
+install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install vlc-install xarchiver-install youtube-dl-install
 
 install-server: install-base bash-install git-install
 
@@ -164,7 +152,7 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove smplayer-remove thunar-remove tmux-remove vim-remove vlc-remove weechat-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
+remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove tmux-remove vim-remove vlc-remove weechat-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
 
 all: help
 
