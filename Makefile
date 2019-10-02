@@ -24,9 +24,6 @@ cron-auto-update-install:
 cron-install:
 	if [ -e ~/dotfiles/my-cron ] ; then crontab ~/dotfiles/my-cron ; fi
 
-gimp-install:
-	$(STOW_INSTALL) gimp
-
 git-install:
 	$(STOW_INSTALL) git
 
@@ -78,9 +75,6 @@ bash-remove:
 burrow-remove:
 	$(STOW_REMOVE) burrow
 
-gimp-remove:
-	$(STOW_REMOVE) gimp
-
 git-remove:
 	$(STOW_REMOVE) git
 
@@ -130,11 +124,11 @@ zsh-remove: oh-my-zsh-remove
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install gimp-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
 
-install-base: bash-install oh-my-zsh-install  tmux-install vim-install zsh-install
+install-base: bash-install oh-my-zsh-install tmux-install vim-install zsh-install
 
-install-home: install-base burrow-install gimp-install git-install gnupg-install pavucontrol-install vlc-install xarchiver-install youtube-dl-install
+install-home: install-base burrow-install git-install gnupg-install pavucontrol-install vlc-install xarchiver-install youtube-dl-install
 
 install-server: install-base bash-install git-install
 
@@ -152,7 +146,7 @@ install-streaming: install-base mixxx-install vlc-install youtube-dl-install
 # =    GENERAL    =
 # =================
 
-remove: bash-remove burrow-remove gimp-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove tmux-remove vim-remove vlc-remove weechat-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
+remove: bash-remove burrow-remove git-remove gnupg-remove mixxx-remove oh-my-zsh-remove pavucontrol-remove tmux-remove vim-remove vlc-remove weechat-remove xarchiver-remove xfce4-remove youtube-dl-remove zsh-remove
 
 all: help
 
