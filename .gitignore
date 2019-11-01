@@ -5,3 +5,4 @@ vim/.viminfo
 my-cron
 wget/ # backwards compatibility
 vim/.vim/.netrwhist
+vim/.vim/bundle/
