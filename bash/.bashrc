@@ -55,12 +55,3 @@ PATH=~/bin:$PATH
 
 # set EDITOR
 export EDITOR=vim
-
-# if zsh exists, use it instead
-#if [ "$(which zsh | tr -d '[:space:]')" != "" ] ; then
-#    exec zsh
-#fi
-
-if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
-	tmux attach
-fi
