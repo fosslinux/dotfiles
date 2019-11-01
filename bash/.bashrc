@@ -55,3 +55,6 @@ PATH=~/bin:$PATH
 
 # set EDITOR
 export EDITOR=vim
+
+# ls with colour
+alias ls='ls --color=auto'
