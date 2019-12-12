@@ -27,6 +27,9 @@ cron-install:
 git-install:
 	$(STOW_INSTALL) git
 
+i3-install:
+	$(STOW_INSTALL) i3
+
 gnupg-install:
 	$(STOW_INSTALL) gnupg
 
@@ -81,11 +84,8 @@ git-remove:
 gnupg-remove:
 	$(STOW_REMOVE) gnupg
 
-LICENSE-remove:
-	$(STOW_REMOVE) LICENSE
-
-Makefile-remove:
-	$(STOW_REMOVE) Makefile
+i3-remove:
+	$(STOW_REMOVE) i3
 
 mixxx-remove:
 	$(STOW_REMOVE) mixxx
@@ -124,11 +124,11 @@ zsh-remove: oh-my-zsh-remove
 # =    INSTALL TYPES    =
 # =======================
 
-install-all: bash-install burrow-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install
+install-all: bash-install burrow-install git-install gnupg-install mixxx-install oh-my-zsh-install pavucontrol-install tmux-install vim-install vlc-install weechat-install xarchiver-install xfce4-install youtube-dl-install zsh-install i3-install
 
 install-base: bash-install oh-my-zsh-install tmux-install vim-install zsh-install
 
-install-home: install-base burrow-install git-install gnupg-install pavucontrol-install vlc-install xarchiver-install youtube-dl-install
+install-home: install-base burrow-install git-install gnupg-install pavucontrol-install vlc-install xarchiver-install youtube-dl-install i3-install
 
 install-server: install-base bash-install git-install
 

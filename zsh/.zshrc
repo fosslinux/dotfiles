@@ -102,3 +102,5 @@ source .zshvars
 if [ -d "/home/linuxbrew/.linuxbrew" ] ; then
     export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 fi
+
+eval $(ssh-agent)
