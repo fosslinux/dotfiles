@@ -4,6 +4,8 @@
 
 set nocompatible " be iMproved
 
+filetype plugin indent on
+
 set tabstop=4 " tab displayed as 4 spaces
 set expandtab " and is 4 spaces
 
