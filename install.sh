@@ -44,9 +44,9 @@ done
 # Install oh-my-zsh 
 printf "Install oh-my-zsh\\n"
 if_exists ".oh-my-zsh"
-ZSH="${PREFIX}/.oh-my-zsh" ./oh-my-zsh-install.sh
+RUNZSH=no ZSH="${PREFIX}/.oh-my-zsh" ./oh-my-zsh-install.sh
 printf "\\nInstall oh-my-zsh spaceship theme\\n"
-git clone https://github.com/denysdovhan/spaceship-prompt.git "${PREFIX}/.oh-my-zsh/themes/spaceship-prompt"
+git clone https://github.com/denysdovhan/spaceship-prompt.git "${PREFIX}/.oh-my-zsh/themes/spaceship.zsh-theme"
 printf "\\n"
 
 # Install Vundle

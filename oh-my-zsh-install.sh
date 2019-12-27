@@ -248,7 +248,6 @@ main() {
 	fi
 
 	setup_ohmyzsh
-	setup_zshrc
 	setup_shell
 
 	printf "$GREEN"
