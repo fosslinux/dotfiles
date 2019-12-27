@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/styler/packages/guix-1.0.1'
+let g:netrw_dirhist_9='/home/styler/projects/bootstrap/mes-m2/test/test000'
+let g:netrw_dirhist_8='/home/styler/projects/bootstrap/kernel/initramfs'
+let g:netrw_dirhist_7='/home/styler/projects/void/void-packages/srcpkgs/rust1.29-bootstrap'
+let g:netrw_dirhist_6='/home/styler/projects/void/void-packages/srcpkgs/libressl2.7'
+let g:netrw_dirhist_5='/home/styler/projects/void/void-packages/srcpkgs/rust1.29-bootstrap'
+let g:netrw_dirhist_4='/home/styler/projects/void/void-packages/srcpkgs/rust1.29-bootstrap/patches'
+let g:netrw_dirhist_3='/home/styler/projects/shstack/xml2sql/xml'
+let g:netrw_dirhist_2='/home/styler/projects/void/void-packages/srcpkgs/rust1.29-bootstrap'
+let g:netrw_dirhist_1='/home/styler/projects/void/void-packages/srcpkgs/rust'
