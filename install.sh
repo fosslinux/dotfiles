@@ -13,7 +13,22 @@ fi
 if_exists() {
     file=${1}
     if [ -e "${PREFIX}/${file}" ] ; then
-	mv "${PREFIX}/${file}" "${PREFIX}/${file}.bak"
+        mv "${PREFIX}/${file}" "${PREFIX}/${file}.bak"
+    fi
+}
+
+install() {
+    file=${1}
+    if [ -d "${file}" ] ; then
+        printf "Creating %s\\n" "${PREFIX}/${file}"
+        mkdir -p "${PREFIX}/${file}"
+        for subfile in ${file}/* ; do
+            install "${subfile}"
+        done
+    else
+        printf "Installing %s\\n" "${PREFIX}/${file}"
+        if_exists "${file}"
+        cp "${file}" "${PREFIX}/$(basename ${file})"
     fi
 }
 
@@ -23,27 +38,13 @@ for file in .* ; do
     if [ "${file}" != "." ] \
       && [ "${file}" != ".." ] \
       && [ "${file}" != ".git" ] ; then
-
-        # If its .config, recruse
-        if [ "${file}" = ".config" ] ; then
-            for file in .config/* ; do
-                # Install .config/$file
-                printf "Installing %s to %s/.config\\n" "${file#".config/"}" "${PREFIX}"
-                if_exists "${file}"
-                cp -r "${file}" "${PREFIX}/.config/"
-            done
-        else
-            # Install $file
-            printf "Installing %s to %s\\n" "${file#"."}" "${PREFIX}"
-            if_exists "${file}"
-            cp -r "${file}" "${PREFIX}/"
-        fi
+        # This will recurse into .config
+        install "${file}"
     fi
 done
 
 # Install oh-my-zsh 
 printf "Install oh-my-zsh\\n"
-if_exists ".oh-my-zsh"
 RUNZSH=no ZSH="${PREFIX}/.oh-my-zsh" ./oh-my-zsh-install.sh
 printf "\\nInstall oh-my-zsh spaceship theme\\n"
 git clone https://github.com/denysdovhan/spaceship-prompt.git "${PREFIX}/.oh-my-zsh/themes/spaceship.zsh-theme"
