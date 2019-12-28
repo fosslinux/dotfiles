@@ -28,7 +28,7 @@ install() {
     else
         printf "Installing %s\\n" "${PREFIX}/${file}"
         if_exists "${file}"
-        cp "${file}" "${PREFIX}/$(basename ${file})"
+        cp "${file}" "${PREFIX}/${file}"
     fi
 }
 
