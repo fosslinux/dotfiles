@@ -104,3 +104,5 @@ if [ -d "/home/linuxbrew/.linuxbrew" ] ; then
 fi
 
 eval $(ssh-agent)
+
+umask 007 # security
