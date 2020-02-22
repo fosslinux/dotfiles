@@ -16,6 +16,10 @@ syntax on " syntax highlighting
 
 set mouse-=a " no mouse
 
+set number " show line numbers
+
+set colo Papercolor " Theme
+
 " ==========
 " = VUNDLE =
 " ==========
@@ -28,6 +32,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim' " vundle
 Plugin 'vimwiki/vimwiki' " vimwiki
+Plugin 'tpope/vim-fugitive' " git
 
 call vundle#end()
 filetype plugin indent on
