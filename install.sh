@@ -45,7 +45,7 @@ done
 
 # Install oh-my-zsh 
 printf "Install oh-my-zsh\\n"
-RUNZSH=no ZSH="${PREFIX}/.oh-my-zsh" ./oh-my-zsh-install.sh
+CHSH=no RUNZSH=no ZSH="${PREFIX}/.oh-my-zsh" ./oh-my-zsh-install.sh
 printf "\\nInstall oh-my-zsh spaceship theme\\n"
 git clone https://github.com/denysdovhan/spaceship-prompt.git "${PREFIX}/.oh-my-zsh/custom/themes/spaceship-prompt"
 ln -s "${PREFIX}/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme" "${PREFIX}/.oh-my-zsh/themes/spaceship.zsh-theme"
