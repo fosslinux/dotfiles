@@ -18,8 +18,6 @@ set mouse-=a " no mouse
 
 set number " show line numbers
 
-set colo Papercolor " Theme
-
 " ==========
 " = VUNDLE =
 " ==========
