@@ -50,6 +50,9 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim' " vundle
 Plugin 'tpope/vim-fugitive' " git
+Plugin 'roxma/vim-hug-neovim-rpc'
+Plugin 'roxma/nvim-yarp'
+Plugin 'Shougo/deoplete.nvim'
 Plugin 'dense-analysis/ale'
 Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'lervag/vimtex'
@@ -58,3 +61,5 @@ call vundle#end()
 filetype plugin indent on
 
 let g:vimtex_view_method = 'mupdf'
+
+let g:deoplete#enable_at_startup = 1
