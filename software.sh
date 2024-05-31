@@ -2,11 +2,11 @@
 
 # Check existance of software
 
-command -v tmux 2>&1 >/dev/null && TMUX=1 || TMUX=0
-command -v zsh 2>&1 >/dev/null && ZSH=1 || ZSH=0
-command -v git 2>&1 >/dev/null && GIT=1 || GIT=0
-command -v curl 2>&1 >/dev/null && CURL=1 || CURL=0
-command -v wget 2>&1 >/dev/null && WGET=1 || WGET=0
+command -v tmux >/dev/null 2>&1 && TMUX=1 || TMUX=0
+command -v zsh >/dev/null 2>&1 && ZSH=1 || ZSH=0
+command -v git >/dev/null 2>&1 && GIT=1 || GIT=0
+command -v curl >/dev/null 2>&1 && CURL=1 || CURL=0
+command -v wget >/dev/null 2>&1 && WGET=1 || WGET=0
 
 # Alert if not installed
 

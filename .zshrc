@@ -1,5 +1,4 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/snap/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -35,11 +34,6 @@ export POWERSHELL_TELEMETRY_OPTOUT=1 # PowerShell
 
 source .zshvars
 
-# if linuxbrew installed add to PATH
-if [ -d "/home/linuxbrew/.linuxbrew" ] ; then
-    export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
-fi
-
-eval $(ssh-agent)
+eval $(ssh-agent) >/dev/null
 
 umask 007 # security

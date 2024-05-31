@@ -1,0 +1,1 @@
+command Exec !python3 %

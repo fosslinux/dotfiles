@@ -18,6 +18,26 @@ set mouse-=a " no mouse
 
 set number " show line numbers
 
+cnoremap <Down> <Nop>
+cnoremap <Left> <Nop>
+cnoremap <Right> <Nop>
+cnoremap <Up> <Nop>
+
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+inoremap <Up> <Nop>
+
+nnoremap <Down> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+nnoremap <Up> <Nop>
+
+vnoremap <Down> <Nop>
+vnoremap <Left> <Nop>
+vnoremap <Right> <Nop>
+vnoremap <Up> <Nop>
+
 " ==========
 " = VUNDLE =
 " ==========
@@ -29,16 +49,12 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim' " vundle
-Plugin 'vimwiki/vimwiki' " vimwiki
 Plugin 'tpope/vim-fugitive' " git
+Plugin 'dense-analysis/ale'
+Plugin 'dart-lang/dart-vim-plugin'
+Plugin 'lervag/vimtex'
 
 call vundle#end()
 filetype plugin indent on
 
-" ===========
-" = VIMWIKI =
-" ===========
-
-" use markdown
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimtex_view_method = 'mupdf'

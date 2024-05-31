@@ -1,8 +1,0 @@
-libreoffice/.config/libreoffice/4/.lock
-weechat/.weechat/logs
-mixxx/.mixxx/*.log*
-vim/.viminfo
-my-cron
-wget/ # backwards compatibility
-vim/.vim/.netrwhist
-vim/.vim/bundle/

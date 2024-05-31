@@ -22,7 +22,7 @@ install() {
     if [ -d "${file}" ] ; then
         printf "Creating %s\\n" "${PREFIX}/${file}"
         mkdir -p "${PREFIX}/${file}"
-        for subfile in ${file}/* ; do
+        for subfile in "${file}"/* ; do
             install "${subfile}"
         done
     else
